@@ -1,4 +1,4 @@
-# seedgraphmatching
+# seed graph matching sgm 
 seedgraphmatching(sgd)  python 
 论文 seed graph matching python python 版尝试复现
 
