@@ -1,0 +1,2112 @@
+nohup: ignoring input
+parameter {'note': 'try init', 'node_num': 115, 'node_size': 115, 'conn_p': '25', 'seed': 157, 'dim': 2, 'hid': 64, 'epoch_num': 300, 'batch_size': 1024, 'lr_net': 0.004, 'lr_dyn': 0.01, 'lr_dyn_r': 0.01, 'lr_stru': 1e-05, 'lr_state': 0.05, 'hard_sample': False, 'sample_time': 1, 'sys': 'voter', 'isom': True, 'temp': 1, 'drop_frac': 1, 'save': True}
+11
+start_time: 2020-10-21 18:16:04
+record success
+data_num 7028 object_matrix tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 1., 0., 1.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 1., 0.,  ..., 0., 0., 1.],
+        [0., 0., 0.,  ..., 0., 0., 1.],
+        [0., 1., 0.,  ..., 1., 1., 0.]], device='cuda:0')
+0 tensor(0.5279)
+index_order tensor([ 5,  9,  4,  3,  8,  7, 10,  1,  6,  0,  2], device='cuda:0')
+auc:0.607098,un_un_auc:0.660256,kn_un_auc:0.617549
+f1:0.481054,err_net:972,tp:152,fn:76,fp:896,tn:1274,tpr:0.666667,fpr:0.412903
+kn_un_precision: f1:0.485883,err_net:920,tp:150,fn:72,fp:848,tn:1218,tpr:0.675676,fpr:0.410455
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.5930267
+1 tensor(0.5182)
+index_order tensor([ 9,  8, 10,  3,  7,  4,  5,  1,  6,  0,  2], device='cuda:0')
+auc:0.636729,un_un_auc:0.467949,kn_un_auc:0.649695
+f1:0.484901,err_net:930,tp:138,fn:90,fp:840,tn:1330,tpr:0.605263,fpr:0.387097
+kn_un_precision: f1:0.489511,err_net:876,tp:134,fn:88,fp:788,tn:1278,tpr:0.603604,fpr:0.381413
+un_un_precision: f1:0.393630,err_net:54,tp:4,fn:2,fp:52,tn:52,tpr:0.666667,fpr:0.500000
+0.5984903
+2 tensor(0.5166)
+index_order tensor([ 5,  8, 10,  3,  7,  4,  2,  1,  6,  9,  0], device='cuda:0')
+auc:0.647684,un_un_auc:0.025641,kn_un_auc:0.662193
+f1:0.488268,err_net:938,tp:148,fn:80,fp:858,tn:1312,tpr:0.649123,fpr:0.395392
+kn_un_precision: f1:0.493600,err_net:882,tp:144,fn:78,fp:804,tn:1262,tpr:0.648649,fpr:0.389158
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.5985451
+3 tensor(0.5158)
+index_order tensor([ 5,  8, 10,  1,  7,  4,  6,  2,  3,  9,  0], device='cuda:0')
+auc:0.653012,un_un_auc:0.115385,kn_un_auc:0.663004
+f1:0.487117,err_net:926,tp:140,fn:88,fp:838,tn:1332,tpr:0.614035,fpr:0.386175
+kn_un_precision: f1:0.492446,err_net:874,tp:138,fn:84,fp:790,tn:1276,tpr:0.621622,fpr:0.382381
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.59459656
+4 tensor(0.5156)
+index_order tensor([ 5,  9, 10,  3,  7,  4,  8,  2,  6,  1,  0], device='cuda:0')
+auc:0.662835,un_un_auc:0.147436,kn_un_auc:0.673112
+f1:0.488787,err_net:924,tp:142,fn:86,fp:838,tn:1332,tpr:0.622807,fpr:0.386175
+kn_un_precision: f1:0.495902,err_net:862,tp:138,fn:84,fp:778,tn:1288,tpr:0.621622,fpr:0.376573
+un_un_precision: f1:0.350476,err_net:62,tp:4,fn:2,fp:60,tn:44,tpr:0.666667,fpr:0.576923
+0.5903431
+5 tensor(0.5148)
+index_order tensor([ 5,  8,  9,  3,  7,  4,  6,  2, 10,  1,  0], device='cuda:0')
+auc:0.666408,un_un_auc:0.576923,kn_un_auc:0.671489
+f1:0.485537,err_net:940,tp:144,fn:84,fp:856,tn:1314,tpr:0.631579,fpr:0.394470
+kn_un_precision: f1:0.490149,err_net:890,tp:142,fn:80,fp:810,tn:1256,tpr:0.639640,fpr:0.392062
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.58044356
+6 tensor(0.5139)
+index_order tensor([ 5,  8,  9,  3,  7,  4,  6,  2, 10,  1,  0], device='cuda:0')
+auc:0.674379,un_un_auc:0.576923,kn_un_auc:0.678597
+f1:0.483359,err_net:948,tp:144,fn:84,fp:864,tn:1306,tpr:0.631579,fpr:0.398157
+kn_un_precision: f1:0.489574,err_net:884,tp:138,fn:84,fp:800,tn:1266,tpr:0.621622,fpr:0.387222
+un_un_precision: f1:0.356725,err_net:64,tp:6,fn:0,fp:64,tn:40,tpr:1.000000,fpr:0.615385
+0.5715231
+7 tensor(0.5130)
+index_order tensor([ 5,  9, 10,  3,  7,  4,  8,  2,  6,  1,  0], device='cuda:0')
+auc:0.673393,un_un_auc:0.147436,kn_un_auc:0.678807
+f1:0.483348,err_net:944,tp:142,fn:86,fp:858,tn:1312,tpr:0.622807,fpr:0.395392
+kn_un_precision: f1:0.490148,err_net:882,tp:138,fn:84,fp:798,tn:1268,tpr:0.621622,fpr:0.386254
+un_un_precision: f1:0.350476,err_net:62,tp:4,fn:2,fp:60,tn:44,tpr:0.666667,fpr:0.576923
+0.5692981
+8 tensor(0.5121)
+index_order tensor([ 5,  9, 10,  3,  7,  4,  8,  2,  6,  1,  0], device='cuda:0')
+auc:0.675891,un_un_auc:0.147436,kn_un_auc:0.680638
+f1:0.505977,err_net:874,tp:148,fn:80,fp:794,tn:1376,tpr:0.649123,fpr:0.365899
+kn_un_precision: f1:0.512895,err_net:812,tp:142,fn:80,fp:732,tn:1334,tpr:0.639640,fpr:0.354308
+un_un_precision: f1:0.368752,err_net:62,tp:6,fn:0,fp:62,tn:42,tpr:1.000000,fpr:0.596154
+0.56670254
+9 tensor(0.5114)
+index_order tensor([ 5,  9, 10,  3,  7,  4,  8,  2,  6,  1,  0], device='cuda:0')
+auc:0.670200,un_un_auc:0.147436,kn_un_auc:0.675004
+f1:0.513075,err_net:836,tp:142,fn:86,fp:750,tn:1420,tpr:0.622807,fpr:0.345622
+kn_un_precision: f1:0.520481,err_net:778,tp:138,fn:84,fp:694,tn:1372,tpr:0.621622,fpr:0.335915
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.56593704
+10 tensor(0.5104)
+index_order tensor([ 5,  9, 10,  3,  7,  4,  8,  2,  6,  1,  0], device='cuda:0')
+auc:0.669763,un_un_auc:0.147436,kn_un_auc:0.673565
+f1:0.511063,err_net:864,tp:152,fn:76,fp:788,tn:1382,tpr:0.666667,fpr:0.363134
+kn_un_precision: f1:0.519486,err_net:806,tp:150,fn:72,fp:734,tn:1332,tpr:0.675676,fpr:0.355276
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.56513464
+11 tensor(0.5092)
+index_order tensor([ 5,  9, 10,  3,  7,  4,  8,  2,  6,  1,  0], device='cuda:0')
+auc:0.671881,un_un_auc:0.147436,kn_un_auc:0.675868
+f1:0.506536,err_net:872,tp:148,fn:80,fp:792,tn:1378,tpr:0.649123,fpr:0.364977
+kn_un_precision: f1:0.510559,err_net:824,tp:144,fn:78,fp:746,tn:1320,tpr:0.648649,fpr:0.361084
+un_un_precision: f1:0.425087,err_net:48,tp:4,fn:2,fp:46,tn:58,tpr:0.666667,fpr:0.442308
+0.5644252
+12 tensor(0.5085)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.672253,un_un_auc:0.576923,kn_un_auc:0.674437
+f1:0.502982,err_net:868,tp:140,fn:88,fp:780,tn:1390,tpr:0.614035,fpr:0.359447
+kn_un_precision: f1:0.512851,err_net:808,tp:140,fn:82,fp:726,tn:1340,tpr:0.630631,fpr:0.351404
+un_un_precision: f1:nan,err_net:60,tp:0,fn:6,fp:54,tn:50,tpr:0.000000,fpr:0.519231
+0.5632141
+13 tensor(0.5072)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.673296,un_un_auc:0.576923,kn_un_auc:0.675292
+f1:0.510188,err_net:842,tp:140,fn:88,fp:754,tn:1416,tpr:0.614035,fpr:0.347465
+kn_un_precision: f1:0.518177,err_net:790,tp:140,fn:82,fp:708,tn:1358,tpr:0.630631,fpr:0.342691
+un_un_precision: f1:nan,err_net:52,tp:0,fn:6,fp:46,tn:58,tpr:0.000000,fpr:0.442308
+0.5621873
+14 tensor(0.5063)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.674759,un_un_auc:0.576923,kn_un_auc:0.676373
+f1:0.516603,err_net:832,tp:146,fn:82,fp:750,tn:1420,tpr:0.640351,fpr:0.345622
+kn_un_precision: f1:0.522411,err_net:780,tp:142,fn:80,fp:700,tn:1366,tpr:0.639640,fpr:0.338819
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.56189764
+15 tensor(0.5052)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.674266,un_un_auc:0.576923,kn_un_auc:0.675859
+f1:0.512595,err_net:842,tp:144,fn:84,fp:758,tn:1412,tpr:0.631579,fpr:0.349309
+kn_un_precision: f1:0.521812,err_net:782,tp:142,fn:80,fp:702,tn:1364,tpr:0.639640,fpr:0.339787
+un_un_precision: f1:0.338942,err_net:60,tp:2,fn:4,fp:56,tn:48,tpr:0.333333,fpr:0.538462
+0.56198645
+16 tensor(0.5044)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.671299,un_un_auc:0.576923,kn_un_auc:0.672859
+f1:0.508005,err_net:832,tp:132,fn:96,fp:736,tn:1434,tpr:0.578947,fpr:0.339171
+kn_un_precision: f1:0.518818,err_net:766,tp:130,fn:92,fp:674,tn:1392,tpr:0.585586,fpr:0.326234
+un_un_precision: f1:0.308571,err_net:66,tp:2,fn:4,fp:62,tn:42,tpr:0.333333,fpr:0.596154
+0.5611902
+17 tensor(0.5042)
+index_order tensor([ 6,  3,  9,  7,  5,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.664371,un_un_auc:0.576923,kn_un_auc:0.665053
+f1:0.517267,err_net:838,tp:150,fn:78,fp:760,tn:1410,tpr:0.657895,fpr:0.350230
+kn_un_precision: f1:0.521857,err_net:786,tp:144,fn:78,fp:708,tn:1358,tpr:0.648649,fpr:0.342691
+un_un_precision: f1:0.427083,err_net:52,tp:6,fn:0,fp:52,tn:52,tpr:1.000000,fpr:0.500000
+0.55987483
+18 tensor(0.5035)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.670394,un_un_auc:0.576923,kn_un_auc:0.671664
+f1:0.519679,err_net:790,tp:132,fn:96,fp:694,tn:1476,tpr:0.578947,fpr:0.319816
+kn_un_precision: f1:0.523553,err_net:750,tp:130,fn:92,fp:658,tn:1408,tpr:0.585586,fpr:0.318490
+un_un_precision: f1:0.431818,err_net:40,tp:2,fn:4,fp:36,tn:68,tpr:0.333333,fpr:0.346154
+0.5599449
+19 tensor(0.5027)
+index_order tensor([ 6,  3,  9,  7,  5,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.665486,un_un_auc:0.576923,kn_un_auc:0.665585
+f1:0.512979,err_net:832,tp:140,fn:88,fp:744,tn:1426,tpr:0.614035,fpr:0.342857
+kn_un_precision: f1:0.519091,err_net:774,tp:134,fn:88,fp:686,tn:1380,tpr:0.603604,fpr:0.332043
+un_un_precision: f1:0.392381,err_net:58,tp:6,fn:0,fp:58,tn:46,tpr:1.000000,fpr:0.557692
+0.56003577
+20 tensor(0.5015)
+index_order tensor([ 6,  3,  9,  7,  5,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.665535,un_un_auc:0.576923,kn_un_auc:0.665716
+f1:0.520161,err_net:802,tp:138,fn:90,fp:712,tn:1458,tpr:0.605263,fpr:0.328111
+kn_un_precision: f1:0.527557,err_net:750,tp:136,fn:86,fp:664,tn:1402,tpr:0.612613,fpr:0.321394
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.55864084
+21 tensor(0.4996)
+index_order tensor([ 6,  3,  9,  7,  5,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.665333,un_un_auc:0.576923,kn_un_auc:0.665140
+f1:0.528490,err_net:786,tp:144,fn:84,fp:702,tn:1468,tpr:0.631579,fpr:0.323502
+kn_un_precision: f1:0.533717,err_net:734,tp:138,fn:84,fp:650,tn:1416,tpr:0.621622,fpr:0.314618
+un_un_precision: f1:0.427083,err_net:52,tp:6,fn:0,fp:52,tn:52,tpr:1.000000,fpr:0.500000
+0.5581549
+22 tensor(0.4979)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.670111,un_un_auc:0.576923,kn_un_auc:0.670748
+f1:0.527504,err_net:798,tp:148,fn:80,fp:718,tn:1452,tpr:0.649123,fpr:0.330876
+kn_un_precision: f1:0.535794,err_net:740,tp:144,fn:78,fp:662,tn:1404,tpr:0.648649,fpr:0.320426
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.5587021
+23 tensor(0.4970)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.669601,un_un_auc:0.576923,kn_un_auc:0.669894
+f1:0.519857,err_net:794,tp:134,fn:94,fp:700,tn:1470,tpr:0.587719,fpr:0.322581
+kn_un_precision: f1:0.527433,err_net:746,tp:134,fn:88,fp:658,tn:1408,tpr:0.603604,fpr:0.318490
+un_un_precision: f1:nan,err_net:48,tp:0,fn:6,fp:42,tn:62,tpr:0.000000,fpr:0.403846
+0.5603496
+24 tensor(0.4962)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.669149,un_un_auc:0.576923,kn_un_auc:0.669501
+f1:0.516904,err_net:818,tp:140,fn:88,fp:730,tn:1440,tpr:0.614035,fpr:0.336406
+kn_un_precision: f1:0.525260,err_net:762,tp:138,fn:84,fp:678,tn:1388,tpr:0.621622,fpr:0.328170
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.5608394
+25 tensor(0.4949)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.668397,un_un_auc:0.576923,kn_un_auc:0.669152
+f1:0.529734,err_net:786,tp:146,fn:82,fp:704,tn:1466,tpr:0.640351,fpr:0.324424
+kn_un_precision: f1:0.535729,err_net:736,tp:142,fn:80,fp:656,tn:1410,tpr:0.639640,fpr:0.317522
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.560887
+26 tensor(0.4946)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.668987,un_un_auc:0.576923,kn_un_auc:0.669911
+f1:0.534572,err_net:782,tp:152,fn:76,fp:706,tn:1464,tpr:0.666667,fpr:0.325346
+kn_un_precision: f1:0.540775,err_net:728,tp:146,fn:76,fp:652,tn:1414,tpr:0.657658,fpr:0.315586
+un_un_precision: f1:0.415584,err_net:54,tp:6,fn:0,fp:54,tn:50,tpr:1.000000,fpr:0.519231
+0.5610872
+27 tensor(0.4943)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.670458,un_un_auc:0.576923,kn_un_auc:0.671333
+f1:0.535036,err_net:772,tp:148,fn:80,fp:692,tn:1478,tpr:0.649123,fpr:0.318894
+kn_un_precision: f1:0.547678,err_net:710,tp:148,fn:74,fp:636,tn:1430,tpr:0.666667,fpr:0.307841
+un_un_precision: f1:nan,err_net:62,tp:0,fn:6,fp:56,tn:48,tpr:0.000000,fpr:0.538462
+0.5619524
+28 tensor(0.4928)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.668510,un_un_auc:0.576923,kn_un_auc:0.669126
+f1:0.520288,err_net:806,tp:140,fn:88,fp:718,tn:1452,tpr:0.614035,fpr:0.330876
+kn_un_precision: f1:0.528869,err_net:750,tp:138,fn:84,fp:666,tn:1400,tpr:0.621622,fpr:0.322362
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.56127214
+29 tensor(0.4920)
+index_order tensor([ 6,  3,  9,  7,  5,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.666157,un_un_auc:0.576923,kn_un_auc:0.666187
+f1:0.525519,err_net:792,tp:142,fn:86,fp:706,tn:1464,tpr:0.622807,fpr:0.325346
+kn_un_precision: f1:0.536871,err_net:728,tp:140,fn:82,fp:646,tn:1420,tpr:0.630631,fpr:0.312681
+un_un_precision: f1:0.318885,err_net:64,tp:2,fn:4,fp:60,tn:44,tpr:0.333333,fpr:0.576923
+0.5623702
+30 tensor(0.4918)
+index_order tensor([ 6,  3,  9,  7,  5,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.667835,un_un_auc:0.576923,kn_un_auc:0.667822
+f1:0.529532,err_net:778,tp:142,fn:86,fp:692,tn:1478,tpr:0.622807,fpr:0.318894
+kn_un_precision: f1:0.534936,err_net:730,tp:138,fn:84,fp:646,tn:1420,tpr:0.621622,fpr:0.312681
+un_un_precision: f1:0.425087,err_net:48,tp:4,fn:2,fp:46,tn:58,tpr:0.666667,fpr:0.442308
+0.5617073
+31 tensor(0.4910)
+index_order tensor([ 6,  3,  9,  7,  5,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.665106,un_un_auc:0.576923,kn_un_auc:0.664931
+f1:0.530218,err_net:780,tp:144,fn:84,fp:696,tn:1474,tpr:0.631579,fpr:0.320737
+kn_un_precision: f1:0.536871,err_net:728,tp:140,fn:82,fp:646,tn:1420,tpr:0.630631,fpr:0.312681
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.560575
+32 tensor(0.4901)
+index_order tensor([ 6,  3,  9,  7,  5,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.665131,un_un_auc:0.576923,kn_un_auc:0.665167
+f1:0.527430,err_net:794,tp:146,fn:82,fp:712,tn:1458,tpr:0.640351,fpr:0.328111
+kn_un_precision: f1:0.538713,err_net:722,tp:140,fn:82,fp:640,tn:1426,tpr:0.630631,fpr:0.309777
+un_un_precision: f1:0.306723,err_net:72,tp:6,fn:0,fp:72,tn:32,tpr:1.000000,fpr:0.692308
+0.5601438
+33 tensor(0.4905)
+index_order tensor([ 6,  3,  9,  7,  5,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.667208,un_un_auc:0.576923,kn_un_auc:0.667260
+f1:0.521365,err_net:784,tp:132,fn:96,fp:688,tn:1482,tpr:0.578947,fpr:0.317051
+kn_un_precision: f1:0.531502,err_net:728,tp:132,fn:90,fp:638,tn:1428,tpr:0.594595,fpr:0.308809
+un_un_precision: f1:nan,err_net:56,tp:0,fn:6,fp:50,tn:54,tpr:0.000000,fpr:0.480769
+0.5611098
+34 tensor(0.4906)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.668114,un_un_auc:0.576923,kn_un_auc:0.669362
+f1:0.533110,err_net:770,tp:144,fn:84,fp:686,tn:1484,tpr:0.631579,fpr:0.316129
+kn_un_precision: f1:0.540456,err_net:712,tp:138,fn:84,fp:628,tn:1438,tpr:0.621622,fpr:0.303969
+un_un_precision: f1:0.392381,err_net:58,tp:6,fn:0,fp:58,tn:46,tpr:1.000000,fpr:0.557692
+0.5624824
+35 tensor(0.4906)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.667944,un_un_auc:0.576923,kn_un_auc:0.668367
+f1:0.536482,err_net:754,tp:142,fn:86,fp:668,tn:1502,tpr:0.622807,fpr:0.307834
+kn_un_precision: f1:0.541799,err_net:712,tp:140,fn:82,fp:630,tn:1436,tpr:0.630631,fpr:0.304937
+un_un_precision: f1:0.422789,err_net:42,tp:2,fn:4,fp:38,tn:66,tpr:0.333333,fpr:0.365385
+0.5627247
+36 tensor(0.4891)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.657244,un_un_auc:0.557692,kn_un_auc:0.656380
+f1:0.524543,err_net:782,tp:136,fn:92,fp:690,tn:1480,tpr:0.596491,fpr:0.317972
+kn_un_precision: f1:0.531651,err_net:732,tp:134,fn:88,fp:644,tn:1422,tpr:0.603604,fpr:0.311713
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.56273866
+37 tensor(0.4879)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.656836,un_un_auc:0.557692,kn_un_auc:0.655948
+f1:0.526541,err_net:784,tp:140,fn:88,fp:696,tn:1474,tpr:0.614035,fpr:0.320737
+kn_un_precision: f1:0.536871,err_net:728,tp:140,fn:82,fp:646,tn:1420,tpr:0.630631,fpr:0.312681
+un_un_precision: f1:nan,err_net:56,tp:0,fn:6,fp:50,tn:54,tpr:0.000000,fpr:0.480769
+0.56328267
+38 tensor(0.4908)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.657778,un_un_auc:0.557692,kn_un_auc:0.656834
+f1:0.526541,err_net:784,tp:140,fn:88,fp:696,tn:1474,tpr:0.614035,fpr:0.320737
+kn_un_precision: f1:0.534424,err_net:736,tp:140,fn:82,fp:654,tn:1412,tpr:0.630631,fpr:0.316554
+un_un_precision: f1:nan,err_net:48,tp:0,fn:6,fp:42,tn:62,tpr:0.000000,fpr:0.403846
+0.56221575
+39 tensor(0.4908)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.655558,un_un_auc:0.557692,kn_un_auc:0.654849
+f1:0.516904,err_net:818,tp:140,fn:88,fp:730,tn:1440,tpr:0.614035,fpr:0.336406
+kn_un_precision: f1:0.526356,err_net:754,tp:136,fn:86,fp:668,tn:1398,tpr:0.612613,fpr:0.323330
+un_un_precision: f1:0.339339,err_net:64,tp:4,fn:2,fp:62,tn:42,tpr:0.666667,fpr:0.596154
+0.5625316
+40 tensor(0.4887)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.655558,un_un_auc:0.557692,kn_un_auc:0.654535
+f1:0.528716,err_net:798,tp:150,fn:78,fp:720,tn:1450,tpr:0.657895,fpr:0.331797
+kn_un_precision: f1:0.537636,err_net:734,tp:144,fn:78,fp:656,tn:1410,tpr:0.648649,fpr:0.317522
+un_un_precision: f1:0.356725,err_net:64,tp:6,fn:0,fp:64,tn:40,tpr:1.000000,fpr:0.615385
+0.5623575
+41 tensor(0.4872)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.656019,un_un_auc:0.557692,kn_un_auc:0.655059
+f1:0.525970,err_net:786,tp:140,fn:88,fp:698,tn:1472,tpr:0.614035,fpr:0.321659
+kn_un_precision: f1:0.534210,err_net:728,tp:136,fn:86,fp:642,tn:1424,tpr:0.612613,fpr:0.310745
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.56297857
+42 tensor(0.4877)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.666845,un_un_auc:0.576923,kn_un_auc:0.666876
+f1:0.531031,err_net:790,tp:150,fn:78,fp:712,tn:1458,tpr:0.657895,fpr:0.328111
+kn_un_precision: f1:0.538920,err_net:734,tp:146,fn:76,fp:658,tn:1408,tpr:0.657658,fpr:0.318490
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.56167805
+43 tensor(0.4866)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.653662,un_un_auc:0.557692,kn_un_auc:0.652508
+f1:0.536859,err_net:770,tp:150,fn:78,fp:692,tn:1478,tpr:0.657895,fpr:0.318894
+kn_un_precision: f1:0.542581,err_net:718,tp:144,fn:78,fp:640,tn:1426,tpr:0.648649,fpr:0.309777
+un_un_precision: f1:0.427083,err_net:52,tp:6,fn:0,fp:52,tn:52,tpr:1.000000,fpr:0.500000
+0.5627181
+44 tensor(0.4893)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.655671,un_un_auc:0.557692,kn_un_auc:0.654815
+f1:0.518733,err_net:798,tp:134,fn:94,fp:704,tn:1466,tpr:0.587719,fpr:0.324424
+kn_un_precision: f1:0.528491,err_net:738,tp:132,fn:90,fp:648,tn:1418,tpr:0.594595,fpr:0.313650
+un_un_precision: f1:0.338942,err_net:60,tp:2,fn:4,fp:56,tn:48,tpr:0.333333,fpr:0.538462
+0.56288093
+45 tensor(0.4882)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.656666,un_un_auc:0.557692,kn_un_auc:0.655547
+f1:0.526662,err_net:788,tp:142,fn:86,fp:702,tn:1468,tpr:0.622807,fpr:0.323502
+kn_un_precision: f1:0.532501,err_net:738,tp:138,fn:84,fp:654,tn:1412,tpr:0.621622,fpr:0.316554
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.5627815
+46 tensor(0.4860)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.656201,un_un_auc:0.557692,kn_un_auc:0.655482
+f1:0.532773,err_net:784,tp:150,fn:78,fp:706,tn:1464,tpr:0.657895,fpr:0.325346
+kn_un_precision: f1:0.537636,err_net:734,tp:144,fn:78,fp:656,tn:1410,tpr:0.648649,fpr:0.317522
+un_un_precision: f1:0.438546,err_net:50,tp:6,fn:0,fp:50,tn:54,tpr:1.000000,fpr:0.480769
+0.5628743
+47 tensor(0.4852)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.656803,un_un_auc:0.557692,kn_un_auc:0.656533
+f1:0.533207,err_net:774,tp:146,fn:82,fp:692,tn:1478,tpr:0.640351,fpr:0.318894
+kn_un_precision: f1:0.542581,err_net:718,tp:144,fn:78,fp:640,tn:1426,tpr:0.648649,fpr:0.309777
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.5630165
+48 tensor(0.4862)
+index_order tensor([ 6,  1,  4,  3,  7,  5,  8,  2, 10,  9,  0], device='cuda:0')
+auc:0.667944,un_un_auc:0.250000,kn_un_auc:0.669623
+f1:0.532047,err_net:778,tp:146,fn:82,fp:696,tn:1474,tpr:0.640351,fpr:0.320737
+kn_un_precision: f1:0.538799,err_net:726,tp:142,fn:80,fp:646,tn:1420,tpr:0.639640,fpr:0.312681
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.5625118
+49 tensor(0.4857)
+index_order tensor([ 6,  1,  4,  3,  7,  5,  8,  2, 10,  9,  0], device='cuda:0')
+auc:0.667750,un_un_auc:0.250000,kn_un_auc:0.669510
+f1:0.527809,err_net:784,tp:142,fn:86,fp:698,tn:1472,tpr:0.622807,fpr:0.321659
+kn_un_precision: f1:0.538713,err_net:722,tp:140,fn:82,fp:640,tn:1426,tpr:0.630631,fpr:0.309777
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.56341624
+50 tensor(0.4855)
+index_order tensor([ 6,  1,  4,  3,  7,  5,  8,  2, 10,  9,  0], device='cuda:0')
+auc:0.667976,un_un_auc:0.250000,kn_un_auc:0.669754
+f1:0.536789,err_net:766,tp:148,fn:80,fp:686,tn:1484,tpr:0.649123,fpr:0.316129
+kn_un_precision: f1:0.539416,err_net:724,tp:142,fn:80,fp:644,tn:1422,tpr:0.639640,fpr:0.311713
+un_un_precision: f1:0.484605,err_net:42,tp:6,fn:0,fp:42,tn:62,tpr:1.000000,fpr:0.403846
+0.5632754
+51 tensor(0.4858)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.669994,un_un_auc:0.576923,kn_un_auc:0.671363
+f1:0.536017,err_net:760,tp:144,fn:84,fp:676,tn:1494,tpr:0.631579,fpr:0.311521
+kn_un_precision: f1:0.543038,err_net:708,tp:140,fn:82,fp:626,tn:1440,tpr:0.630631,fpr:0.303001
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.5630618
+52 tensor(0.4860)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.670127,un_un_auc:0.576923,kn_un_auc:0.670862
+f1:0.527915,err_net:788,tp:144,fn:84,fp:704,tn:1466,tpr:0.631579,fpr:0.324424
+kn_un_precision: f1:0.535646,err_net:732,tp:140,fn:82,fp:650,tn:1416,tpr:0.630631,fpr:0.314618
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.5624122
+53 tensor(0.4856)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.669496,un_un_auc:0.576923,kn_un_auc:0.670644
+f1:0.531468,err_net:780,tp:146,fn:82,fp:698,tn:1472,tpr:0.640351,fpr:0.321659
+kn_un_precision: f1:0.542581,err_net:718,tp:144,fn:78,fp:640,tn:1426,tpr:0.648649,fpr:0.309777
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.56331414
+54 tensor(0.4855)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.670232,un_un_auc:0.576923,kn_un_auc:0.672039
+f1:0.530311,err_net:784,tp:146,fn:82,fp:702,tn:1468,tpr:0.640351,fpr:0.323502
+kn_un_precision: f1:0.539416,err_net:724,tp:142,fn:80,fp:644,tn:1422,tpr:0.639640,fpr:0.311713
+un_un_precision: f1:0.361455,err_net:60,tp:4,fn:2,fp:58,tn:46,tpr:0.666667,fpr:0.557692
+0.56188816
+55 tensor(0.4857)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.670814,un_un_auc:0.576923,kn_un_auc:0.672850
+f1:0.521533,err_net:806,tp:142,fn:86,fp:720,tn:1450,tpr:0.622807,fpr:0.331797
+kn_un_precision: f1:0.532597,err_net:742,tp:140,fn:82,fp:660,tn:1406,tpr:0.630631,fpr:0.319458
+un_un_precision: f1:0.318885,err_net:64,tp:2,fn:4,fp:60,tn:44,tpr:0.333333,fpr:0.576923
+0.5624451
+56 tensor(0.4851)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.671255,un_un_auc:0.576923,kn_un_auc:0.672881
+f1:0.531373,err_net:776,tp:144,fn:84,fp:692,tn:1478,tpr:0.631579,fpr:0.318894
+kn_un_precision: f1:0.540033,err_net:722,tp:142,fn:80,fp:642,tn:1424,tpr:0.639640,fpr:0.310745
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.5622722
+57 tensor(0.4852)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.671097,un_un_auc:0.576923,kn_un_auc:0.672484
+f1:0.525264,err_net:784,tp:138,fn:90,fp:694,tn:1476,tpr:0.605263,fpr:0.319816
+kn_un_precision: f1:0.531047,err_net:734,tp:134,fn:88,fp:646,tn:1420,tpr:0.603604,fpr:0.312681
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.56228876
+58 tensor(0.4853)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.671150,un_un_auc:0.576923,kn_un_auc:0.672532
+f1:0.535317,err_net:758,tp:142,fn:86,fp:672,tn:1498,tpr:0.622807,fpr:0.309677
+kn_un_precision: f1:0.540456,err_net:712,tp:138,fn:84,fp:628,tn:1438,tpr:0.621622,fpr:0.303969
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.561947
+59 tensor(0.4853)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.671125,un_un_auc:0.576923,kn_un_auc:0.672270
+f1:0.531951,err_net:774,tp:144,fn:84,fp:690,tn:1480,tpr:0.631579,fpr:0.317972
+kn_un_precision: f1:0.541269,err_net:718,tp:142,fn:80,fp:638,tn:1428,tpr:0.639640,fpr:0.308809
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.5625251
+60 tensor(0.4854)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.670458,un_un_auc:0.576923,kn_un_auc:0.671498
+f1:0.529641,err_net:782,tp:144,fn:84,fp:698,tn:1472,tpr:0.631579,fpr:0.321659
+kn_un_precision: f1:0.535035,err_net:734,tp:140,fn:82,fp:652,tn:1414,tpr:0.630631,fpr:0.315586
+un_un_precision: f1:0.425087,err_net:48,tp:4,fn:2,fp:46,tn:58,tpr:0.666667,fpr:0.442308
+0.5621293
+61 tensor(0.4849)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.669068,un_un_auc:0.576923,kn_un_auc:0.670443
+f1:0.522676,err_net:784,tp:134,fn:94,fp:690,tn:1480,tpr:0.587719,fpr:0.317972
+kn_un_precision: f1:0.530898,err_net:730,tp:132,fn:90,fp:640,tn:1426,tpr:0.594595,fpr:0.309777
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.5609164
+62 tensor(0.4857)
+index_order tensor([ 6,  1,  4,  3,  7,  5,  8,  2, 10,  9,  0], device='cuda:0')
+auc:0.667423,un_un_auc:0.250000,kn_un_auc:0.669854
+f1:0.528118,err_net:774,tp:138,fn:90,fp:684,tn:1486,tpr:0.605263,fpr:0.315207
+kn_un_precision: f1:0.533602,err_net:730,tp:136,fn:86,fp:644,tn:1422,tpr:0.612613,fpr:0.311713
+un_un_precision: f1:0.413760,err_net:44,tp:2,fn:4,fp:40,tn:64,tpr:0.333333,fpr:0.384615
+0.56124866
+63 tensor(0.4857)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.666946,un_un_auc:0.576923,kn_un_auc:0.668127
+f1:0.526767,err_net:792,tp:144,fn:84,fp:708,tn:1462,tpr:0.631579,fpr:0.326267
+kn_un_precision: f1:0.537569,err_net:730,tp:142,fn:80,fp:650,tn:1416,tpr:0.639640,fpr:0.314618
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.5618129
+64 tensor(0.4862)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.666780,un_un_auc:0.576923,kn_un_auc:0.667809
+f1:0.525519,err_net:792,tp:142,fn:86,fp:706,tn:1464,tpr:0.622807,fpr:0.325346
+kn_un_precision: f1:0.533109,err_net:736,tp:138,fn:84,fp:652,tn:1414,tpr:0.621622,fpr:0.315586
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.5617935
+65 tensor(0.4868)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.667625,un_un_auc:0.576923,kn_un_auc:0.668703
+f1:0.529065,err_net:784,tp:144,fn:84,fp:700,tn:1470,tpr:0.631579,fpr:0.322581
+kn_un_precision: f1:0.535729,err_net:736,tp:142,fn:80,fp:656,tn:1410,tpr:0.639640,fpr:0.317522
+un_un_precision: f1:0.395604,err_net:48,tp:2,fn:4,fp:44,tn:60,tpr:0.333333,fpr:0.423077
+0.5612287
+66 tensor(0.4879)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.667067,un_un_auc:0.576923,kn_un_auc:0.668468
+f1:0.534520,err_net:778,tp:150,fn:78,fp:700,tn:1470,tpr:0.657895,fpr:0.322581
+kn_un_precision: f1:0.542015,err_net:724,tp:146,fn:76,fp:648,tn:1418,tpr:0.657658,fpr:0.313650
+un_un_precision: f1:0.393630,err_net:54,tp:4,fn:2,fp:52,tn:52,tpr:0.666667,fpr:0.500000
+0.5612041
+67 tensor(0.4863)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.666275,un_un_auc:0.576923,kn_un_auc:0.667953
+f1:0.532417,err_net:768,tp:142,fn:86,fp:682,tn:1488,tpr:0.622807,fpr:0.314286
+kn_un_precision: f1:0.539945,err_net:718,tp:140,fn:82,fp:636,tn:1430,tpr:0.630631,fpr:0.307841
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.5614644
+68 tensor(0.4846)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.651051,un_un_auc:0.557692,kn_un_auc:0.651889
+f1:0.531261,err_net:772,tp:142,fn:86,fp:686,tn:1484,tpr:0.622807,fpr:0.316129
+kn_un_precision: f1:0.541799,err_net:712,tp:140,fn:82,fp:630,tn:1436,tpr:0.630631,fpr:0.304937
+un_un_precision: f1:0.338942,err_net:60,tp:2,fn:4,fp:56,tn:48,tpr:0.333333,fpr:0.538462
+0.5618223
+69 tensor(0.4837)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.651993,un_un_auc:0.557692,kn_un_auc:0.652852
+f1:0.527341,err_net:790,tp:144,fn:84,fp:706,tn:1464,tpr:0.631579,fpr:0.325346
+kn_un_precision: f1:0.536258,err_net:730,tp:140,fn:82,fp:648,tn:1418,tpr:0.630631,fpr:0.313650
+un_un_precision: f1:0.361455,err_net:60,tp:4,fn:2,fp:58,tn:46,tpr:0.666667,fpr:0.557692
+0.56156
+70 tensor(0.4854)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.652438,un_un_auc:0.557692,kn_un_auc:0.653149
+f1:0.533690,err_net:768,tp:144,fn:84,fp:684,tn:1486,tpr:0.631579,fpr:0.315207
+kn_un_precision: f1:0.537484,err_net:726,tp:140,fn:82,fp:644,tn:1422,tpr:0.630631,fpr:0.311713
+un_un_precision: f1:0.456471,err_net:42,tp:4,fn:2,fp:40,tn:64,tpr:0.666667,fpr:0.384615
+0.561202
+71 tensor(0.4846)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.666291,un_un_auc:0.576923,kn_un_auc:0.667962
+f1:0.525970,err_net:786,tp:140,fn:88,fp:698,tn:1472,tpr:0.614035,fpr:0.321659
+kn_un_precision: f1:0.533717,err_net:734,tp:138,fn:84,fp:650,tn:1416,tpr:0.621622,fpr:0.314618
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.5624857
+72 tensor(0.4850)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.665397,un_un_auc:0.576923,kn_un_auc:0.667094
+f1:0.526404,err_net:780,tp:138,fn:90,fp:690,tn:1480,tpr:0.605263,fpr:0.317972
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.5614523
+73 tensor(0.4846)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.650069,un_un_auc:0.557692,kn_un_auc:0.650855
+f1:0.528832,err_net:776,tp:140,fn:88,fp:688,tn:1482,tpr:0.614035,fpr:0.317051
+kn_un_precision: f1:0.535546,err_net:728,tp:138,fn:84,fp:644,tn:1422,tpr:0.621622,fpr:0.311713
+un_un_precision: f1:0.395604,err_net:48,tp:2,fn:4,fp:44,tn:60,tpr:0.333333,fpr:0.423077
+0.56113994
+74 tensor(0.4852)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.651140,un_un_auc:0.557692,kn_un_auc:0.651583
+f1:0.525264,err_net:784,tp:138,fn:90,fp:694,tn:1476,tpr:0.605263,fpr:0.319816
+kn_un_precision: f1:0.536770,err_net:724,tp:138,fn:84,fp:640,tn:1426,tpr:0.621622,fpr:0.309777
+un_un_precision: f1:nan,err_net:60,tp:0,fn:6,fp:54,tn:50,tpr:0.000000,fpr:0.519231
+0.5604777
+75 tensor(0.4867)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.650788,un_un_auc:0.557692,kn_un_auc:0.651483
+f1:0.529811,err_net:790,tp:148,fn:80,fp:710,tn:1460,tpr:0.649123,fpr:0.327189
+kn_un_precision: f1:0.538252,err_net:732,tp:144,fn:78,fp:654,tn:1412,tpr:0.648649,fpr:0.316554
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.56129616
+76 tensor(0.4877)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.650044,un_un_auc:0.557692,kn_un_auc:0.650942
+f1:0.533207,err_net:774,tp:146,fn:82,fp:692,tn:1478,tpr:0.640351,fpr:0.318894
+kn_un_precision: f1:0.535035,err_net:734,tp:140,fn:82,fp:652,tn:1414,tpr:0.630631,fpr:0.315586
+un_un_precision: f1:0.496337,err_net:40,tp:6,fn:0,fp:40,tn:64,tpr:1.000000,fpr:0.384615
+0.56071264
+77 tensor(0.4875)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649729,un_un_auc:0.557692,kn_un_auc:0.650934
+f1:0.521145,err_net:794,tp:136,fn:92,fp:702,tn:1468,tpr:0.596491,fpr:0.323502
+kn_un_precision: f1:0.531047,err_net:734,tp:134,fn:88,fp:646,tn:1420,tpr:0.603604,fpr:0.312681
+un_un_precision: f1:0.338942,err_net:60,tp:2,fn:4,fp:56,tn:48,tpr:0.333333,fpr:0.538462
+0.56096035
+78 tensor(0.4871)
+index_order tensor([ 6,  1,  4,  3,  7,  5,  8,  2, 10,  9,  0], device='cuda:0')
+auc:0.668332,un_un_auc:0.250000,kn_un_auc:0.670792
+f1:0.527235,err_net:786,tp:142,fn:86,fp:700,tn:1470,tpr:0.622807,fpr:0.322581
+kn_un_precision: f1:0.535646,err_net:732,tp:140,fn:82,fp:650,tn:1416,tpr:0.630631,fpr:0.314618
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.56153905
+79 tensor(0.4858)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.650283,un_un_auc:0.557692,kn_un_auc:0.651618
+f1:0.533937,err_net:780,tp:150,fn:78,fp:702,tn:1468,tpr:0.657895,fpr:0.323502
+kn_un_precision: f1:0.538868,err_net:730,tp:144,fn:78,fp:652,tn:1414,tpr:0.648649,fpr:0.315586
+un_un_precision: f1:0.438546,err_net:50,tp:6,fn:0,fp:50,tn:54,tpr:1.000000,fpr:0.480769
+0.5604342
+80 tensor(0.4850)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.650505,un_un_auc:0.557692,kn_un_auc:0.651483
+f1:0.528691,err_net:772,tp:138,fn:90,fp:682,tn:1488,tpr:0.605263,fpr:0.314286
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:0.404706,err_net:46,tp:2,fn:4,fp:42,tn:62,tpr:0.333333,fpr:0.403846
+0.5606565
+81 tensor(0.4857)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649608,un_un_auc:0.557692,kn_un_auc:0.650881
+f1:0.536119,err_net:764,tp:146,fn:82,fp:682,tn:1488,tpr:0.640351,fpr:0.314286
+kn_un_precision: f1:0.540562,err_net:716,tp:140,fn:82,fp:634,tn:1432,tpr:0.630631,fpr:0.306873
+un_un_precision: f1:0.450000,err_net:48,tp:6,fn:0,fp:48,tn:56,tpr:1.000000,fpr:0.461538
+0.5606913
+82 tensor(0.4854)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649947,un_un_auc:0.557692,kn_un_auc:0.650899
+f1:0.520965,err_net:808,tp:142,fn:86,fp:722,tn:1448,tpr:0.622807,fpr:0.332719
+kn_un_precision: f1:0.531382,err_net:746,tp:140,fn:82,fp:664,tn:1402,tpr:0.630631,fpr:0.321394
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.5611171
+83 tensor(0.4852)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648719,un_un_auc:0.557692,kn_un_auc:0.649905
+f1:0.534520,err_net:778,tp:150,fn:78,fp:700,tn:1470,tpr:0.657895,fpr:0.322581
+kn_un_precision: f1:0.542637,err_net:722,tp:146,fn:76,fp:646,tn:1420,tpr:0.657658,fpr:0.312681
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.561808
+84 tensor(0.4852)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648876,un_un_auc:0.557692,kn_un_auc:0.650319
+f1:0.529982,err_net:772,tp:140,fn:88,fp:684,tn:1486,tpr:0.614035,fpr:0.315207
+kn_un_precision: f1:0.534210,err_net:728,tp:136,fn:86,fp:642,tn:1424,tpr:0.612613,fpr:0.310745
+un_un_precision: f1:0.445971,err_net:44,tp:4,fn:2,fp:42,tn:62,tpr:0.666667,fpr:0.403846
+0.5620276
+85 tensor(0.4846)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.663566,un_un_auc:0.576923,kn_un_auc:0.665834
+f1:0.528957,err_net:780,tp:142,fn:86,fp:694,tn:1476,tpr:0.622807,fpr:0.319816
+kn_un_precision: f1:0.536258,err_net:730,tp:140,fn:82,fp:648,tn:1418,tpr:0.630631,fpr:0.313650
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.56256294
+86 tensor(0.4849)
+index_order tensor([ 6,  5,  9,  3,  7,  4,  8,  2, 10,  1,  0], device='cuda:0')
+auc:0.663748,un_un_auc:0.576923,kn_un_auc:0.666082
+f1:0.524260,err_net:792,tp:140,fn:88,fp:704,tn:1466,tpr:0.614035,fpr:0.324424
+kn_un_precision: f1:0.531894,err_net:740,tp:138,fn:84,fp:656,tn:1410,tpr:0.621622,fpr:0.317522
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.5621744
+87 tensor(0.4853)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649280,un_un_auc:0.557692,kn_un_auc:0.650633
+f1:0.521857,err_net:796,tp:138,fn:90,fp:706,tn:1464,tpr:0.605263,fpr:0.325346
+kn_un_precision: f1:0.532256,err_net:730,tp:134,fn:88,fp:642,tn:1424,tpr:0.603604,fpr:0.310745
+un_un_precision: f1:0.328027,err_net:66,tp:4,fn:2,fp:64,tn:40,tpr:0.666667,fpr:0.615385
+0.56121796
+88 tensor(0.4850)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649050,un_un_auc:0.557692,kn_un_auc:0.650559
+f1:0.525833,err_net:782,tp:138,fn:90,fp:692,tn:1478,tpr:0.605263,fpr:0.318894
+kn_un_precision: f1:0.534210,err_net:728,tp:136,fn:86,fp:642,tn:1424,tpr:0.612613,fpr:0.310745
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.5613213
+89 tensor(0.4844)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.650008,un_un_auc:0.557692,kn_un_auc:0.651078
+f1:0.530218,err_net:780,tp:144,fn:84,fp:696,tn:1474,tpr:0.631579,fpr:0.320737
+kn_un_precision: f1:0.536341,err_net:734,tp:142,fn:80,fp:654,tn:1412,tpr:0.639640,fpr:0.316554
+un_un_precision: f1:0.404706,err_net:46,tp:2,fn:4,fp:42,tn:62,tpr:0.333333,fpr:0.403846
+0.5615123
+90 tensor(0.4835)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649450,un_un_auc:0.557692,kn_un_auc:0.650153
+f1:0.537066,err_net:752,tp:142,fn:86,fp:666,tn:1504,tpr:0.622807,fpr:0.306912
+kn_un_precision: f1:0.537382,err_net:722,tp:138,fn:84,fp:638,tn:1428,tpr:0.621622,fpr:0.308809
+un_un_precision: f1:0.522846,err_net:30,tp:4,fn:2,fp:28,tn:76,tpr:0.666667,fpr:0.269231
+0.561812
+91 tensor(0.4857)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649806,un_un_auc:0.557692,kn_un_auc:0.650423
+f1:0.522554,err_net:798,tp:140,fn:88,fp:710,tn:1460,tpr:0.614035,fpr:0.327189
+kn_un_precision: f1:0.531894,err_net:740,tp:138,fn:84,fp:656,tn:1410,tpr:0.621622,fpr:0.317522
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.561009
+92 tensor(0.4834)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649503,un_un_auc:0.557692,kn_un_auc:0.649931
+f1:0.523691,err_net:794,tp:140,fn:88,fp:706,tn:1464,tpr:0.614035,fpr:0.325346
+kn_un_precision: f1:0.528159,err_net:748,tp:136,fn:86,fp:662,tn:1404,tpr:0.612613,fpr:0.320426
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.56113905
+93 tensor(0.4852)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.650368,un_un_auc:0.557692,kn_un_auc:0.650707
+f1:0.531468,err_net:780,tp:146,fn:82,fp:698,tn:1472,tpr:0.640351,fpr:0.321659
+kn_un_precision: f1:0.532597,err_net:742,tp:140,fn:82,fp:660,tn:1406,tpr:0.630631,fpr:0.319458
+un_un_precision: f1:0.508235,err_net:38,tp:6,fn:0,fp:38,tn:66,tpr:1.000000,fpr:0.365385
+0.56115717
+94 tensor(0.4883)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.650388,un_un_auc:0.557692,kn_un_auc:0.650546
+f1:0.523238,err_net:800,tp:142,fn:86,fp:714,tn:1456,tpr:0.622807,fpr:0.329032
+kn_un_precision: f1:0.533717,err_net:734,tp:138,fn:84,fp:650,tn:1416,tpr:0.621622,fpr:0.314618
+un_un_precision: f1:0.328027,err_net:66,tp:4,fn:2,fp:64,tn:40,tpr:0.666667,fpr:0.615385
+0.5607346
+95 tensor(0.4860)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648787,un_un_auc:0.557692,kn_un_auc:0.649359
+f1:0.527235,err_net:786,tp:142,fn:86,fp:700,tn:1470,tpr:0.622807,fpr:0.322581
+kn_un_precision: f1:0.536871,err_net:728,tp:140,fn:82,fp:646,tn:1420,tpr:0.630631,fpr:0.312681
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.5614221
+96 tensor(0.4839)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649220,un_un_auc:0.557692,kn_un_auc:0.650175
+f1:0.525970,err_net:786,tp:140,fn:88,fp:698,tn:1472,tpr:0.614035,fpr:0.321659
+kn_un_precision: f1:0.531288,err_net:742,tp:138,fn:84,fp:658,tn:1408,tpr:0.621622,fpr:0.318490
+un_un_precision: f1:0.413760,err_net:44,tp:2,fn:4,fp:40,tn:64,tpr:0.333333,fpr:0.384615
+0.5610856
+97 tensor(0.4835)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648407,un_un_auc:0.557692,kn_un_auc:0.649455
+f1:0.524948,err_net:794,tp:142,fn:86,fp:708,tn:1462,tpr:0.622807,fpr:0.326267
+kn_un_precision: f1:0.528761,err_net:746,tp:136,fn:86,fp:660,tn:1406,tpr:0.612613,fpr:0.319458
+un_un_precision: f1:0.450000,err_net:48,tp:6,fn:0,fp:48,tn:56,tpr:1.000000,fpr:0.461538
+0.5613813
+98 tensor(0.4834)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648347,un_un_auc:0.557692,kn_un_auc:0.649564
+f1:0.530218,err_net:780,tp:144,fn:84,fp:696,tn:1474,tpr:0.631579,fpr:0.320737
+kn_un_precision: f1:0.534326,err_net:732,tp:138,fn:84,fp:648,tn:1418,tpr:0.621622,fpr:0.313650
+un_un_precision: f1:0.450000,err_net:48,tp:6,fn:0,fp:48,tn:56,tpr:1.000000,fpr:0.461538
+0.5610849
+99 tensor(0.4843)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.647267,un_un_auc:0.557692,kn_un_auc:0.648461
+f1:0.520419,err_net:792,tp:134,fn:94,fp:698,tn:1472,tpr:0.587719,fpr:0.321659
+kn_un_precision: f1:0.527891,err_net:740,tp:132,fn:90,fp:650,tn:1416,tpr:0.594595,fpr:0.314618
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.5609728
+100 tensor(0.4833)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648197,un_un_auc:0.557692,kn_un_auc:0.649229
+f1:0.528005,err_net:792,tp:146,fn:82,fp:710,tn:1460,tpr:0.640351,fpr:0.327189
+kn_un_precision: f1:0.534505,err_net:740,tp:142,fn:80,fp:660,tn:1406,tpr:0.639640,fpr:0.319458
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.5615023
+101 tensor(0.4847)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648892,un_un_auc:0.557692,kn_un_auc:0.649822
+f1:0.525399,err_net:788,tp:140,fn:88,fp:700,tn:1470,tpr:0.614035,fpr:0.322581
+kn_un_precision: f1:0.533717,err_net:734,tp:138,fn:84,fp:650,tn:1416,tpr:0.621622,fpr:0.314618
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.5610963
+102 tensor(0.4830)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648003,un_un_auc:0.557692,kn_un_auc:0.649368
+f1:0.516784,err_net:814,tp:138,fn:90,fp:724,tn:1446,tpr:0.605263,fpr:0.333641
+kn_un_precision: f1:0.525038,err_net:754,tp:134,fn:88,fp:666,tn:1400,tpr:0.603604,fpr:0.322362
+un_un_precision: f1:0.361455,err_net:60,tp:4,fn:2,fp:58,tn:46,tpr:0.666667,fpr:0.557692
+0.56074995
+103 tensor(0.4847)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649171,un_un_auc:0.557692,kn_un_auc:0.649957
+f1:0.528957,err_net:780,tp:142,fn:86,fp:694,tn:1476,tpr:0.622807,fpr:0.319816
+kn_un_precision: f1:0.536258,err_net:730,tp:140,fn:82,fp:648,tn:1418,tpr:0.630631,fpr:0.313650
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.5598067
+104 tensor(0.4844)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.650057,un_un_auc:0.557692,kn_un_auc:0.650929
+f1:0.526090,err_net:790,tp:142,fn:86,fp:704,tn:1466,tpr:0.622807,fpr:0.324424
+kn_un_precision: f1:0.533815,err_net:738,tp:140,fn:82,fp:656,tn:1410,tpr:0.630631,fpr:0.317522
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.55943674
+105 tensor(0.4834)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.649394,un_un_auc:0.557692,kn_un_auc:0.650668
+f1:0.527915,err_net:788,tp:144,fn:84,fp:704,tn:1466,tpr:0.631579,fpr:0.324424
+kn_un_precision: f1:0.534424,err_net:736,tp:140,fn:82,fp:654,tn:1412,tpr:0.630631,fpr:0.316554
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.55968124
+106 tensor(0.4838)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648913,un_un_auc:0.557692,kn_un_auc:0.650323
+f1:0.536914,err_net:774,tp:152,fn:76,fp:698,tn:1472,tpr:0.666667,fpr:0.321659
+kn_un_precision: f1:0.542676,err_net:726,tp:148,fn:74,fp:652,tn:1414,tpr:0.666667,fpr:0.315586
+un_un_precision: f1:0.425087,err_net:48,tp:4,fn:2,fp:46,tn:58,tpr:0.666667,fpr:0.442308
+0.55946696
+107 tensor(0.4854)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640432,un_un_auc:0.339744,kn_un_auc:0.641218
+f1:0.524829,err_net:790,tp:140,fn:88,fp:702,tn:1468,tpr:0.614035,fpr:0.323502
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:0.339339,err_net:64,tp:4,fn:2,fp:62,tn:42,tpr:0.666667,fpr:0.596154
+0.5600811
+108 tensor(0.4853)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648460,un_un_auc:0.557692,kn_un_auc:0.649529
+f1:0.521145,err_net:794,tp:136,fn:92,fp:702,tn:1468,tpr:0.596491,fpr:0.323502
+kn_un_precision: f1:0.529839,err_net:738,tp:134,fn:88,fp:650,tn:1416,tpr:0.603604,fpr:0.314618
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.5593468
+109 tensor(0.4840)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.641644,un_un_auc:0.339744,kn_un_auc:0.641794
+f1:0.530218,err_net:780,tp:144,fn:84,fp:696,tn:1474,tpr:0.631579,fpr:0.320737
+kn_un_precision: f1:0.538184,err_net:728,tp:142,fn:80,fp:648,tn:1418,tpr:0.639640,fpr:0.313650
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.55932546
+110 tensor(0.4859)
+index_order tensor([ 6, 10,  9,  3,  5,  4,  8,  2,  0,  1,  7], device='cuda:0')
+auc:0.647292,un_un_auc:0.423077,kn_un_auc:0.647441
+f1:0.527961,err_net:770,tp:136,fn:92,fp:678,tn:1492,tpr:0.596491,fpr:0.312442
+kn_un_precision: f1:0.534076,err_net:724,tp:134,fn:88,fp:636,tn:1430,tpr:0.603604,fpr:0.307841
+un_un_precision: f1:0.404706,err_net:46,tp:2,fn:4,fp:42,tn:62,tpr:0.333333,fpr:0.403846
+0.55941427
+111 tensor(0.4853)
+index_order tensor([ 6,  1,  9,  3,  5,  4,  8,  2, 10,  7,  0], device='cuda:0')
+auc:0.648395,un_un_auc:0.557692,kn_un_auc:0.649817
+f1:0.522423,err_net:794,tp:138,fn:90,fp:704,tn:1466,tpr:0.605263,fpr:0.324424
+kn_un_precision: f1:0.528635,err_net:742,tp:134,fn:88,fp:654,tn:1412,tpr:0.603604,fpr:0.316554
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.55939
+112 tensor(0.4840)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640383,un_un_auc:0.339744,kn_un_auc:0.641096
+f1:0.532047,err_net:778,tp:146,fn:82,fp:696,tn:1474,tpr:0.640351,fpr:0.320737
+kn_un_precision: f1:0.538713,err_net:722,tp:140,fn:82,fp:640,tn:1426,tpr:0.630631,fpr:0.309777
+un_un_precision: f1:0.404025,err_net:56,tp:6,fn:0,fp:56,tn:48,tpr:1.000000,fpr:0.538462
+0.5596772
+113 tensor(0.4858)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640116,un_un_auc:0.339744,kn_un_auc:0.640922
+f1:0.521710,err_net:792,tp:136,fn:92,fp:700,tn:1470,tpr:0.596491,fpr:0.322581
+kn_un_precision: f1:0.536650,err_net:720,tp:136,fn:86,fp:634,tn:1432,tpr:0.612613,fpr:0.306873
+un_un_precision: f1:nan,err_net:72,tp:0,fn:6,fp:66,tn:38,tpr:0.000000,fpr:0.634615
+0.5595884
+114 tensor(0.4840)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.639866,un_un_auc:0.339744,kn_un_auc:0.640372
+f1:0.519454,err_net:800,tp:136,fn:92,fp:708,tn:1462,tpr:0.596491,fpr:0.326267
+kn_un_precision: f1:0.530571,err_net:740,tp:136,fn:86,fp:654,tn:1412,tpr:0.612613,fpr:0.316554
+un_un_precision: f1:nan,err_net:60,tp:0,fn:6,fp:54,tn:50,tpr:0.000000,fpr:0.519231
+0.56051695
+115 tensor(0.4831)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640504,un_un_auc:0.339744,kn_un_auc:0.640756
+f1:0.525519,err_net:792,tp:142,fn:86,fp:706,tn:1464,tpr:0.622807,fpr:0.325346
+kn_un_precision: f1:0.536258,err_net:730,tp:140,fn:82,fp:648,tn:1418,tpr:0.630631,fpr:0.313650
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.5602553
+116 tensor(0.4833)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.639947,un_un_auc:0.339744,kn_un_auc:0.640224
+f1:0.534271,err_net:766,tp:144,fn:84,fp:682,tn:1488,tpr:0.631579,fpr:0.314286
+kn_un_precision: f1:0.543038,err_net:708,tp:140,fn:82,fp:626,tn:1440,tpr:0.630631,fpr:0.303001
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.5610477
+117 tensor(0.4828)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640015,un_un_auc:0.339744,kn_un_auc:0.640595
+f1:0.523558,err_net:790,tp:138,fn:90,fp:700,tn:1470,tpr:0.605263,fpr:0.322581
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.393630,err_net:54,tp:4,fn:2,fp:52,tn:52,tpr:0.666667,fpr:0.500000
+0.5613627
+118 tensor(0.4842)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640169,un_un_auc:0.339744,kn_un_auc:0.640673
+f1:0.524694,err_net:786,tp:138,fn:90,fp:696,tn:1474,tpr:0.605263,fpr:0.320737
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:0.338942,err_net:60,tp:2,fn:4,fp:56,tn:48,tpr:0.333333,fpr:0.538462
+0.56157166
+119 tensor(0.4847)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640969,un_un_auc:0.339744,kn_un_auc:0.641353
+f1:0.524829,err_net:790,tp:140,fn:88,fp:702,tn:1468,tpr:0.614035,fpr:0.323502
+kn_un_precision: f1:0.531782,err_net:736,tp:136,fn:86,fp:650,tn:1416,tpr:0.612613,fpr:0.314618
+un_un_precision: f1:0.393630,err_net:54,tp:4,fn:2,fp:52,tn:52,tpr:0.666667,fpr:0.500000
+0.561788
+120 tensor(0.4841)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640472,un_un_auc:0.339744,kn_un_auc:0.640904
+f1:0.527235,err_net:786,tp:142,fn:86,fp:700,tn:1470,tpr:0.622807,fpr:0.322581
+kn_un_precision: f1:0.538098,err_net:724,tp:140,fn:82,fp:642,tn:1424,tpr:0.630631,fpr:0.310745
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.56152433
+121 tensor(0.4829)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640751,un_un_auc:0.339744,kn_un_auc:0.641397
+f1:0.527390,err_net:772,tp:136,fn:92,fp:680,tn:1490,tpr:0.596491,fpr:0.313364
+kn_un_precision: f1:0.533317,err_net:722,tp:132,fn:90,fp:632,tn:1434,tpr:0.594595,fpr:0.305905
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.56172794
+122 tensor(0.4840)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.641273,un_un_auc:0.339744,kn_un_auc:0.641916
+f1:0.526249,err_net:776,tp:136,fn:92,fp:684,tn:1486,tpr:0.596491,fpr:0.315207
+kn_un_precision: f1:0.530295,err_net:732,tp:132,fn:90,fp:642,tn:1424,tpr:0.594595,fpr:0.310745
+un_un_precision: f1:0.445971,err_net:44,tp:4,fn:2,fp:42,tn:62,tpr:0.666667,fpr:0.403846
+0.5613387
+123 tensor(0.4825)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640804,un_un_auc:0.339744,kn_un_auc:0.641436
+f1:0.531977,err_net:756,tp:136,fn:92,fp:664,tn:1506,tpr:0.596491,fpr:0.305991
+kn_un_precision: f1:0.539717,err_net:710,tp:136,fn:86,fp:624,tn:1442,tpr:0.612613,fpr:0.302033
+un_un_precision: f1:nan,err_net:46,tp:0,fn:6,fp:40,tn:64,tpr:0.000000,fpr:0.384615
+0.56198275
+124 tensor(0.4830)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640468,un_un_auc:0.339744,kn_un_auc:0.641057
+f1:0.520399,err_net:810,tp:142,fn:86,fp:724,tn:1446,tpr:0.622807,fpr:0.333641
+kn_un_precision: f1:0.533895,err_net:742,tp:142,fn:80,fp:662,tn:1404,tpr:0.639640,fpr:0.320426
+un_un_precision: f1:nan,err_net:68,tp:0,fn:6,fp:62,tn:42,tpr:0.000000,fpr:0.596154
+0.56176865
+125 tensor(0.4832)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.640064,un_un_auc:0.339744,kn_un_auc:0.640717
+f1:0.525050,err_net:798,tp:144,fn:84,fp:714,tn:1456,tpr:0.631579,fpr:0.329032
+kn_un_precision: f1:0.530682,err_net:744,tp:138,fn:84,fp:660,tn:1406,tpr:0.621622,fpr:0.319458
+un_un_precision: f1:0.415584,err_net:54,tp:6,fn:0,fp:54,tn:50,tpr:1.000000,fpr:0.519231
+0.56164634
+126 tensor(0.4820)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.639595,un_un_auc:0.339744,kn_un_auc:0.640368
+f1:0.522423,err_net:794,tp:138,fn:90,fp:704,tn:1466,tpr:0.605263,fpr:0.324424
+kn_un_precision: f1:0.533602,err_net:730,tp:136,fn:86,fp:644,tn:1422,tpr:0.612613,fpr:0.311713
+un_un_precision: f1:0.318885,err_net:64,tp:2,fn:4,fp:60,tn:44,tpr:0.333333,fpr:0.576923
+0.56183726
+127 tensor(0.4821)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.639995,un_un_auc:0.339744,kn_un_auc:0.640704
+f1:0.531133,err_net:768,tp:140,fn:88,fp:680,tn:1490,tpr:0.614035,fpr:0.313364
+kn_un_precision: f1:0.534210,err_net:728,tp:136,fn:86,fp:642,tn:1424,tpr:0.612613,fpr:0.310745
+un_un_precision: f1:0.467054,err_net:40,tp:4,fn:2,fp:38,tn:66,tpr:0.666667,fpr:0.365385
+0.5619348
+128 tensor(0.4831)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.639676,un_un_auc:0.339744,kn_un_auc:0.640333
+f1:0.527113,err_net:782,tp:140,fn:88,fp:694,tn:1476,tpr:0.614035,fpr:0.319816
+kn_un_precision: f1:0.536770,err_net:724,tp:138,fn:84,fp:640,tn:1426,tpr:0.621622,fpr:0.309777
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.56090003
+129 tensor(0.4824)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.639652,un_un_auc:0.339744,kn_un_auc:0.640193
+f1:0.522842,err_net:788,tp:136,fn:92,fp:696,tn:1474,tpr:0.596491,fpr:0.320737
+kn_un_precision: f1:0.533469,err_net:726,tp:134,fn:88,fp:638,tn:1428,tpr:0.603604,fpr:0.308809
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.5607705
+130 tensor(0.4855)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.639708,un_un_auc:0.339744,kn_un_auc:0.640307
+f1:0.522111,err_net:786,tp:134,fn:94,fp:692,tn:1478,tpr:0.587719,fpr:0.318894
+kn_un_precision: f1:0.533469,err_net:726,tp:134,fn:88,fp:638,tn:1428,tpr:0.603604,fpr:0.308809
+un_un_precision: f1:nan,err_net:60,tp:0,fn:6,fp:54,tn:50,tpr:0.000000,fpr:0.519231
+0.5609061
+131 tensor(0.4939)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.638698,un_un_auc:0.339744,kn_un_auc:0.639321
+f1:0.523408,err_net:786,tp:136,fn:92,fp:694,tn:1476,tpr:0.596491,fpr:0.319816
+kn_un_precision: f1:0.534076,err_net:724,tp:134,fn:88,fp:636,tn:1430,tpr:0.603604,fpr:0.307841
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.5610135
+132 tensor(0.4895)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.638592,un_un_auc:0.339744,kn_un_auc:0.639356
+f1:0.524694,err_net:786,tp:138,fn:90,fp:696,tn:1474,tpr:0.605263,fpr:0.320737
+kn_un_precision: f1:0.536650,err_net:720,tp:136,fn:86,fp:634,tn:1432,tpr:0.612613,fpr:0.306873
+un_un_precision: f1:0.308571,err_net:66,tp:2,fn:4,fp:62,tn:42,tpr:0.333333,fpr:0.596154
+0.56057715
+133 tensor(0.4883)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.638358,un_un_auc:0.339744,kn_un_auc:0.639269
+f1:0.528118,err_net:774,tp:138,fn:90,fp:684,tn:1486,tpr:0.605263,fpr:0.315207
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:0.395604,err_net:48,tp:2,fn:4,fp:44,tn:60,tpr:0.333333,fpr:0.423077
+0.5606358
+134 tensor(0.4871)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.637986,un_un_auc:0.339744,kn_un_auc:0.638850
+f1:0.524260,err_net:792,tp:140,fn:88,fp:704,tn:1466,tpr:0.614035,fpr:0.324424
+kn_un_precision: f1:0.534326,err_net:732,tp:138,fn:84,fp:648,tn:1418,tpr:0.621622,fpr:0.313650
+un_un_precision: f1:0.338942,err_net:60,tp:2,fn:4,fp:56,tn:48,tpr:0.333333,fpr:0.538462
+0.56061053
+135 tensor(0.4863)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.638867,un_un_auc:0.339744,kn_un_auc:0.639574
+f1:0.532865,err_net:762,tp:140,fn:88,fp:674,tn:1496,tpr:0.614035,fpr:0.310599
+kn_un_precision: f1:0.539840,err_net:714,tp:138,fn:84,fp:630,tn:1436,tpr:0.621622,fpr:0.304937
+un_un_precision: f1:0.395604,err_net:48,tp:2,fn:4,fp:44,tn:60,tpr:0.333333,fpr:0.423077
+0.5613194
+136 tensor(0.4860)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.638184,un_un_auc:0.339744,kn_un_auc:0.638977
+f1:0.529839,err_net:768,tp:138,fn:90,fp:678,tn:1492,tpr:0.605263,fpr:0.312442
+kn_un_precision: f1:0.535429,err_net:724,tp:136,fn:86,fp:638,tn:1428,tpr:0.612613,fpr:0.308809
+un_un_precision: f1:0.413760,err_net:44,tp:2,fn:4,fp:40,tn:64,tpr:0.333333,fpr:0.384615
+0.5608641
+137 tensor(0.4858)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.637841,un_un_auc:0.339744,kn_un_auc:0.638484
+f1:0.529839,err_net:768,tp:138,fn:90,fp:678,tn:1492,tpr:0.605263,fpr:0.312442
+kn_un_precision: f1:0.536650,err_net:720,tp:136,fn:86,fp:634,tn:1432,tpr:0.612613,fpr:0.306873
+un_un_precision: f1:0.395604,err_net:48,tp:2,fn:4,fp:44,tn:60,tpr:0.333333,fpr:0.423077
+0.56107366
+138 tensor(0.4854)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.636624,un_un_auc:0.339744,kn_un_auc:0.637669
+f1:0.525111,err_net:780,tp:136,fn:92,fp:688,tn:1482,tpr:0.596491,fpr:0.317051
+kn_un_precision: f1:0.532256,err_net:730,tp:134,fn:88,fp:642,tn:1424,tpr:0.603604,fpr:0.310745
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.5608707
+139 tensor(0.4852)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.636701,un_un_auc:0.339744,kn_un_auc:0.637743
+f1:0.531133,err_net:768,tp:140,fn:88,fp:680,tn:1490,tpr:0.614035,fpr:0.313364
+kn_un_precision: f1:0.532995,err_net:732,tp:136,fn:86,fp:646,tn:1420,tpr:0.612613,fpr:0.312681
+un_un_precision: f1:0.488636,err_net:36,tp:4,fn:2,fp:34,tn:70,tpr:0.666667,fpr:0.326923
+0.5614541
+140 tensor(0.4850)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.637283,un_un_auc:0.339744,kn_un_auc:0.638345
+f1:0.530413,err_net:766,tp:138,fn:90,fp:676,tn:1494,tpr:0.605263,fpr:0.311521
+kn_un_precision: f1:0.538488,err_net:714,tp:136,fn:86,fp:628,tn:1438,tpr:0.612613,fpr:0.303969
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.5615763
+141 tensor(0.4849)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.637574,un_un_auc:0.339744,kn_un_auc:0.638275
+f1:0.527686,err_net:780,tp:140,fn:88,fp:692,tn:1478,tpr:0.614035,fpr:0.318894
+kn_un_precision: f1:0.532862,err_net:728,tp:134,fn:88,fp:640,tn:1426,tpr:0.603604,fpr:0.309777
+un_un_precision: f1:0.427083,err_net:52,tp:6,fn:0,fp:52,tn:52,tpr:1.000000,fpr:0.500000
+0.561101
+142 tensor(0.4844)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.636939,un_un_auc:0.339744,kn_un_auc:0.637651
+f1:0.532865,err_net:762,tp:140,fn:88,fp:674,tn:1496,tpr:0.614035,fpr:0.310599
+kn_un_precision: f1:0.537875,err_net:716,tp:136,fn:86,fp:630,tn:1436,tpr:0.612613,fpr:0.304937
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.56125647
+143 tensor(0.4842)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.636333,un_un_auc:0.339744,kn_un_auc:0.637398
+f1:0.520288,err_net:806,tp:140,fn:88,fp:718,tn:1452,tpr:0.614035,fpr:0.330876
+kn_un_precision: f1:0.535546,err_net:728,tp:138,fn:84,fp:644,tn:1422,tpr:0.621622,fpr:0.311713
+un_un_precision: f1:0.241782,err_net:78,tp:2,fn:4,fp:74,tn:30,tpr:0.333333,fpr:0.711538
+0.56127995
+144 tensor(0.4837)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.636907,un_un_auc:0.339744,kn_un_auc:0.637686
+f1:0.523975,err_net:784,tp:136,fn:92,fp:692,tn:1478,tpr:0.596491,fpr:0.318894
+kn_un_precision: f1:0.532711,err_net:724,tp:132,fn:90,fp:634,tn:1432,tpr:0.594595,fpr:0.306873
+un_un_precision: f1:0.361455,err_net:60,tp:4,fn:2,fp:58,tn:46,tpr:0.666667,fpr:0.557692
+0.56115115
+145 tensor(0.4835)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.636688,un_un_auc:0.339744,kn_un_auc:0.637695
+f1:0.526541,err_net:784,tp:140,fn:88,fp:696,tn:1474,tpr:0.614035,fpr:0.320737
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.5611672
+146 tensor(0.4831)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.636203,un_un_auc:0.339744,kn_un_auc:0.637093
+f1:0.529265,err_net:770,tp:138,fn:90,fp:680,tn:1490,tpr:0.605263,fpr:0.313364
+kn_un_precision: f1:0.541074,err_net:710,tp:138,fn:84,fp:626,tn:1440,tpr:0.621622,fpr:0.303001
+un_un_precision: f1:nan,err_net:60,tp:0,fn:6,fp:54,tn:50,tpr:0.000000,fpr:0.519231
+0.5602894
+147 tensor(0.4827)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.636769,un_un_auc:0.339744,kn_un_auc:0.637477
+f1:0.523807,err_net:780,tp:134,fn:94,fp:686,tn:1484,tpr:0.587719,fpr:0.316129
+kn_un_precision: f1:0.529092,err_net:736,tp:132,fn:90,fp:646,tn:1420,tpr:0.594595,fpr:0.312681
+un_un_precision: f1:0.413760,err_net:44,tp:2,fn:4,fp:40,tn:64,tpr:0.333333,fpr:0.384615
+0.56074727
+148 tensor(0.4823)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.637319,un_un_auc:0.339744,kn_un_auc:0.637817
+f1:0.521857,err_net:796,tp:138,fn:90,fp:706,tn:1464,tpr:0.605263,fpr:0.325346
+kn_un_precision: f1:0.532388,err_net:734,tp:136,fn:86,fp:648,tn:1418,tpr:0.612613,fpr:0.313650
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.56055903
+149 tensor(0.4823)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.636373,un_un_auc:0.339744,kn_un_auc:0.637302
+f1:0.523975,err_net:784,tp:136,fn:92,fp:692,tn:1478,tpr:0.596491,fpr:0.318894
+kn_un_precision: f1:0.533469,err_net:726,tp:134,fn:88,fp:638,tn:1428,tpr:0.603604,fpr:0.308809
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.56018597
+150 tensor(0.4820)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635496,un_un_auc:0.339744,kn_un_auc:0.637132
+f1:0.526819,err_net:774,tp:136,fn:92,fp:682,tn:1488,tpr:0.596491,fpr:0.314286
+kn_un_precision: f1:0.535293,err_net:720,tp:134,fn:88,fp:632,tn:1434,tpr:0.603604,fpr:0.305905
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.5600371
+151 tensor(0.4814)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635185,un_un_auc:0.339744,kn_un_auc:0.636596
+f1:0.521928,err_net:782,tp:132,fn:96,fp:686,tn:1484,tpr:0.578947,fpr:0.316129
+kn_un_precision: f1:0.531334,err_net:724,tp:130,fn:92,fp:632,tn:1434,tpr:0.585586,fpr:0.305905
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.56011516
+152 tensor(0.4815)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635177,un_un_auc:0.339744,kn_un_auc:0.636483
+f1:0.526077,err_net:772,tp:134,fn:94,fp:678,tn:1492,tpr:0.587719,fpr:0.312442
+kn_un_precision: f1:0.531938,err_net:722,tp:130,fn:92,fp:630,tn:1436,tpr:0.585586,fpr:0.304937
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.5598855
+153 tensor(0.4816)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635266,un_un_auc:0.339744,kn_un_auc:0.636544
+f1:0.524126,err_net:788,tp:138,fn:90,fp:698,tn:1472,tpr:0.605263,fpr:0.321659
+kn_un_precision: f1:0.532388,err_net:734,tp:136,fn:86,fp:648,tn:1418,tpr:0.612613,fpr:0.313650
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.56011575
+154 tensor(0.4814)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635152,un_un_auc:0.339744,kn_un_auc:0.636517
+f1:0.524829,err_net:790,tp:140,fn:88,fp:702,tn:1468,tpr:0.614035,fpr:0.323502
+kn_un_precision: f1:0.532995,err_net:732,tp:136,fn:86,fp:646,tn:1420,tpr:0.612613,fpr:0.312681
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.5599582
+155 tensor(0.4819)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635027,un_un_auc:0.339744,kn_un_auc:0.635964
+f1:0.523975,err_net:784,tp:136,fn:92,fp:692,tn:1478,tpr:0.596491,fpr:0.318894
+kn_un_precision: f1:0.533469,err_net:726,tp:134,fn:88,fp:638,tn:1428,tpr:0.603604,fpr:0.308809
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.55981994
+156 tensor(0.4813)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634522,un_un_auc:0.339744,kn_un_auc:0.635410
+f1:0.528832,err_net:776,tp:140,fn:88,fp:688,tn:1482,tpr:0.614035,fpr:0.317051
+kn_un_precision: f1:0.535429,err_net:724,tp:136,fn:86,fp:638,tn:1428,tpr:0.612613,fpr:0.308809
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.55978715
+157 tensor(0.4806)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634045,un_un_auc:0.339744,kn_un_auc:0.634983
+f1:0.526404,err_net:780,tp:138,fn:90,fp:690,tn:1480,tpr:0.605263,fpr:0.317972
+kn_un_precision: f1:0.539102,err_net:712,tp:136,fn:86,fp:626,tn:1440,tpr:0.612613,fpr:0.303001
+un_un_precision: f1:0.298048,err_net:68,tp:2,fn:4,fp:64,tn:40,tpr:0.333333,fpr:0.615385
+0.559352
+158 tensor(0.4809)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634619,un_un_auc:0.339744,kn_un_auc:0.635419
+f1:0.530413,err_net:766,tp:138,fn:90,fp:676,tn:1494,tpr:0.605263,fpr:0.311521
+kn_un_precision: f1:0.537736,err_net:712,tp:134,fn:88,fp:624,tn:1442,tpr:0.603604,fpr:0.302033
+un_un_precision: f1:0.393630,err_net:54,tp:4,fn:2,fp:52,tn:52,tpr:0.666667,fpr:0.500000
+0.5595055
+159 tensor(0.4809)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634498,un_un_auc:0.339744,kn_un_auc:0.635584
+f1:0.526975,err_net:778,tp:138,fn:90,fp:688,tn:1482,tpr:0.605263,fpr:0.317051
+kn_un_precision: f1:0.537124,err_net:714,tp:134,fn:88,fp:626,tn:1440,tpr:0.603604,fpr:0.303001
+un_un_precision: f1:0.339339,err_net:64,tp:4,fn:2,fp:62,tn:42,tpr:0.666667,fpr:0.596154
+0.5594548
+160 tensor(0.4810)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634065,un_un_auc:0.339744,kn_un_auc:0.635423
+f1:0.524260,err_net:792,tp:140,fn:88,fp:704,tn:1466,tpr:0.614035,fpr:0.324424
+kn_un_precision: f1:0.530571,err_net:740,tp:136,fn:86,fp:654,tn:1412,tpr:0.612613,fpr:0.316554
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.5596645
+161 tensor(0.4814)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635221,un_un_auc:0.339744,kn_un_auc:0.636016
+f1:0.526975,err_net:778,tp:138,fn:90,fp:688,tn:1482,tpr:0.605263,fpr:0.317051
+kn_un_precision: f1:0.537875,err_net:716,tp:136,fn:86,fp:630,tn:1436,tpr:0.612613,fpr:0.304937
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.5595751
+162 tensor(0.4814)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635334,un_un_auc:0.339744,kn_un_auc:0.635859
+f1:0.532996,err_net:766,tp:142,fn:86,fp:680,tn:1490,tpr:0.622807,fpr:0.313364
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:0.496337,err_net:40,tp:6,fn:0,fp:40,tn:64,tpr:1.000000,fpr:0.384615
+0.5589422
+163 tensor(0.4812)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634679,un_un_auc:0.339744,kn_un_auc:0.635510
+f1:0.524126,err_net:788,tp:138,fn:90,fp:698,tn:1472,tpr:0.605263,fpr:0.321659
+kn_un_precision: f1:0.533469,err_net:726,tp:134,fn:88,fp:638,tn:1428,tpr:0.603604,fpr:0.308809
+un_un_precision: f1:0.350476,err_net:62,tp:4,fn:2,fp:60,tn:44,tpr:0.666667,fpr:0.576923
+0.5585871
+164 tensor(0.4811)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634946,un_un_auc:0.339744,kn_un_auc:0.636077
+f1:0.518470,err_net:808,tp:138,fn:90,fp:718,tn:1452,tpr:0.605263,fpr:0.330876
+kn_un_precision: f1:0.532388,err_net:734,tp:136,fn:86,fp:648,tn:1418,tpr:0.612613,fpr:0.313650
+un_un_precision: f1:0.265078,err_net:74,tp:2,fn:4,fp:70,tn:34,tpr:0.333333,fpr:0.673077
+0.55911106
+165 tensor(0.4817)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635367,un_un_auc:0.339744,kn_un_auc:0.636312
+f1:0.522842,err_net:788,tp:136,fn:92,fp:696,tn:1474,tpr:0.596491,fpr:0.320737
+kn_un_precision: f1:0.529092,err_net:736,tp:132,fn:90,fp:646,tn:1420,tpr:0.594595,fpr:0.312681
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.55887336
+166 tensor(0.4820)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635169,un_un_auc:0.339744,kn_un_auc:0.636177
+f1:0.521546,err_net:788,tp:134,fn:94,fp:694,tn:1476,tpr:0.587719,fpr:0.319816
+kn_un_precision: f1:0.529693,err_net:734,tp:132,fn:90,fp:644,tn:1422,tpr:0.594595,fpr:0.311713
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.55889213
+167 tensor(0.4814)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634942,un_un_auc:0.339744,kn_un_auc:0.636256
+f1:0.524829,err_net:790,tp:140,fn:88,fp:702,tn:1468,tpr:0.614035,fpr:0.323502
+kn_un_precision: f1:0.534210,err_net:728,tp:136,fn:86,fp:642,tn:1424,tpr:0.612613,fpr:0.310745
+un_un_precision: f1:0.350476,err_net:62,tp:4,fn:2,fp:60,tn:44,tpr:0.666667,fpr:0.576923
+0.55895215
+168 tensor(0.4809)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634772,un_un_auc:0.339744,kn_un_auc:0.636038
+f1:0.526249,err_net:776,tp:136,fn:92,fp:684,tn:1486,tpr:0.596491,fpr:0.315207
+kn_un_precision: f1:0.532862,err_net:728,tp:134,fn:88,fp:640,tn:1426,tpr:0.603604,fpr:0.309777
+un_un_precision: f1:0.395604,err_net:48,tp:2,fn:4,fp:44,tn:60,tpr:0.333333,fpr:0.423077
+0.55862105
+169 tensor(0.4809)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634105,un_un_auc:0.339744,kn_un_auc:0.635510
+f1:0.519033,err_net:806,tp:138,fn:90,fp:716,tn:1454,tpr:0.605263,fpr:0.329954
+kn_un_precision: f1:0.534210,err_net:728,tp:136,fn:86,fp:642,tn:1424,tpr:0.612613,fpr:0.310745
+un_un_precision: f1:0.241782,err_net:78,tp:2,fn:4,fp:74,tn:30,tpr:0.333333,fpr:0.711538
+0.55855083
+170 tensor(0.4807)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634287,un_un_auc:0.339744,kn_un_auc:0.635637
+f1:0.517612,err_net:802,tp:134,fn:94,fp:708,tn:1462,tpr:0.587719,fpr:0.326267
+kn_un_precision: f1:0.528928,err_net:732,tp:130,fn:92,fp:640,tn:1426,tpr:0.585586,fpr:0.309777
+un_un_precision: f1:0.304803,err_net:70,tp:4,fn:2,fp:68,tn:36,tpr:0.666667,fpr:0.653846
+0.5579135
+171 tensor(0.4801)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634570,un_un_auc:0.339744,kn_un_auc:0.635820
+f1:0.529407,err_net:774,tp:140,fn:88,fp:686,tn:1484,tpr:0.614035,fpr:0.316129
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:0.425087,err_net:48,tp:4,fn:2,fp:46,tn:58,tpr:0.666667,fpr:0.442308
+0.5588507
+172 tensor(0.4799)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634582,un_un_auc:0.339744,kn_un_auc:0.635624
+f1:0.521710,err_net:792,tp:136,fn:92,fp:700,tn:1470,tpr:0.596491,fpr:0.322581
+kn_un_precision: f1:0.529092,err_net:736,tp:132,fn:90,fp:646,tn:1420,tpr:0.594595,fpr:0.312681
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.55874974
+173 tensor(0.4801)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635302,un_un_auc:0.339744,kn_un_auc:0.636452
+f1:0.522842,err_net:788,tp:136,fn:92,fp:696,tn:1474,tpr:0.596491,fpr:0.320737
+kn_un_precision: f1:0.530898,err_net:730,tp:132,fn:90,fp:640,tn:1426,tpr:0.594595,fpr:0.309777
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.5589721
+174 tensor(0.4803)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634958,un_un_auc:0.339744,kn_un_auc:0.636282
+f1:0.527113,err_net:782,tp:140,fn:88,fp:694,tn:1476,tpr:0.614035,fpr:0.319816
+kn_un_precision: f1:0.536650,err_net:720,tp:136,fn:86,fp:634,tn:1432,tpr:0.612613,fpr:0.306873
+un_un_precision: f1:0.350476,err_net:62,tp:4,fn:2,fp:60,tn:44,tpr:0.666667,fpr:0.576923
+0.5592599
+175 tensor(0.4801)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635411,un_un_auc:0.339744,kn_un_auc:0.636483
+f1:0.519597,err_net:804,tp:138,fn:90,fp:714,tn:1456,tpr:0.605263,fpr:0.329032
+kn_un_precision: f1:0.529967,err_net:742,tp:136,fn:86,fp:656,tn:1410,tpr:0.612613,fpr:0.317522
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.55905885
+176 tensor(0.4803)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634748,un_un_auc:0.339744,kn_un_auc:0.636020
+f1:0.528118,err_net:774,tp:138,fn:90,fp:684,tn:1486,tpr:0.605263,fpr:0.315207
+kn_un_precision: f1:0.531502,err_net:728,tp:132,fn:90,fp:638,tn:1428,tpr:0.594595,fpr:0.308809
+un_un_precision: f1:0.461473,err_net:46,tp:6,fn:0,fp:46,tn:58,tpr:1.000000,fpr:0.442308
+0.5590063
+177 tensor(0.4809)
+index_order tensor([ 6, 10,  9,  3,  5,  4,  8,  2,  0,  1,  7], device='cuda:0')
+auc:0.639538,un_un_auc:0.423077,kn_un_auc:0.640411
+f1:0.528957,err_net:780,tp:142,fn:86,fp:694,tn:1476,tpr:0.622807,fpr:0.319816
+kn_un_precision: f1:0.533602,err_net:730,tp:136,fn:86,fp:644,tn:1422,tpr:0.612613,fpr:0.311713
+un_un_precision: f1:0.438546,err_net:50,tp:6,fn:0,fp:50,tn:54,tpr:1.000000,fpr:0.480769
+0.5583719
+178 tensor(0.4802)
+index_order tensor([ 6, 10,  9,  3,  5,  4,  8,  2,  0,  1,  7], device='cuda:0')
+auc:0.639724,un_un_auc:0.423077,kn_un_auc:0.640743
+f1:0.522111,err_net:786,tp:134,fn:94,fp:692,tn:1478,tpr:0.587719,fpr:0.318894
+kn_un_precision: f1:0.527729,err_net:736,tp:130,fn:92,fp:644,tn:1422,tpr:0.585586,fpr:0.311713
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.55884
+179 tensor(0.4799)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.635581,un_un_auc:0.339744,kn_un_auc:0.636483
+f1:0.522842,err_net:788,tp:136,fn:92,fp:696,tn:1474,tpr:0.596491,fpr:0.320737
+kn_un_precision: f1:0.532862,err_net:728,tp:134,fn:88,fp:640,tn:1426,tpr:0.603604,fpr:0.309777
+un_un_precision: f1:0.338942,err_net:60,tp:2,fn:4,fp:56,tn:48,tpr:0.333333,fpr:0.538462
+0.55919915
+180 tensor(0.4798)
+index_order tensor([ 6, 10,  9,  3,  5,  4,  8,  2,  0,  1,  7], device='cuda:0')
+auc:0.640044,un_un_auc:0.423077,kn_un_auc:0.640930
+f1:0.522423,err_net:794,tp:138,fn:90,fp:704,tn:1466,tpr:0.605263,fpr:0.324424
+kn_un_precision: f1:0.531047,err_net:734,tp:134,fn:88,fp:646,tn:1420,tpr:0.603604,fpr:0.312681
+un_un_precision: f1:0.361455,err_net:60,tp:4,fn:2,fp:58,tn:46,tpr:0.666667,fpr:0.557692
+0.5577692
+181 tensor(0.4797)
+index_order tensor([ 6, 10,  9,  3,  5,  4,  8,  2,  0,  1,  7], device='cuda:0')
+auc:0.639332,un_un_auc:0.423077,kn_un_auc:0.640704
+f1:0.518557,err_net:794,tp:132,fn:96,fp:698,tn:1472,tpr:0.578947,fpr:0.321659
+kn_un_precision: f1:0.527130,err_net:738,tp:130,fn:92,fp:646,tn:1420,tpr:0.585586,fpr:0.312681
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.55849564
+182 tensor(0.4797)
+index_order tensor([ 6, 10,  9,  3,  5,  4,  8,  2,  0,  1,  7], device='cuda:0')
+auc:0.639041,un_un_auc:0.423077,kn_un_auc:0.640337
+f1:0.521145,err_net:794,tp:136,fn:92,fp:702,tn:1468,tpr:0.596491,fpr:0.323502
+kn_un_precision: f1:0.533469,err_net:726,tp:134,fn:88,fp:638,tn:1428,tpr:0.603604,fpr:0.308809
+un_un_precision: f1:0.298048,err_net:68,tp:2,fn:4,fp:64,tn:40,tpr:0.333333,fpr:0.615385
+0.5579843
+183 tensor(0.4805)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633903,un_un_auc:0.339744,kn_un_auc:0.634969
+f1:0.530988,err_net:764,tp:138,fn:90,fp:674,tn:1496,tpr:0.605263,fpr:0.310599
+kn_un_precision: f1:0.536513,err_net:716,tp:134,fn:88,fp:628,tn:1438,tpr:0.603604,fpr:0.303969
+un_un_precision: f1:0.425087,err_net:48,tp:4,fn:2,fp:46,tn:58,tpr:0.666667,fpr:0.442308
+0.55841416
+184 tensor(0.4800)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633839,un_un_auc:0.339744,kn_un_auc:0.634821
+f1:0.518470,err_net:808,tp:138,fn:90,fp:718,tn:1452,tpr:0.605263,fpr:0.330876
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.292857,err_net:72,tp:4,fn:2,fp:70,tn:34,tpr:0.666667,fpr:0.673077
+0.55835545
+185 tensor(0.4798)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633750,un_un_auc:0.339744,kn_un_auc:0.634525
+f1:0.521291,err_net:798,tp:138,fn:90,fp:708,tn:1462,tpr:0.605263,fpr:0.326267
+kn_un_precision: f1:0.527433,err_net:746,tp:134,fn:88,fp:658,tn:1408,tpr:0.603604,fpr:0.318490
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.55794895
+186 tensor(0.4800)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633835,un_un_auc:0.339744,kn_un_auc:0.634616
+f1:0.519857,err_net:794,tp:134,fn:94,fp:700,tn:1470,tpr:0.587719,fpr:0.322581
+kn_un_precision: f1:0.530295,err_net:732,tp:132,fn:90,fp:642,tn:1424,tpr:0.594595,fpr:0.310745
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.55829877
+187 tensor(0.4795)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633451,un_un_auc:0.339744,kn_un_auc:0.633766
+f1:0.520726,err_net:800,tp:138,fn:90,fp:710,tn:1460,tpr:0.605263,fpr:0.327189
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.339339,err_net:64,tp:4,fn:2,fp:62,tn:42,tpr:0.666667,fpr:0.596154
+0.55803436
+188 tensor(0.4789)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632626,un_un_auc:0.339744,kn_un_auc:0.633059
+f1:0.524374,err_net:778,tp:134,fn:94,fp:684,tn:1486,tpr:0.587719,fpr:0.315207
+kn_un_precision: f1:0.529693,err_net:734,tp:132,fn:90,fp:644,tn:1422,tpr:0.594595,fpr:0.311713
+un_un_precision: f1:0.413760,err_net:44,tp:2,fn:4,fp:40,tn:64,tpr:0.333333,fpr:0.384615
+0.5582139
+189 tensor(0.4800)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632513,un_un_auc:0.339744,kn_un_auc:0.632719
+f1:0.526541,err_net:784,tp:140,fn:88,fp:696,tn:1474,tpr:0.614035,fpr:0.320737
+kn_un_precision: f1:0.532995,err_net:732,tp:136,fn:86,fp:646,tn:1420,tpr:0.612613,fpr:0.312681
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.5577727
+190 tensor(0.4797)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632298,un_un_auc:0.339744,kn_un_auc:0.632698
+f1:0.523408,err_net:786,tp:136,fn:92,fp:694,tn:1476,tpr:0.596491,fpr:0.319816
+kn_un_precision: f1:0.527130,err_net:738,tp:130,fn:92,fp:646,tn:1420,tpr:0.585586,fpr:0.312681
+un_un_precision: f1:0.450000,err_net:48,tp:6,fn:0,fp:48,tn:56,tpr:1.000000,fpr:0.461538
+0.5577734
+191 tensor(0.4790)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.631684,un_un_auc:0.339744,kn_un_auc:0.632418
+f1:0.523408,err_net:786,tp:136,fn:92,fp:694,tn:1476,tpr:0.596491,fpr:0.319816
+kn_un_precision: f1:0.530732,err_net:726,tp:130,fn:92,fp:634,tn:1432,tpr:0.585586,fpr:0.306873
+un_un_precision: f1:0.380631,err_net:60,tp:6,fn:0,fp:60,tn:44,tpr:1.000000,fpr:0.576923
+0.55721664
+192 tensor(0.4794)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.631332,un_un_auc:0.339744,kn_un_auc:0.632466
+f1:0.531839,err_net:770,tp:142,fn:86,fp:684,tn:1486,tpr:0.622807,fpr:0.315207
+kn_un_precision: f1:0.539840,err_net:714,tp:138,fn:84,fp:630,tn:1436,tpr:0.621622,fpr:0.304937
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.5573995
+193 tensor(0.4790)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.631648,un_un_auc:0.339744,kn_un_auc:0.632632
+f1:0.527809,err_net:784,tp:142,fn:86,fp:698,tn:1472,tpr:0.622807,fpr:0.321659
+kn_un_precision: f1:0.537382,err_net:722,tp:138,fn:84,fp:638,tn:1428,tpr:0.621622,fpr:0.308809
+un_un_precision: f1:0.350476,err_net:62,tp:4,fn:2,fp:60,tn:44,tpr:0.666667,fpr:0.576923
+0.5570917
+194 tensor(0.4797)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632177,un_un_auc:0.339744,kn_un_auc:0.633212
+f1:0.518557,err_net:794,tp:132,fn:96,fp:698,tn:1472,tpr:0.578947,fpr:0.321659
+kn_un_precision: f1:0.524567,err_net:742,tp:128,fn:94,fp:648,tn:1418,tpr:0.576577,fpr:0.313650
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.55719316
+195 tensor(0.4799)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633172,un_un_auc:0.339744,kn_un_auc:0.633657
+f1:0.522111,err_net:786,tp:134,fn:94,fp:692,tn:1478,tpr:0.587719,fpr:0.318894
+kn_un_precision: f1:0.534684,err_net:722,tp:134,fn:88,fp:634,tn:1432,tpr:0.603604,fpr:0.306873
+un_un_precision: f1:nan,err_net:64,tp:0,fn:6,fp:58,tn:46,tpr:0.000000,fpr:0.557692
+0.5569049
+196 tensor(0.4801)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633022,un_un_auc:0.339744,kn_un_auc:0.633487
+f1:0.515763,err_net:804,tp:132,fn:96,fp:708,tn:1462,tpr:0.578947,fpr:0.326267
+kn_un_precision: f1:0.528328,err_net:734,tp:130,fn:92,fp:642,tn:1424,tpr:0.585586,fpr:0.310745
+un_un_precision: f1:0.287301,err_net:70,tp:2,fn:4,fp:66,tn:38,tpr:0.333333,fpr:0.634615
+0.5574222
+197 tensor(0.4796)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633422,un_un_auc:0.339744,kn_un_auc:0.633875
+f1:0.524941,err_net:776,tp:134,fn:94,fp:682,tn:1488,tpr:0.587719,fpr:0.314286
+kn_un_precision: f1:0.529092,err_net:736,tp:132,fn:90,fp:646,tn:1420,tpr:0.594595,fpr:0.312681
+un_un_precision: f1:0.431818,err_net:40,tp:2,fn:4,fp:36,tn:68,tpr:0.333333,fpr:0.346154
+0.5571872
+198 tensor(0.4799)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633907,un_un_auc:0.339744,kn_un_auc:0.634599
+f1:0.522676,err_net:784,tp:134,fn:94,fp:690,tn:1480,tpr:0.587719,fpr:0.317972
+kn_un_precision: f1:0.530295,err_net:732,tp:132,fn:90,fp:642,tn:1424,tpr:0.594595,fpr:0.310745
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.5564056
+199 tensor(0.4792)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633717,un_un_auc:0.339744,kn_un_auc:0.634429
+f1:0.527113,err_net:782,tp:140,fn:88,fp:694,tn:1476,tpr:0.614035,fpr:0.319816
+kn_un_precision: f1:0.542418,err_net:710,tp:140,fn:82,fp:628,tn:1438,tpr:0.630631,fpr:0.303969
+un_un_precision: f1:nan,err_net:72,tp:0,fn:6,fp:66,tn:38,tpr:0.000000,fpr:0.634615
+0.5560724
+200 tensor(0.4791)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633612,un_un_auc:0.339744,kn_un_auc:0.634228
+f1:0.525833,err_net:782,tp:138,fn:90,fp:692,tn:1478,tpr:0.605263,fpr:0.318894
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.55672187
+201 tensor(0.4790)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633277,un_un_auc:0.339744,kn_un_auc:0.633823
+f1:0.527686,err_net:780,tp:140,fn:88,fp:692,tn:1478,tpr:0.614035,fpr:0.318894
+kn_un_precision: f1:0.535429,err_net:724,tp:136,fn:86,fp:638,tn:1428,tpr:0.612613,fpr:0.308809
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.556505
+202 tensor(0.4792)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633127,un_un_auc:0.339744,kn_un_auc:0.633696
+f1:0.528382,err_net:782,tp:142,fn:86,fp:696,tn:1474,tpr:0.622807,fpr:0.320737
+kn_un_precision: f1:0.536770,err_net:724,tp:138,fn:84,fp:640,tn:1426,tpr:0.621622,fpr:0.309777
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.5569402
+203 tensor(0.4790)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633422,un_un_auc:0.339744,kn_un_auc:0.634032
+f1:0.524694,err_net:786,tp:138,fn:90,fp:696,tn:1474,tpr:0.605263,fpr:0.320737
+kn_un_precision: f1:0.531047,err_net:734,tp:134,fn:88,fp:646,tn:1420,tpr:0.603604,fpr:0.312681
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.55711716
+204 tensor(0.4794)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633079,un_un_auc:0.339744,kn_un_auc:0.633801
+f1:0.526404,err_net:780,tp:138,fn:90,fp:690,tn:1480,tpr:0.605263,fpr:0.317972
+kn_un_precision: f1:0.534684,err_net:722,tp:134,fn:88,fp:634,tn:1432,tpr:0.603604,fpr:0.306873
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.55686015
+205 tensor(0.4786)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632549,un_un_auc:0.339744,kn_un_auc:0.633264
+f1:0.527915,err_net:788,tp:144,fn:84,fp:704,tn:1466,tpr:0.631579,fpr:0.324424
+kn_un_precision: f1:0.533717,err_net:734,tp:138,fn:84,fp:650,tn:1416,tpr:0.621622,fpr:0.314618
+un_un_precision: f1:0.415584,err_net:54,tp:6,fn:0,fp:54,tn:50,tpr:1.000000,fpr:0.519231
+0.5566452
+206 tensor(0.4784)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633103,un_un_auc:0.339744,kn_un_auc:0.633836
+f1:0.526404,err_net:780,tp:138,fn:90,fp:690,tn:1480,tpr:0.605263,fpr:0.317972
+kn_un_precision: f1:0.532995,err_net:732,tp:136,fn:86,fp:646,tn:1420,tpr:0.612613,fpr:0.312681
+un_un_precision: f1:0.395604,err_net:48,tp:2,fn:4,fp:44,tn:60,tpr:0.333333,fpr:0.423077
+0.5572627
+207 tensor(0.4797)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633669,un_un_auc:0.339744,kn_un_auc:0.634289
+f1:0.521710,err_net:792,tp:136,fn:92,fp:700,tn:1470,tpr:0.596491,fpr:0.322581
+kn_un_precision: f1:0.529092,err_net:736,tp:132,fn:90,fp:646,tn:1420,tpr:0.594595,fpr:0.312681
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.5562402
+208 tensor(0.4789)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633592,un_un_auc:0.339744,kn_un_auc:0.634128
+f1:0.527235,err_net:786,tp:142,fn:86,fp:700,tn:1470,tpr:0.622807,fpr:0.322581
+kn_un_precision: f1:0.535646,err_net:732,tp:140,fn:82,fp:650,tn:1416,tpr:0.630631,fpr:0.314618
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.55666465
+209 tensor(0.4783)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632901,un_un_auc:0.339744,kn_un_auc:0.633766
+f1:0.524829,err_net:790,tp:140,fn:88,fp:702,tn:1468,tpr:0.614035,fpr:0.323502
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.415584,err_net:54,tp:6,fn:0,fp:54,tn:50,tpr:1.000000,fpr:0.519231
+0.55565464
+210 tensor(0.4787)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632210,un_un_auc:0.339744,kn_un_auc:0.633160
+f1:0.523691,err_net:794,tp:140,fn:88,fp:706,tn:1464,tpr:0.614035,fpr:0.325346
+kn_un_precision: f1:0.531782,err_net:736,tp:136,fn:86,fp:650,tn:1416,tpr:0.612613,fpr:0.314618
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.55594236
+211 tensor(0.4786)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633022,un_un_auc:0.339744,kn_un_auc:0.633609
+f1:0.522276,err_net:790,tp:136,fn:92,fp:698,tn:1472,tpr:0.596491,fpr:0.321659
+kn_un_precision: f1:0.529237,err_net:740,tp:134,fn:88,fp:652,tn:1414,tpr:0.603604,fpr:0.315586
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.55610996
+212 tensor(0.4790)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632420,un_un_auc:0.339744,kn_un_auc:0.633352
+f1:0.519295,err_net:796,tp:134,fn:94,fp:702,tn:1468,tpr:0.587719,fpr:0.323502
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:nan,err_net:60,tp:0,fn:6,fp:54,tn:50,tpr:0.000000,fpr:0.519231
+0.5565737
+213 tensor(0.4788)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632011,un_un_auc:0.339744,kn_un_auc:0.632824
+f1:0.527390,err_net:772,tp:136,fn:92,fp:680,tn:1490,tpr:0.596491,fpr:0.313364
+kn_un_precision: f1:0.531651,err_net:732,tp:134,fn:88,fp:644,tn:1422,tpr:0.603604,fpr:0.311713
+un_un_precision: f1:0.431818,err_net:40,tp:2,fn:4,fp:36,tn:68,tpr:0.333333,fpr:0.346154
+0.55669725
+214 tensor(0.4802)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632020,un_un_auc:0.339744,kn_un_auc:0.632850
+f1:0.517207,err_net:808,tp:136,fn:92,fp:716,tn:1454,tpr:0.596491,fpr:0.329954
+kn_un_precision: f1:0.525038,err_net:754,tp:134,fn:88,fp:666,tn:1400,tpr:0.603604,fpr:0.322362
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.5567754
+215 tensor(0.4790)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632032,un_un_auc:0.339744,kn_un_auc:0.632514
+f1:0.521420,err_net:802,tp:140,fn:88,fp:714,tn:1456,tpr:0.614035,fpr:0.329032
+kn_un_precision: f1:0.532501,err_net:738,tp:138,fn:84,fp:654,tn:1412,tpr:0.621622,fpr:0.316554
+un_un_precision: f1:0.318885,err_net:64,tp:2,fn:4,fp:60,tn:44,tpr:0.333333,fpr:0.576923
+0.5565097
+216 tensor(0.4787)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632113,un_un_auc:0.339744,kn_un_auc:0.632558
+f1:0.527235,err_net:786,tp:142,fn:86,fp:700,tn:1470,tpr:0.622807,fpr:0.322581
+kn_un_precision: f1:0.529967,err_net:742,tp:136,fn:86,fp:656,tn:1410,tpr:0.612613,fpr:0.317522
+un_un_precision: f1:0.472996,err_net:44,tp:6,fn:0,fp:44,tn:60,tpr:1.000000,fpr:0.423077
+0.55572987
+217 tensor(0.4784)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.631757,un_un_auc:0.339744,kn_un_auc:0.632183
+f1:0.522990,err_net:792,tp:138,fn:90,fp:702,tn:1468,tpr:0.605263,fpr:0.323502
+kn_un_precision: f1:0.532388,err_net:734,tp:136,fn:86,fp:648,tn:1418,tpr:0.612613,fpr:0.313650
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.555802
+218 tensor(0.4787)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.631437,un_un_auc:0.339744,kn_un_auc:0.632048
+f1:0.517768,err_net:806,tp:136,fn:92,fp:714,tn:1456,tpr:0.596491,fpr:0.329032
+kn_un_precision: f1:0.529092,err_net:736,tp:132,fn:90,fp:646,tn:1420,tpr:0.594595,fpr:0.312681
+un_un_precision: f1:0.304803,err_net:70,tp:4,fn:2,fp:68,tn:36,tpr:0.666667,fpr:0.653846
+0.5550831
+219 tensor(0.4788)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.630876,un_un_auc:0.339744,kn_un_auc:0.631747
+f1:0.525970,err_net:786,tp:140,fn:88,fp:698,tn:1472,tpr:0.614035,fpr:0.321659
+kn_un_precision: f1:0.530571,err_net:740,tp:136,fn:86,fp:654,tn:1412,tpr:0.612613,fpr:0.316554
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.555087
+220 tensor(0.4786)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.630948,un_un_auc:0.339744,kn_un_auc:0.632052
+f1:0.524126,err_net:788,tp:138,fn:90,fp:698,tn:1472,tpr:0.605263,fpr:0.321659
+kn_un_precision: f1:0.527433,err_net:746,tp:134,fn:88,fp:658,tn:1408,tpr:0.603604,fpr:0.318490
+un_un_precision: f1:0.456471,err_net:42,tp:4,fn:2,fp:40,tn:64,tpr:0.666667,fpr:0.384615
+0.5549488
+221 tensor(0.4788)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.630471,un_un_auc:0.339744,kn_un_auc:0.631886
+f1:0.522842,err_net:788,tp:136,fn:92,fp:696,tn:1474,tpr:0.596491,fpr:0.320737
+kn_un_precision: f1:0.530898,err_net:730,tp:132,fn:90,fp:640,tn:1426,tpr:0.594595,fpr:0.309777
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.55379003
+222 tensor(0.4789)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.630888,un_un_auc:0.339744,kn_un_auc:0.631873
+f1:0.523975,err_net:784,tp:136,fn:92,fp:692,tn:1478,tpr:0.596491,fpr:0.318894
+kn_un_precision: f1:0.531047,err_net:734,tp:134,fn:88,fp:646,tn:1420,tpr:0.603604,fpr:0.312681
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.55521995
+223 tensor(0.4789)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.630904,un_un_auc:0.339744,kn_un_auc:0.631908
+f1:0.519158,err_net:810,tp:140,fn:88,fp:722,tn:1448,tpr:0.614035,fpr:0.332719
+kn_un_precision: f1:0.528266,err_net:752,tp:138,fn:84,fp:668,tn:1398,tpr:0.621622,fpr:0.323330
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.5550905
+224 tensor(0.4783)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.630520,un_un_auc:0.339744,kn_un_auc:0.631686
+f1:0.522669,err_net:802,tp:142,fn:86,fp:716,tn:1454,tpr:0.622807,fpr:0.329954
+kn_un_precision: f1:0.526957,err_net:752,tp:136,fn:86,fp:666,tn:1400,tpr:0.612613,fpr:0.322362
+un_un_precision: f1:0.438546,err_net:50,tp:6,fn:0,fp:50,tn:54,tpr:1.000000,fpr:0.480769
+0.5546793
+225 tensor(0.4785)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.630310,un_un_auc:0.339744,kn_un_auc:0.631703
+f1:0.521710,err_net:792,tp:136,fn:92,fp:700,tn:1470,tpr:0.596491,fpr:0.322581
+kn_un_precision: f1:0.527291,err_net:742,tp:132,fn:90,fp:652,tn:1414,tpr:0.594595,fpr:0.315586
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.55486685
+226 tensor(0.4786)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.631539,un_un_auc:0.339744,kn_un_auc:0.632593
+f1:0.524829,err_net:790,tp:140,fn:88,fp:702,tn:1468,tpr:0.614035,fpr:0.323502
+kn_un_precision: f1:0.535429,err_net:724,tp:136,fn:86,fp:638,tn:1428,tpr:0.612613,fpr:0.308809
+un_un_precision: f1:0.328027,err_net:66,tp:4,fn:2,fp:64,tn:40,tpr:0.666667,fpr:0.615385
+0.55481875
+227 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.631308,un_un_auc:0.339744,kn_un_auc:0.632458
+f1:0.520018,err_net:798,tp:136,fn:92,fp:706,tn:1464,tpr:0.596491,fpr:0.325346
+kn_un_precision: f1:0.529237,err_net:740,tp:134,fn:88,fp:652,tn:1414,tpr:0.603604,fpr:0.315586
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.55569875
+228 tensor(0.4779)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.631724,un_un_auc:0.339744,kn_un_auc:0.632567
+f1:0.522276,err_net:790,tp:136,fn:92,fp:698,tn:1472,tpr:0.596491,fpr:0.321659
+kn_un_precision: f1:0.528328,err_net:734,tp:130,fn:92,fp:642,tn:1424,tpr:0.585586,fpr:0.310745
+un_un_precision: f1:0.404025,err_net:56,tp:6,fn:0,fp:56,tn:48,tpr:1.000000,fpr:0.538462
+0.5552232
+229 tensor(0.4779)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.638346,un_un_auc:0.115385,kn_un_auc:0.640180
+f1:0.521857,err_net:796,tp:138,fn:90,fp:706,tn:1464,tpr:0.605263,fpr:0.325346
+kn_un_precision: f1:0.531176,err_net:738,tp:136,fn:86,fp:652,tn:1414,tpr:0.612613,fpr:0.315586
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.55490226
+230 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.639045,un_un_auc:0.115385,kn_un_auc:0.640699
+f1:0.524694,err_net:786,tp:138,fn:90,fp:696,tn:1474,tpr:0.605263,fpr:0.320737
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.5545343
+231 tensor(0.4779)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.639623,un_un_auc:0.115385,kn_un_auc:0.641026
+f1:0.522101,err_net:804,tp:142,fn:86,fp:718,tn:1452,tpr:0.622807,fpr:0.330876
+kn_un_precision: f1:0.531288,err_net:742,tp:138,fn:84,fp:658,tn:1408,tpr:0.621622,fpr:0.318490
+un_un_precision: f1:0.350476,err_net:62,tp:4,fn:2,fp:60,tn:44,tpr:0.666667,fpr:0.576923
+0.5549315
+232 tensor(0.4785)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.639975,un_un_auc:0.115385,kn_un_auc:0.641475
+f1:0.517052,err_net:804,tp:134,fn:94,fp:710,tn:1460,tpr:0.587719,fpr:0.327189
+kn_un_precision: f1:0.524900,err_net:750,tp:132,fn:90,fp:660,tn:1406,tpr:0.594595,fpr:0.319458
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.5542453
+233 tensor(0.4787)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.639567,un_un_auc:0.115385,kn_un_auc:0.641000
+f1:0.521710,err_net:792,tp:136,fn:92,fp:700,tn:1470,tpr:0.596491,fpr:0.322581
+kn_un_precision: f1:0.529237,err_net:740,tp:134,fn:88,fp:652,tn:1414,tpr:0.603604,fpr:0.315586
+un_un_precision: f1:0.377178,err_net:52,tp:2,fn:4,fp:48,tn:56,tpr:0.333333,fpr:0.461538
+0.55440617
+234 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632157,un_un_auc:0.339744,kn_un_auc:0.632868
+f1:0.523975,err_net:784,tp:136,fn:92,fp:692,tn:1478,tpr:0.596491,fpr:0.318894
+kn_un_precision: f1:0.528635,err_net:742,tp:134,fn:88,fp:654,tn:1412,tpr:0.603604,fpr:0.316554
+un_un_precision: f1:0.422789,err_net:42,tp:2,fn:4,fp:38,tn:66,tpr:0.333333,fpr:0.365385
+0.55389947
+235 tensor(0.4783)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632432,un_un_auc:0.339744,kn_un_auc:0.633199
+f1:0.521710,err_net:792,tp:136,fn:92,fp:700,tn:1470,tpr:0.596491,fpr:0.322581
+kn_un_precision: f1:0.526094,err_net:746,tp:132,fn:90,fp:656,tn:1410,tpr:0.594595,fpr:0.317522
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.5543072
+236 tensor(0.4780)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.631821,un_un_auc:0.339744,kn_un_auc:0.632855
+f1:0.523558,err_net:790,tp:138,fn:90,fp:700,tn:1470,tpr:0.605263,fpr:0.322581
+kn_un_precision: f1:0.535546,err_net:728,tp:138,fn:84,fp:644,tn:1422,tpr:0.621622,fpr:0.311713
+un_un_precision: f1:nan,err_net:62,tp:0,fn:6,fp:56,tn:48,tpr:0.000000,fpr:0.538462
+0.5537492
+237 tensor(0.4782)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.639324,un_un_auc:0.115385,kn_un_auc:0.640573
+f1:0.523241,err_net:782,tp:134,fn:94,fp:688,tn:1482,tpr:0.587719,fpr:0.317051
+kn_un_precision: f1:0.529092,err_net:736,tp:132,fn:90,fp:646,tn:1420,tpr:0.594595,fpr:0.312681
+un_un_precision: f1:0.404706,err_net:46,tp:2,fn:4,fp:42,tn:62,tpr:0.333333,fpr:0.403846
+0.553898
+238 tensor(0.4775)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.639668,un_un_auc:0.115385,kn_un_auc:0.641362
+f1:0.516132,err_net:798,tp:130,fn:98,fp:700,tn:1470,tpr:0.570175,fpr:0.322581
+kn_un_precision: f1:0.522595,err_net:744,tp:126,fn:96,fp:648,tn:1418,tpr:0.567568,fpr:0.313650
+un_un_precision: f1:0.393630,err_net:54,tp:4,fn:2,fp:52,tn:52,tpr:0.666667,fpr:0.500000
+0.5543694
+239 tensor(0.4783)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.639995,un_un_auc:0.115385,kn_un_auc:0.641733
+f1:0.523807,err_net:798,tp:142,fn:86,fp:712,tn:1458,tpr:0.622807,fpr:0.328111
+kn_un_precision: f1:0.530077,err_net:746,tp:138,fn:84,fp:662,tn:1404,tpr:0.621622,fpr:0.320426
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.5539001
+240 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632743,un_un_auc:0.339744,kn_un_auc:0.633578
+f1:0.514817,err_net:812,tp:134,fn:94,fp:718,tn:1452,tpr:0.587719,fpr:0.330876
+kn_un_precision: f1:0.525935,err_net:742,tp:130,fn:92,fp:650,tn:1416,tpr:0.585586,fpr:0.314618
+un_un_precision: f1:0.304803,err_net:70,tp:4,fn:2,fp:68,tn:36,tpr:0.666667,fpr:0.653846
+0.55437803
+241 tensor(0.4776)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633160,un_un_auc:0.339744,kn_un_auc:0.633679
+f1:0.524260,err_net:792,tp:140,fn:88,fp:704,tn:1466,tpr:0.614035,fpr:0.324424
+kn_un_precision: f1:0.532995,err_net:732,tp:136,fn:86,fp:646,tn:1420,tpr:0.612613,fpr:0.312681
+un_un_precision: f1:0.361455,err_net:60,tp:4,fn:2,fp:58,tn:46,tpr:0.666667,fpr:0.557692
+0.5545336
+242 tensor(0.4776)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632755,un_un_auc:0.339744,kn_un_auc:0.633408
+f1:0.520043,err_net:784,tp:130,fn:98,fp:686,tn:1484,tpr:0.570175,fpr:0.316129
+kn_un_precision: f1:0.530130,err_net:728,tp:130,fn:92,fp:636,tn:1430,tpr:0.585586,fpr:0.307841
+un_un_precision: f1:nan,err_net:56,tp:0,fn:6,fp:50,tn:54,tpr:0.000000,fpr:0.480769
+0.55423445
+243 tensor(0.4779)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632707,un_un_auc:0.339744,kn_un_auc:0.633417
+f1:0.522842,err_net:788,tp:136,fn:92,fp:696,tn:1474,tpr:0.596491,fpr:0.320737
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:nan,err_net:62,tp:0,fn:6,fp:56,tn:48,tpr:0.000000,fpr:0.538462
+0.55439216
+244 tensor(0.4781)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  2,  9,  0], device='cuda:0')
+auc:0.631575,un_un_auc:0.564103,kn_un_auc:0.631577
+f1:0.521291,err_net:798,tp:138,fn:90,fp:708,tn:1462,tpr:0.605263,fpr:0.326267
+kn_un_precision: f1:0.528034,err_net:744,tp:134,fn:88,fp:656,tn:1410,tpr:0.603604,fpr:0.317522
+un_un_precision: f1:0.393630,err_net:54,tp:4,fn:2,fp:52,tn:52,tpr:0.666667,fpr:0.500000
+0.55294484
+245 tensor(0.4783)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.639935,un_un_auc:0.115385,kn_un_auc:0.641659
+f1:0.521533,err_net:806,tp:142,fn:86,fp:720,tn:1450,tpr:0.622807,fpr:0.331797
+kn_un_precision: f1:0.530077,err_net:746,tp:138,fn:84,fp:662,tn:1404,tpr:0.621622,fpr:0.320426
+un_un_precision: f1:0.361455,err_net:60,tp:4,fn:2,fp:58,tn:46,tpr:0.666667,fpr:0.557692
+0.5533747
+246 tensor(0.4784)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.640626,un_un_auc:0.115385,kn_un_auc:0.642178
+f1:0.524694,err_net:786,tp:138,fn:90,fp:696,tn:1474,tpr:0.605263,fpr:0.320737
+kn_un_precision: f1:0.532862,err_net:728,tp:134,fn:88,fp:640,tn:1426,tpr:0.603604,fpr:0.309777
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.5531591
+247 tensor(0.4782)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  2,  9,  0], device='cuda:0')
+auc:0.632577,un_un_auc:0.564103,kn_un_auc:0.632719
+f1:0.523408,err_net:786,tp:136,fn:92,fp:694,tn:1476,tpr:0.596491,fpr:0.319816
+kn_un_precision: f1:0.529092,err_net:736,tp:132,fn:90,fp:646,tn:1420,tpr:0.594595,fpr:0.312681
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.553324
+248 tensor(0.4776)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.640310,un_un_auc:0.115385,kn_un_auc:0.642273
+f1:0.527235,err_net:786,tp:142,fn:86,fp:700,tn:1470,tpr:0.622807,fpr:0.322581
+kn_un_precision: f1:0.532501,err_net:738,tp:138,fn:84,fp:654,tn:1412,tpr:0.621622,fpr:0.316554
+un_un_precision: f1:0.425087,err_net:48,tp:4,fn:2,fp:46,tn:58,tpr:0.666667,fpr:0.442308
+0.55295694
+249 tensor(0.4771)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  2,  9,  0], device='cuda:0')
+auc:0.632137,un_un_auc:0.564103,kn_un_auc:0.632610
+f1:0.526541,err_net:784,tp:140,fn:88,fp:696,tn:1474,tpr:0.614035,fpr:0.320737
+kn_un_precision: f1:0.531782,err_net:736,tp:136,fn:86,fp:650,tn:1416,tpr:0.612613,fpr:0.314618
+un_un_precision: f1:0.425087,err_net:48,tp:4,fn:2,fp:46,tn:58,tpr:0.666667,fpr:0.442308
+0.5528061
+250 tensor(0.4772)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  2,  9,  0], device='cuda:0')
+auc:0.632104,un_un_auc:0.564103,kn_un_auc:0.632628
+f1:0.517997,err_net:796,tp:132,fn:96,fp:700,tn:1470,tpr:0.578947,fpr:0.322581
+kn_un_precision: f1:0.526532,err_net:740,tp:130,fn:92,fp:648,tn:1418,tpr:0.585586,fpr:0.313650
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.55335283
+251 tensor(0.4774)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  2,  9,  0], device='cuda:0')
+auc:0.631919,un_un_auc:0.564103,kn_un_auc:0.632410
+f1:0.521987,err_net:800,tp:140,fn:88,fp:712,tn:1458,tpr:0.614035,fpr:0.328111
+kn_un_precision: f1:0.528034,err_net:744,tp:134,fn:88,fp:656,tn:1410,tpr:0.603604,fpr:0.317522
+un_un_precision: f1:0.404025,err_net:56,tp:6,fn:0,fp:56,tn:48,tpr:1.000000,fpr:0.538462
+0.5529637
+252 tensor(0.4775)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.640294,un_un_auc:0.115385,kn_un_auc:0.641994
+f1:0.517612,err_net:802,tp:134,fn:94,fp:708,tn:1462,tpr:0.587719,fpr:0.326267
+kn_un_precision: f1:0.526834,err_net:748,tp:134,fn:88,fp:660,tn:1406,tpr:0.603604,fpr:0.319458
+un_un_precision: f1:nan,err_net:54,tp:0,fn:6,fp:48,tn:56,tpr:0.000000,fpr:0.461538
+0.553057
+253 tensor(0.4776)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  2,  9,  0], device='cuda:0')
+auc:0.631975,un_un_auc:0.564103,kn_un_auc:0.632602
+f1:0.529532,err_net:778,tp:142,fn:86,fp:692,tn:1478,tpr:0.622807,fpr:0.318894
+kn_un_precision: f1:0.533717,err_net:734,tp:138,fn:84,fp:650,tn:1416,tpr:0.621622,fpr:0.314618
+un_un_precision: f1:0.445971,err_net:44,tp:4,fn:2,fp:42,tn:62,tpr:0.666667,fpr:0.403846
+0.55334216
+254 tensor(0.4777)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  3,  9,  0], device='cuda:0')
+auc:0.639409,un_un_auc:0.115385,kn_un_auc:0.641606
+f1:0.522554,err_net:798,tp:140,fn:88,fp:710,tn:1460,tpr:0.614035,fpr:0.327189
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.368752,err_net:62,tp:6,fn:0,fp:62,tn:42,tpr:1.000000,fpr:0.596154
+0.5529336
+255 tensor(0.4773)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  0,  9,  3], device='cuda:0')
+auc:0.639009,un_un_auc:0.237179,kn_un_auc:0.641122
+f1:0.518330,err_net:804,tp:136,fn:92,fp:712,tn:1458,tpr:0.596491,fpr:0.328111
+kn_un_precision: f1:0.523708,err_net:754,tp:132,fn:90,fp:664,tn:1402,tpr:0.594595,fpr:0.321394
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.5531826
+256 tensor(0.4771)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  0,  9,  3], device='cuda:0')
+auc:0.639320,un_un_auc:0.237179,kn_un_auc:0.641179
+f1:0.524694,err_net:786,tp:138,fn:90,fp:696,tn:1474,tpr:0.605263,fpr:0.320737
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.55307704
+257 tensor(0.4777)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.627246,un_un_auc:0.858974,kn_un_auc:0.627334
+f1:0.518892,err_net:802,tp:136,fn:92,fp:710,tn:1460,tpr:0.596491,fpr:0.327189
+kn_un_precision: f1:0.526692,err_net:744,tp:132,fn:90,fp:654,tn:1412,tpr:0.594595,fpr:0.316554
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.5532332
+258 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  2,  9,  0], device='cuda:0')
+auc:0.631951,un_un_auc:0.564103,kn_un_auc:0.632811
+f1:0.525111,err_net:780,tp:136,fn:92,fp:688,tn:1482,tpr:0.596491,fpr:0.317051
+kn_un_precision: f1:0.534210,err_net:728,tp:136,fn:86,fp:642,tn:1424,tpr:0.612613,fpr:0.310745
+un_un_precision: f1:nan,err_net:52,tp:0,fn:6,fp:46,tn:58,tpr:0.000000,fpr:0.442308
+0.55313724
+259 tensor(0.4773)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  2,  9,  0], device='cuda:0')
+auc:0.632359,un_un_auc:0.564103,kn_un_auc:0.633295
+f1:0.525833,err_net:782,tp:138,fn:90,fp:692,tn:1478,tpr:0.605263,fpr:0.318894
+kn_un_precision: f1:0.532256,err_net:730,tp:134,fn:88,fp:642,tn:1424,tpr:0.603604,fpr:0.310745
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.5528795
+260 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  2,  9,  0], device='cuda:0')
+auc:0.632763,un_un_auc:0.564103,kn_un_auc:0.633312
+f1:0.526662,err_net:788,tp:142,fn:86,fp:702,tn:1468,tpr:0.622807,fpr:0.323502
+kn_un_precision: f1:0.534936,err_net:730,tp:138,fn:84,fp:646,tn:1420,tpr:0.621622,fpr:0.312681
+un_un_precision: f1:0.372294,err_net:58,tp:4,fn:2,fp:56,tn:48,tpr:0.666667,fpr:0.538462
+0.5525839
+261 tensor(0.4773)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633851,un_un_auc:0.339744,kn_un_auc:0.635549
+f1:0.522676,err_net:784,tp:134,fn:94,fp:690,tn:1480,tpr:0.587719,fpr:0.317972
+kn_un_precision: f1:0.528635,err_net:742,tp:134,fn:88,fp:654,tn:1412,tpr:0.603604,fpr:0.316554
+un_un_precision: f1:nan,err_net:42,tp:0,fn:6,fp:36,tn:68,tpr:0.000000,fpr:0.346154
+0.5522854
+262 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  0,  9,  3], device='cuda:0')
+auc:0.640856,un_un_auc:0.237179,kn_un_auc:0.642958
+f1:0.526404,err_net:780,tp:138,fn:90,fp:690,tn:1480,tpr:0.605263,fpr:0.317972
+kn_un_precision: f1:0.535293,err_net:720,tp:134,fn:88,fp:632,tn:1434,tpr:0.603604,fpr:0.305905
+un_un_precision: f1:0.361455,err_net:60,tp:4,fn:2,fp:58,tn:46,tpr:0.666667,fpr:0.557692
+0.5524742
+263 tensor(0.4777)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  0,  9,  3], device='cuda:0')
+auc:0.641697,un_un_auc:0.237179,kn_un_auc:0.643054
+f1:0.524126,err_net:788,tp:138,fn:90,fp:698,tn:1472,tpr:0.605263,fpr:0.321659
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.55292755
+264 tensor(0.4775)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634740,un_un_auc:0.339744,kn_un_auc:0.635645
+f1:0.522276,err_net:790,tp:136,fn:92,fp:698,tn:1472,tpr:0.596491,fpr:0.321659
+kn_un_precision: f1:0.531651,err_net:732,tp:134,fn:88,fp:644,tn:1422,tpr:0.603604,fpr:0.311713
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.5528541
+265 tensor(0.4781)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634037,un_un_auc:0.339744,kn_un_auc:0.635244
+f1:0.524260,err_net:792,tp:140,fn:88,fp:704,tn:1466,tpr:0.614035,fpr:0.324424
+kn_un_precision: f1:0.532501,err_net:738,tp:138,fn:84,fp:654,tn:1412,tpr:0.621622,fpr:0.316554
+un_un_precision: f1:0.367816,err_net:54,tp:2,fn:4,fp:50,tn:54,tpr:0.333333,fpr:0.480769
+0.55183667
+266 tensor(0.4783)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633790,un_un_auc:0.339744,kn_un_auc:0.635449
+f1:0.521546,err_net:788,tp:134,fn:94,fp:694,tn:1476,tpr:0.587719,fpr:0.319816
+kn_un_precision: f1:0.530898,err_net:730,tp:132,fn:90,fp:640,tn:1426,tpr:0.594595,fpr:0.309777
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.55245554
+267 tensor(0.4775)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634000,un_un_auc:0.339744,kn_un_auc:0.635641
+f1:0.517768,err_net:806,tp:136,fn:92,fp:714,tn:1456,tpr:0.596491,fpr:0.329032
+kn_un_precision: f1:0.521773,err_net:756,tp:130,fn:92,fp:664,tn:1402,tpr:0.585586,fpr:0.321394
+un_un_precision: f1:0.438546,err_net:50,tp:6,fn:0,fp:50,tn:54,tpr:1.000000,fpr:0.480769
+0.5520184
+268 tensor(0.4770)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634138,un_un_auc:0.339744,kn_un_auc:0.635484
+f1:0.524694,err_net:786,tp:138,fn:90,fp:696,tn:1474,tpr:0.605263,fpr:0.320737
+kn_un_precision: f1:0.531047,err_net:734,tp:134,fn:88,fp:646,tn:1420,tpr:0.603604,fpr:0.312681
+un_un_precision: f1:0.404167,err_net:52,tp:4,fn:2,fp:50,tn:54,tpr:0.666667,fpr:0.480769
+0.55238545
+269 tensor(0.4772)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633681,un_un_auc:0.339744,kn_un_auc:0.635139
+f1:0.522423,err_net:794,tp:138,fn:90,fp:704,tn:1466,tpr:0.605263,fpr:0.324424
+kn_un_precision: f1:0.527891,err_net:740,tp:132,fn:90,fp:650,tn:1416,tpr:0.594595,fpr:0.314618
+un_un_precision: f1:0.415584,err_net:54,tp:6,fn:0,fp:54,tn:50,tpr:1.000000,fpr:0.519231
+0.55161303
+270 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633839,un_un_auc:0.339744,kn_un_auc:0.635388
+f1:0.520018,err_net:798,tp:136,fn:92,fp:706,tn:1464,tpr:0.596491,fpr:0.325346
+kn_un_precision: f1:0.530443,err_net:736,tp:134,fn:88,fp:648,tn:1418,tpr:0.603604,fpr:0.313650
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.5524483
+271 tensor(0.4776)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634708,un_un_auc:0.339744,kn_un_auc:0.635846
+f1:0.522101,err_net:804,tp:142,fn:86,fp:718,tn:1452,tpr:0.622807,fpr:0.330876
+kn_un_precision: f1:0.532501,err_net:738,tp:138,fn:84,fp:654,tn:1412,tpr:0.621622,fpr:0.316554
+un_un_precision: f1:0.328027,err_net:66,tp:4,fn:2,fp:64,tn:40,tpr:0.666667,fpr:0.615385
+0.5514235
+272 tensor(0.4779)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634190,un_un_auc:0.339744,kn_un_auc:0.635602
+f1:0.529982,err_net:772,tp:140,fn:88,fp:684,tn:1486,tpr:0.614035,fpr:0.315207
+kn_un_precision: f1:0.533469,err_net:726,tp:134,fn:88,fp:638,tn:1428,tpr:0.603604,fpr:0.308809
+un_un_precision: f1:0.461473,err_net:46,tp:6,fn:0,fp:46,tn:58,tpr:1.000000,fpr:0.442308
+0.5519349
+273 tensor(0.4782)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.634037,un_un_auc:0.339744,kn_un_auc:0.635706
+f1:0.524543,err_net:782,tp:136,fn:92,fp:690,tn:1480,tpr:0.596491,fpr:0.317972
+kn_un_precision: f1:0.529839,err_net:738,tp:134,fn:88,fp:650,tn:1416,tpr:0.603604,fpr:0.314618
+un_un_precision: f1:0.413760,err_net:44,tp:2,fn:4,fp:40,tn:64,tpr:0.333333,fpr:0.384615
+0.55166197
+274 tensor(0.4776)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633891,un_un_auc:0.339744,kn_un_auc:0.635515
+f1:0.524126,err_net:788,tp:138,fn:90,fp:698,tn:1472,tpr:0.605263,fpr:0.321659
+kn_un_precision: f1:0.531047,err_net:734,tp:134,fn:88,fp:646,tn:1420,tpr:0.603604,fpr:0.312681
+un_un_precision: f1:0.393630,err_net:54,tp:4,fn:2,fp:52,tn:52,tpr:0.666667,fpr:0.500000
+0.5516867
+275 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633778,un_un_auc:0.339744,kn_un_auc:0.635471
+f1:0.521546,err_net:788,tp:134,fn:94,fp:694,tn:1476,tpr:0.587719,fpr:0.319816
+kn_un_precision: f1:0.532106,err_net:726,tp:132,fn:90,fp:636,tn:1430,tpr:0.594595,fpr:0.307841
+un_un_precision: f1:0.329004,err_net:62,tp:2,fn:4,fp:58,tn:46,tpr:0.333333,fpr:0.557692
+0.5511927
+276 tensor(0.4773)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633204,un_un_auc:0.339744,kn_un_auc:0.634895
+f1:0.520581,err_net:796,tp:136,fn:92,fp:704,tn:1466,tpr:0.596491,fpr:0.324424
+kn_un_precision: f1:0.525496,err_net:748,tp:132,fn:90,fp:658,tn:1408,tpr:0.594595,fpr:0.318490
+un_un_precision: f1:0.425087,err_net:48,tp:4,fn:2,fp:46,tn:58,tpr:0.666667,fpr:0.442308
+0.5513501
+277 tensor(0.4779)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633123,un_un_auc:0.339744,kn_un_auc:0.634878
+f1:0.515527,err_net:814,tp:136,fn:92,fp:722,tn:1448,tpr:0.596491,fpr:0.332719
+kn_un_precision: f1:0.523708,err_net:754,tp:132,fn:90,fp:664,tn:1402,tpr:0.594595,fpr:0.321394
+un_un_precision: f1:0.361455,err_net:60,tp:4,fn:2,fp:58,tn:46,tpr:0.666667,fpr:0.557692
+0.55154514
+278 tensor(0.4778)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.632711,un_un_auc:0.339744,kn_un_auc:0.634590
+f1:0.529407,err_net:774,tp:140,fn:88,fp:686,tn:1484,tpr:0.614035,fpr:0.316129
+kn_un_precision: f1:0.534210,err_net:728,tp:136,fn:86,fp:642,tn:1424,tpr:0.612613,fpr:0.310745
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.5508495
+279 tensor(0.4778)
+index_order tensor([ 6, 10,  9,  3,  5,  4,  8,  2,  0,  1,  7], device='cuda:0')
+auc:0.638997,un_un_auc:0.423077,kn_un_auc:0.640882
+f1:0.514815,err_net:798,tp:128,fn:100,fp:698,tn:1472,tpr:0.561404,fpr:0.321659
+kn_un_precision: f1:0.523187,err_net:742,tp:126,fn:96,fp:646,tn:1420,tpr:0.567568,fpr:0.312681
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.5512026
+280 tensor(0.4782)
+index_order tensor([ 6, 10,  9,  3,  5,  4,  8,  2,  0,  1,  7], device='cuda:0')
+auc:0.639017,un_un_auc:0.423077,kn_un_auc:0.640800
+f1:0.521987,err_net:800,tp:140,fn:88,fp:712,tn:1458,tpr:0.614035,fpr:0.328111
+kn_un_precision: f1:0.528034,err_net:744,tp:134,fn:88,fp:656,tn:1410,tpr:0.603604,fpr:0.317522
+un_un_precision: f1:0.404025,err_net:56,tp:6,fn:0,fp:56,tn:48,tpr:1.000000,fpr:0.538462
+0.5509009
+281 tensor(0.4782)
+index_order tensor([ 6, 10,  9,  3,  5,  4,  8,  2,  0,  1,  7], device='cuda:0')
+auc:0.638734,un_un_auc:0.423077,kn_un_auc:0.640486
+f1:0.521710,err_net:792,tp:136,fn:92,fp:700,tn:1470,tpr:0.596491,fpr:0.322581
+kn_un_precision: f1:0.528491,err_net:738,tp:132,fn:90,fp:648,tn:1418,tpr:0.594595,fpr:0.313650
+un_un_precision: f1:0.393630,err_net:54,tp:4,fn:2,fp:52,tn:52,tpr:0.666667,fpr:0.500000
+0.5516413
+282 tensor(0.4788)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633725,un_un_auc:0.339744,kn_un_auc:0.634551
+f1:0.523975,err_net:784,tp:136,fn:92,fp:692,tn:1478,tpr:0.596491,fpr:0.318894
+kn_un_precision: f1:0.528491,err_net:738,tp:132,fn:90,fp:648,tn:1418,tpr:0.594595,fpr:0.313650
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.55097634
+283 tensor(0.4780)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633160,un_un_auc:0.339744,kn_un_auc:0.634254
+f1:0.518892,err_net:802,tp:136,fn:92,fp:710,tn:1460,tpr:0.596491,fpr:0.327189
+kn_un_precision: f1:0.528034,err_net:744,tp:134,fn:88,fp:656,tn:1410,tpr:0.603604,fpr:0.317522
+un_un_precision: f1:0.348714,err_net:58,tp:2,fn:4,fp:54,tn:50,tpr:0.333333,fpr:0.519231
+0.5516553
+284 tensor(0.4784)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633192,un_un_auc:0.339744,kn_un_auc:0.634446
+f1:0.520581,err_net:796,tp:136,fn:92,fp:704,tn:1466,tpr:0.596491,fpr:0.324424
+kn_un_precision: f1:0.527891,err_net:740,tp:132,fn:90,fp:650,tn:1416,tpr:0.594595,fpr:0.314618
+un_un_precision: f1:0.383013,err_net:56,tp:4,fn:2,fp:54,tn:50,tpr:0.666667,fpr:0.519231
+0.5519009
+285 tensor(0.4779)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.627533,un_un_auc:0.858974,kn_un_auc:0.627556
+f1:0.529407,err_net:774,tp:140,fn:88,fp:686,tn:1484,tpr:0.614035,fpr:0.316129
+kn_un_precision: f1:0.532995,err_net:732,tp:136,fn:86,fp:646,tn:1420,tpr:0.612613,fpr:0.312681
+un_un_precision: f1:0.456471,err_net:42,tp:4,fn:2,fp:40,tn:64,tpr:0.666667,fpr:0.384615
+0.55166054
+286 tensor(0.4786)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.628236,un_un_auc:0.858974,kn_un_auc:0.628001
+f1:0.520854,err_net:804,tp:140,fn:88,fp:716,tn:1454,tpr:0.614035,fpr:0.329954
+kn_un_precision: f1:0.528034,err_net:744,tp:134,fn:88,fp:656,tn:1410,tpr:0.603604,fpr:0.317522
+un_un_precision: f1:0.380631,err_net:60,tp:6,fn:0,fp:60,tn:44,tpr:1.000000,fpr:0.576923
+0.55162185
+287 tensor(0.4776)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633883,un_un_auc:0.339744,kn_un_auc:0.634983
+f1:0.523975,err_net:784,tp:136,fn:92,fp:692,tn:1478,tpr:0.596491,fpr:0.318894
+kn_un_precision: f1:0.529528,err_net:730,tp:130,fn:92,fp:638,tn:1428,tpr:0.585586,fpr:0.308809
+un_un_precision: f1:0.415584,err_net:54,tp:6,fn:0,fp:54,tn:50,tpr:1.000000,fpr:0.519231
+0.55193496
+288 tensor(0.4853)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.628879,un_un_auc:0.858974,kn_un_auc:0.628712
+f1:0.521145,err_net:794,tp:136,fn:92,fp:702,tn:1468,tpr:0.596491,fpr:0.323502
+kn_un_precision: f1:0.525496,err_net:748,tp:132,fn:90,fp:658,tn:1408,tpr:0.594595,fpr:0.318490
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.55130005
+289 tensor(0.4813)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.628705,un_un_auc:0.858974,kn_un_auc:0.628533
+f1:0.520581,err_net:796,tp:136,fn:92,fp:704,tn:1466,tpr:0.596491,fpr:0.324424
+kn_un_precision: f1:0.526094,err_net:746,tp:132,fn:90,fp:656,tn:1410,tpr:0.594595,fpr:0.317522
+un_un_precision: f1:0.414645,err_net:50,tp:4,fn:2,fp:48,tn:56,tpr:0.666667,fpr:0.461538
+0.5513175
+290 tensor(0.4810)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.628677,un_un_auc:0.858974,kn_un_auc:0.628485
+f1:0.520983,err_net:790,tp:134,fn:94,fp:696,tn:1474,tpr:0.587719,fpr:0.320737
+kn_un_precision: f1:0.529693,err_net:734,tp:132,fn:90,fp:644,tn:1422,tpr:0.594595,fpr:0.311713
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.55089897
+291 tensor(0.4802)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.628685,un_un_auc:0.858974,kn_un_auc:0.628302
+f1:0.524260,err_net:792,tp:140,fn:88,fp:704,tn:1466,tpr:0.614035,fpr:0.324424
+kn_un_precision: f1:0.532256,err_net:730,tp:134,fn:88,fp:642,tn:1424,tpr:0.603604,fpr:0.310745
+un_un_precision: f1:0.368752,err_net:62,tp:6,fn:0,fp:62,tn:42,tpr:1.000000,fpr:0.596154
+0.55036086
+292 tensor(0.4800)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.628317,un_un_auc:0.858974,kn_un_auc:0.628062
+f1:0.522276,err_net:790,tp:136,fn:92,fp:698,tn:1472,tpr:0.596491,fpr:0.321659
+kn_un_precision: f1:0.529237,err_net:740,tp:134,fn:88,fp:652,tn:1414,tpr:0.603604,fpr:0.315586
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.55033076
+293 tensor(0.4798)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.627605,un_un_auc:0.858974,kn_un_auc:0.627426
+f1:0.526975,err_net:778,tp:138,fn:90,fp:688,tn:1482,tpr:0.605263,fpr:0.317051
+kn_un_precision: f1:0.531651,err_net:732,tp:134,fn:88,fp:644,tn:1422,tpr:0.603604,fpr:0.311713
+un_un_precision: f1:0.435520,err_net:46,tp:4,fn:2,fp:44,tn:60,tpr:0.666667,fpr:0.423077
+0.55047566
+294 tensor(0.4796)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  3,  0,  9,  2], device='cuda:0')
+auc:0.628090,un_un_auc:0.858974,kn_un_auc:0.627835
+f1:0.528490,err_net:786,tp:144,fn:84,fp:702,tn:1468,tpr:0.631579,fpr:0.323502
+kn_un_precision: f1:0.534326,err_net:732,tp:138,fn:84,fp:648,tn:1418,tpr:0.621622,fpr:0.313650
+un_un_precision: f1:0.415584,err_net:54,tp:6,fn:0,fp:54,tn:50,tpr:1.000000,fpr:0.519231
+0.55095094
+295 tensor(0.4797)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633867,un_un_auc:0.339744,kn_un_auc:0.634686
+f1:0.522990,err_net:792,tp:138,fn:90,fp:702,tn:1468,tpr:0.605263,fpr:0.323502
+kn_un_precision: f1:0.527291,err_net:742,tp:132,fn:90,fp:652,tn:1414,tpr:0.594595,fpr:0.315586
+un_un_precision: f1:0.438546,err_net:50,tp:6,fn:0,fp:50,tn:54,tpr:1.000000,fpr:0.480769
+0.55113786
+296 tensor(0.4794)
+index_order tensor([ 6,  1, 10,  3,  5,  4,  8,  2,  0,  9,  7], device='cuda:0')
+auc:0.633329,un_un_auc:0.339744,kn_un_auc:0.634516
+f1:0.525399,err_net:788,tp:140,fn:88,fp:700,tn:1470,tpr:0.614035,fpr:0.322581
+kn_un_precision: f1:0.534819,err_net:726,tp:136,fn:86,fp:640,tn:1426,tpr:0.612613,fpr:0.309777
+un_un_precision: f1:0.350476,err_net:62,tp:4,fn:2,fp:60,tn:44,tpr:0.666667,fpr:0.576923
+0.5517746
+297 tensor(0.4808)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  0,  9,  3], device='cuda:0')
+auc:0.639894,un_un_auc:0.237179,kn_un_auc:0.641772
+f1:0.516646,err_net:810,tp:136,fn:92,fp:718,tn:1452,tpr:0.596491,fpr:0.330876
+kn_un_precision: f1:0.528635,err_net:742,tp:134,fn:88,fp:654,tn:1412,tpr:0.603604,fpr:0.316554
+un_un_precision: f1:0.298048,err_net:68,tp:2,fn:4,fp:64,tn:40,tpr:0.333333,fpr:0.615385
+0.551499
+298 tensor(0.4811)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  0,  9,  3], device='cuda:0')
+auc:0.640723,un_un_auc:0.237179,kn_un_auc:0.642029
+f1:0.518557,err_net:794,tp:132,fn:96,fp:698,tn:1472,tpr:0.578947,fpr:0.321659
+kn_un_precision: f1:0.527130,err_net:738,tp:130,fn:92,fp:646,tn:1420,tpr:0.585586,fpr:0.312681
+un_un_precision: f1:0.358333,err_net:56,tp:2,fn:4,fp:52,tn:52,tpr:0.333333,fpr:0.500000
+0.5515316
+299 tensor(0.4808)
+index_order tensor([ 6,  1, 10,  7,  5,  4,  8,  2,  0,  9,  3], device='cuda:0')
+auc:0.640412,un_un_auc:0.237179,kn_un_auc:0.642147
+f1:0.521710,err_net:792,tp:136,fn:92,fp:700,tn:1470,tpr:0.596491,fpr:0.322581
+kn_un_precision: f1:0.528635,err_net:742,tp:134,fn:88,fp:654,tn:1412,tpr:0.603604,fpr:0.316554
+un_un_precision: f1:0.386435,err_net:50,tp:2,fn:4,fp:46,tn:58,tpr:0.333333,fpr:0.442308
+0.5516012

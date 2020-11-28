@@ -1,0 +1,918 @@
+all parameter  {'note': 'try init', 'node_num': 100, 'node_size': 100, 'conn_p': '25', 'seed': 2035, 'dim': 2, 'hid': 64, 'epoch_num': 500, 'batch_size': 1024, 'lr_net': 0.004, 'lr_dyn': 0.001, 'lr_stru': 1e-05, 'lr_state': 0.1, 'hard_sample': False, 'sample_time': 1, 'sys': 'voter', 'isom': True, 'temp': 1, 'drop_frac': 1, 'save': True}
+cuda
+data /data/chenmy/voter/seed2050renyi1005000-adjmat.pickle /data/chenmy/voter/seed2050renyi1005000-series.pickle
+tensor([1., 0., 0., 1., 1., 1., 0., 0., 0., 2.], device='cuda:1')
+start_time: 2020-11-23 20:31:16
+data_num 3532 object_matrix tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]], device='cuda:1')
+index_order tensor([1, 4, 3, 5, 7, 9, 2, 6, 0, 8], device='cuda:1')
+auc:0.665304,un_un_auc:0.595238,kn_un_auc:0.663086
+f1:0.414289,err_net:832,tp:58,fn:22,fp:810,tn:1000,tpr:0.725000,fpr:0.447514
+kn_un_precision: f1:0.412801,err_net:788,tp:52,fn:22,fp:766,tn:960,tpr:0.702703,fpr:0.443801
+un_un_precision: f1:0.429724,err_net:44,tp:6,fn:0,fp:44,tn:40,tpr:1.000000,fpr:0.523810
+0 gumbel all Net error: 0.440000,kn_un :0.440000,un_un:0.490000
+index_order tensor([6, 9, 1, 2, 4, 0, 5, 7, 3, 8], device='cuda:1')
+loss_y:0.503789,mse_y:0.245668
+cost_time 7.26
+index_order tensor([1, 4, 2, 7, 5, 9, 3, 6, 0, 8], device='cuda:1')
+auc:0.675359,un_un_auc:0.428571,kn_un_auc:0.677367
+f1:0.432429,err_net:770,tp:58,fn:22,fp:748,tn:1062,tpr:0.725000,fpr:0.413260
+kn_un_precision: f1:0.436633,err_net:722,tp:56,fn:18,fp:704,tn:1022,tpr:0.756757,fpr:0.407880
+un_un_precision: f1:0.350962,err_net:48,tp:2,fn:4,fp:44,tn:40,tpr:0.333333,fpr:0.523810
+1 gumbel all Net error: 0.410000,kn_un :0.400000,un_un:0.530000
+index_order tensor([2, 5, 1, 7, 0, 9, 6, 3, 4, 8], device='cuda:1')
+loss_y:0.479830,mse_y:0.227554
+cost_time 5.38
+index_order tensor([1, 4, 2, 9, 5, 7, 3, 6, 0, 8], device='cuda:1')
+auc:0.666796,un_un_auc:0.428571,kn_un_auc:0.667283
+f1:0.437731,err_net:764,tp:62,fn:18,fp:746,tn:1064,tpr:0.775000,fpr:0.412155
+kn_un_precision: f1:0.438484,err_net:716,tp:56,fn:18,fp:698,tn:1028,tpr:0.756757,fpr:0.404403
+un_un_precision: f1:0.400000,err_net:48,tp:6,fn:0,fp:48,tn:36,tpr:1.000000,fpr:0.571429
+2 gumbel all Net error: 0.400000,kn_un :0.400000,un_un:0.530000
+index_order tensor([0, 1, 9, 7, 5, 8, 3, 2, 4, 6], device='cuda:1')
+loss_y:0.455047,mse_y:0.221107
+cost_time 6.13
+index_order tensor([1, 4, 2, 9, 5, 7, 3, 6, 0, 8], device='cuda:1')
+auc:0.621519,un_un_auc:0.428571,kn_un_auc:0.619617
+f1:0.447324,err_net:706,tp:54,fn:26,fp:680,tn:1130,tpr:0.675000,fpr:0.375691
+kn_un_precision: f1:0.452928,err_net:656,tp:52,fn:22,fp:634,tn:1092,tpr:0.702703,fpr:0.367323
+un_un_precision: f1:0.338624,err_net:50,tp:2,fn:4,fp:46,tn:38,tpr:0.333333,fpr:0.547619
+3 gumbel all Net error: 0.370000,kn_un :0.360000,un_un:0.560000
+index_order tensor([2, 7, 4, 0, 8, 9, 6, 3, 1, 5], device='cuda:1')
+loss_y:0.430943,mse_y:0.216582
+cost_time 6.78
+index_order tensor([1, 4, 2, 9, 5, 7, 3, 6, 0, 8], device='cuda:1')
+auc:0.558978,un_un_auc:0.428571,kn_un_auc:0.554352
+f1:0.426437,err_net:752,tp:46,fn:34,fp:718,tn:1092,tpr:0.575000,fpr:0.396685
+kn_un_precision: f1:0.431957,err_net:698,tp:44,fn:30,fp:668,tn:1058,tpr:0.594595,fpr:0.387022
+un_un_precision: f1:0.313171,err_net:54,tp:2,fn:4,fp:50,tn:34,tpr:0.333333,fpr:0.595238
+4 gumbel all Net error: 0.400000,kn_un :0.390000,un_un:0.600000
+index_order tensor([0, 3, 4, 7, 5, 8, 1, 9, 2, 6], device='cuda:1')
+loss_y:0.421927,mse_y:0.214434
+cost_time 5.26
+index_order tensor([1, 4, 2, 9, 5, 7, 3, 6, 0, 8], device='cuda:1')
+auc:0.510580,un_un_auc:0.428571,kn_un_auc:0.505371
+f1:0.441895,err_net:718,tp:52,fn:28,fp:690,tn:1120,tpr:0.650000,fpr:0.381215
+kn_un_precision: f1:0.439952,err_net:678,tp:46,fn:28,fp:650,tn:1076,tpr:0.621622,fpr:0.376593
+un_un_precision: f1:0.459135,err_net:40,tp:6,fn:0,fp:40,tn:44,tpr:1.000000,fpr:0.476190
+5 gumbel all Net error: 0.380000,kn_un :0.380000,un_un:0.440000
+index_order tensor([1, 4, 8, 0, 7, 6, 9, 5, 3, 2], device='cuda:1')
+loss_y:0.419215,mse_y:0.213278
+cost_time 5.44
+index_order tensor([1, 4, 8, 9, 5, 7, 2, 6, 3, 0], device='cuda:1')
+auc:0.499392,un_un_auc:0.277778,kn_un_auc:0.497103
+f1:0.434240,err_net:724,tp:46,fn:34,fp:690,tn:1120,tpr:0.575000,fpr:0.381215
+kn_un_precision: f1:0.436831,err_net:674,tp:42,fn:32,fp:642,tn:1084,tpr:0.567568,fpr:0.371958
+un_un_precision: f1:0.364047,err_net:50,tp:4,fn:2,fp:48,tn:36,tpr:0.666667,fpr:0.571429
+6 gumbel all Net error: 0.380000,kn_un :0.370000,un_un:0.560000
+index_order tensor([7, 9, 6, 3, 8, 4, 2, 0, 5, 1], device='cuda:1')
+loss_y:0.417707,mse_y:0.212663
+cost_time 5.88
+index_order tensor([6, 1, 8, 9, 5, 7, 2, 4, 3, 0], device='cuda:1')
+auc:0.477624,un_un_auc:0.293651,kn_un_auc:0.475056
+f1:0.422282,err_net:760,tp:44,fn:36,fp:724,tn:1086,tpr:0.550000,fpr:0.400000
+kn_un_precision: f1:0.418214,err_net:724,tp:38,fn:36,fp:688,tn:1038,tpr:0.513514,fpr:0.398609
+un_un_precision: f1:0.488636,err_net:36,tp:6,fn:0,fp:36,tn:48,tpr:1.000000,fpr:0.428571
+7 gumbel all Net error: 0.400000,kn_un :0.400000,un_un:0.400000
+index_order tensor([8, 6, 7, 3, 4, 9, 0, 5, 2, 1], device='cuda:1')
+loss_y:0.414897,mse_y:0.212876
+cost_time 6.11
+index_order tensor([6, 9, 8, 1, 5, 7, 2, 4, 3, 0], device='cuda:1')
+auc:0.454309,un_un_auc:0.198413,kn_un_auc:0.453008
+f1:0.425404,err_net:734,tp:40,fn:40,fp:694,tn:1116,tpr:0.500000,fpr:0.383425
+kn_un_precision: f1:0.425031,err_net:700,tp:38,fn:36,fp:664,tn:1062,tpr:0.513514,fpr:0.384705
+un_un_precision: f1:0.432913,err_net:34,tp:2,fn:4,fp:30,tn:54,tpr:0.333333,fpr:0.357143
+8 gumbel all Net error: 0.390000,kn_un :0.390000,un_un:0.380000
+index_order tensor([5, 6, 8, 1, 7, 2, 3, 9, 0, 4], device='cuda:1')
+loss_y:0.413949,mse_y:0.213201
+cost_time 5.77
+index_order tensor([6, 1, 8, 9, 5, 7, 2, 4, 3, 0], device='cuda:1')
+auc:0.448923,un_un_auc:0.293651,kn_un_auc:0.446588
+f1:0.440592,err_net:686,tp:42,fn:38,fp:648,tn:1162,tpr:0.525000,fpr:0.358011
+kn_un_precision: f1:0.443288,err_net:644,tp:40,fn:34,fp:610,tn:1116,tpr:0.540541,fpr:0.353418
+un_un_precision: f1:0.386762,err_net:42,tp:2,fn:4,fp:38,tn:46,tpr:0.333333,fpr:0.452381
+9 gumbel all Net error: 0.360000,kn_un :0.360000,un_un:0.470000
+index_order tensor([4, 9, 2, 3, 7, 6, 5, 1, 0, 8], device='cuda:1')
+loss_y:0.411363,mse_y:0.212846
+cost_time 4.54
+index_order tensor([6, 1, 8, 9, 5, 7, 2, 4, 3, 0], device='cuda:1')
+auc:0.443425,un_un_auc:0.293651,kn_un_auc:0.440199
+f1:0.423938,err_net:754,tp:44,fn:36,fp:718,tn:1092,tpr:0.550000,fpr:0.396685
+kn_un_precision: f1:0.422003,err_net:718,tp:40,fn:34,fp:684,tn:1042,tpr:0.540541,fpr:0.396292
+un_un_precision: f1:0.458556,err_net:36,tp:4,fn:2,fp:34,tn:50,tpr:0.666667,fpr:0.404762
+10 gumbel all Net error: 0.400000,kn_un :0.400000,un_un:0.400000
+index_order tensor([4, 9, 3, 5, 1, 6, 2, 7, 0, 8], device='cuda:1')
+loss_y:0.411004,mse_y:0.213650
+cost_time 5.45
+index_order tensor([6, 1, 8, 9, 5, 7, 2, 4, 3, 0], device='cuda:1')
+auc:0.438867,un_un_auc:0.293651,kn_un_auc:0.435282
+f1:0.434240,err_net:724,tp:46,fn:34,fp:690,tn:1120,tpr:0.575000,fpr:0.381215
+kn_un_precision: f1:0.432763,err_net:688,tp:42,fn:32,fp:656,tn:1070,tpr:0.567568,fpr:0.380070
+un_un_precision: f1:0.458556,err_net:36,tp:4,fn:2,fp:34,tn:50,tpr:0.666667,fpr:0.404762
+11 gumbel all Net error: 0.380000,kn_un :0.380000,un_un:0.400000
+index_order tensor([7, 8, 9, 1, 5, 6, 4, 0, 3, 2], device='cuda:1')
+loss_y:0.412396,mse_y:0.213671
+cost_time 7.15
+index_order tensor([6, 3, 8, 9, 5, 7, 2, 1, 0, 4], device='cuda:1')
+auc:0.433011,un_un_auc:0.420635,kn_un_auc:0.426388
+f1:0.428684,err_net:706,tp:36,fn:44,fp:662,tn:1148,tpr:0.450000,fpr:0.365746
+kn_un_precision: f1:0.427808,err_net:666,tp:32,fn:42,fp:624,tn:1102,tpr:0.432432,fpr:0.361530
+un_un_precision: f1:0.431818,err_net:40,tp:4,fn:2,fp:38,tn:46,tpr:0.666667,fpr:0.452381
+12 gumbel all Net error: 0.370000,kn_un :0.370000,un_un:0.440000
+index_order tensor([6, 7, 1, 9, 5, 0, 2, 3, 8, 4], device='cuda:1')
+loss_y:0.409293,mse_y:0.213083
+cost_time 5.02
+index_order tensor([6, 1, 8, 9, 5, 7, 2, 3, 0, 4], device='cuda:1')
+auc:0.425497,un_un_auc:0.420635,kn_un_auc:0.417306
+f1:0.435143,err_net:690,tp:38,fn:42,fp:648,tn:1162,tpr:0.475000,fpr:0.358011
+kn_un_precision: f1:0.435699,err_net:646,tp:34,fn:40,fp:606,tn:1120,tpr:0.459459,fpr:0.351101
+un_un_precision: f1:0.405048,err_net:44,tp:4,fn:2,fp:42,tn:42,tpr:0.666667,fpr:0.500000
+13 gumbel all Net error: 0.370000,kn_un :0.360000,un_un:0.490000
+index_order tensor([4, 2, 8, 7, 5, 9, 1, 3, 6, 0], device='cuda:1')
+loss_y:0.407794,mse_y:0.212983
+cost_time 4.73
+index_order tensor([6, 1, 8, 9, 5, 7, 2, 3, 0, 4], device='cuda:1')
+auc:0.423481,un_un_auc:0.420635,kn_un_auc:0.415239
+f1:0.423351,err_net:718,tp:34,fn:46,fp:672,tn:1138,tpr:0.425000,fpr:0.371271
+kn_un_precision: f1:0.425998,err_net:664,tp:30,fn:44,fp:620,tn:1106,tpr:0.405405,fpr:0.359212
+un_un_precision: f1:0.335703,err_net:54,tp:4,fn:2,fp:52,tn:32,tpr:0.666667,fpr:0.619048
+14 gumbel all Net error: 0.380000,kn_un :0.370000,un_un:0.600000
+index_order tensor([6, 0, 8, 1, 3, 7, 2, 9, 4, 5], device='cuda:1')
+loss_y:0.407103,mse_y:0.213672
+cost_time 5.26
+index_order tensor([6, 1, 8, 9, 5, 7, 2, 3, 0, 4], device='cuda:1')
+auc:0.426271,un_un_auc:0.420635,kn_un_auc:0.418465
+f1:0.430278,err_net:716,tp:40,fn:40,fp:676,tn:1134,tpr:0.500000,fpr:0.373481
+kn_un_precision: f1:0.436407,err_net:660,tp:38,fn:36,fp:624,tn:1102,tpr:0.513514,fpr:0.361530
+un_un_precision: f1:0.300000,err_net:56,tp:2,fn:4,fp:52,tn:32,tpr:0.333333,fpr:0.619048
+15 gumbel all Net error: 0.380000,kn_un :0.370000,un_un:0.620000
+index_order tensor([6, 3, 9, 8, 5, 7, 1, 4, 2, 0], device='cuda:1')
+loss_y:0.408112,mse_y:0.213671
+cost_time 5.18
+index_order tensor([6, 1, 2, 9, 5, 7, 8, 3, 0, 4], device='cuda:1')
+auc:0.419061,un_un_auc:0.420635,kn_un_auc:0.407817
+f1:0.409057,err_net:780,tp:36,fn:44,fp:736,tn:1074,tpr:0.450000,fpr:0.406630
+kn_un_precision: f1:0.405902,err_net:738,tp:30,fn:44,fp:694,tn:1032,tpr:0.405405,fpr:0.402086
+un_un_precision: f1:0.444444,err_net:42,tp:6,fn:0,fp:42,tn:42,tpr:1.000000,fpr:0.500000
+16 gumbel all Net error: 0.410000,kn_un :0.410000,un_un:0.470000
+index_order tensor([1, 2, 8, 5, 4, 7, 9, 6, 3, 0], device='cuda:1')
+loss_y:0.405476,mse_y:0.213649
+cost_time 4.83
+index_order tensor([6, 1, 8, 9, 5, 7, 2, 3, 0, 4], device='cuda:1')
+auc:0.430856,un_un_auc:0.420635,kn_un_auc:0.422849
+f1:0.426355,err_net:698,tp:32,fn:48,fp:650,tn:1160,tpr:0.400000,fpr:0.359116
+kn_un_precision: f1:0.424682,err_net:660,tp:28,fn:46,fp:614,tn:1112,tpr:0.378378,fpr:0.355736
+un_un_precision: f1:0.445166,err_net:38,tp:4,fn:2,fp:36,tn:48,tpr:0.666667,fpr:0.428571
+17 gumbel all Net error: 0.370000,kn_un :0.370000,un_un:0.420000
+index_order tensor([6, 9, 2, 1, 7, 4, 8, 3, 0, 5], device='cuda:1')
+loss_y:0.403750,mse_y:0.212273
+cost_time 5.33
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.438260,un_un_auc:0.420635,kn_un_auc:0.430835
+f1:0.417551,err_net:748,tp:36,fn:44,fp:704,tn:1106,tpr:0.450000,fpr:0.388950
+kn_un_precision: f1:0.422350,err_net:694,tp:34,fn:40,fp:654,tn:1072,tpr:0.459459,fpr:0.378911
+un_un_precision: f1:0.313171,err_net:54,tp:2,fn:4,fp:50,tn:34,tpr:0.333333,fpr:0.595238
+18 gumbel all Net error: 0.400000,kn_un :0.390000,un_un:0.600000
+index_order tensor([6, 3, 9, 1, 5, 7, 2, 4, 0, 8], device='cuda:1')
+loss_y:0.405537,mse_y:0.212993
+cost_time 5.97
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.444613,un_un_auc:0.420635,kn_un_auc:0.436880
+f1:0.416992,err_net:708,tp:26,fn:54,fp:654,tn:1156,tpr:0.325000,fpr:0.361326
+kn_un_precision: f1:0.418026,err_net:676,tp:26,fn:48,fp:628,tn:1098,tpr:0.351351,fpr:0.363847
+un_un_precision: f1:nan,err_net:32,tp:0,fn:6,fp:26,tn:58,tpr:0.000000,fpr:0.309524
+19 gumbel all Net error: 0.370000,kn_un :0.380000,un_un:0.360000
+index_order tensor([3, 1, 8, 9, 0, 7, 6, 4, 2, 5], device='cuda:1')
+loss_y:0.404619,mse_y:0.212447
+cost_time 5.19
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.447514,un_un_auc:0.420635,kn_un_auc:0.439980
+f1:0.427624,err_net:710,tp:36,fn:44,fp:666,tn:1144,tpr:0.450000,fpr:0.367956
+kn_un_precision: f1:0.425611,err_net:674,tp:32,fn:42,fp:632,tn:1094,tpr:0.432432,fpr:0.366165
+un_un_precision: f1:0.458556,err_net:36,tp:4,fn:2,fp:34,tn:50,tpr:0.666667,fpr:0.404762
+20 gumbel all Net error: 0.380000,kn_un :0.370000,un_un:0.400000
+index_order tensor([6, 1, 2, 9, 5, 7, 4, 3, 0, 8], device='cuda:1')
+loss_y:0.403453,mse_y:0.212052
+cost_time 3.96
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.452624,un_un_auc:0.420635,kn_un_auc:0.445554
+f1:0.424327,err_net:688,tp:28,fn:52,fp:636,tn:1174,tpr:0.350000,fpr:0.351381
+kn_un_precision: f1:0.425419,err_net:648,tp:26,fn:48,fp:600,tn:1126,tpr:0.351351,fpr:0.347625
+un_un_precision: f1:0.398396,err_net:40,tp:2,fn:4,fp:36,tn:48,tpr:0.333333,fpr:0.428571
+21 gumbel all Net error: 0.360000,kn_un :0.360000,un_un:0.440000
+index_order tensor([5, 1, 2, 0, 7, 8, 9, 6, 3, 4], device='cuda:1')
+loss_y:0.402076,mse_y:0.211600
+cost_time 4.89
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.459641,un_un_auc:0.420635,kn_un_auc:0.452851
+f1:0.420205,err_net:730,tp:34,fn:46,fp:684,tn:1126,tpr:0.425000,fpr:0.377901
+kn_un_precision: f1:0.420575,err_net:684,tp:30,fn:44,fp:640,tn:1086,tpr:0.405405,fpr:0.370800
+un_un_precision: f1:0.391534,err_net:46,tp:4,fn:2,fp:44,tn:40,tpr:0.666667,fpr:0.523810
+22 gumbel all Net error: 0.390000,kn_un :0.380000,un_un:0.510000
+index_order tensor([0, 9, 6, 1, 5, 4, 7, 3, 2, 8], device='cuda:1')
+loss_y:0.401827,mse_y:0.211488
+cost_time 4.38
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.466271,un_un_auc:0.420635,kn_un_auc:0.460399
+f1:0.434368,err_net:676,tp:34,fn:46,fp:630,tn:1180,tpr:0.425000,fpr:0.348066
+kn_un_precision: f1:0.431426,err_net:644,tp:30,fn:44,fp:600,tn:1126,tpr:0.405405,fpr:0.347625
+un_un_precision: f1:0.485714,err_net:32,tp:4,fn:2,fp:30,tn:54,tpr:0.666667,fpr:0.357143
+23 gumbel all Net error: 0.360000,kn_un :0.360000,un_un:0.360000
+index_order tensor([0, 1, 5, 9, 3, 7, 6, 4, 2, 8], device='cuda:1')
+loss_y:0.402955,mse_y:0.211195
+cost_time 4.15
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.475635,un_un_auc:0.420635,kn_un_auc:0.469982
+f1:0.426873,err_net:696,tp:32,fn:48,fp:648,tn:1162,tpr:0.400000,fpr:0.358011
+kn_un_precision: f1:0.427359,err_net:650,tp:28,fn:46,fp:604,tn:1122,tpr:0.378378,fpr:0.349942
+un_un_precision: f1:0.391534,err_net:46,tp:4,fn:2,fp:44,tn:40,tpr:0.666667,fpr:0.523810
+24 gumbel all Net error: 0.370000,kn_un :0.360000,un_un:0.510000
+index_order tensor([2, 5, 7, 9, 8, 6, 3, 1, 0, 4], device='cuda:1')
+loss_y:0.401114,mse_y:0.210437
+cost_time 4.49
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.481409,un_un_auc:0.420635,kn_un_auc:0.476528
+f1:0.428428,err_net:690,tp:32,fn:48,fp:642,tn:1168,tpr:0.400000,fpr:0.354696
+kn_un_precision: f1:0.433306,err_net:646,tp:32,fn:42,fp:604,tn:1122,tpr:0.432432,fpr:0.349942
+un_un_precision: f1:nan,err_net:44,tp:0,fn:6,fp:38,tn:46,tpr:0.000000,fpr:0.452381
+25 gumbel all Net error: 0.370000,kn_un :0.360000,un_un:0.490000
+index_order tensor([6, 5, 2, 1, 7, 9, 3, 4, 0, 8], device='cuda:1')
+loss_y:0.398035,mse_y:0.209006
+cost_time 8.27
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.495746,un_un_auc:0.420635,kn_un_auc:0.490652
+f1:0.428428,err_net:690,tp:32,fn:48,fp:642,tn:1168,tpr:0.400000,fpr:0.354696
+kn_un_precision: f1:0.429501,err_net:642,tp:28,fn:46,fp:596,tn:1130,tpr:0.378378,fpr:0.345307
+un_un_precision: f1:0.377880,err_net:48,tp:4,fn:2,fp:46,tn:38,tpr:0.666667,fpr:0.547619
+26 gumbel all Net error: 0.370000,kn_un :0.360000,un_un:0.530000
+index_order tensor([3, 5, 1, 9, 7, 0, 8, 6, 2, 4], device='cuda:1')
+loss_y:0.398137,mse_y:0.209386
+cost_time 4.49
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.506796,un_un_auc:0.420635,kn_un_auc:0.501174
+f1:0.436755,err_net:684,tp:38,fn:42,fp:642,tn:1168,tpr:0.475000,fpr:0.354696
+kn_un_precision: f1:0.433306,err_net:646,tp:32,fn:42,fp:604,tn:1122,tpr:0.432432,fpr:0.349942
+un_un_precision: f1:0.473846,err_net:38,tp:6,fn:0,fp:38,tn:46,tpr:1.000000,fpr:0.452381
+27 gumbel all Net error: 0.360000,kn_un :0.360000,un_un:0.420000
+index_order tensor([3, 1, 9, 4, 8, 7, 2, 6, 0, 5], device='cuda:1')
+loss_y:0.396328,mse_y:0.209147
+cost_time 5.07
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.510249,un_un_auc:0.420635,kn_un_auc:0.505621
+f1:0.435055,err_net:682,tp:36,fn:44,fp:638,tn:1172,tpr:0.450000,fpr:0.352486
+kn_un_precision: f1:0.432205,err_net:650,tp:32,fn:42,fp:608,tn:1118,tpr:0.432432,fpr:0.352260
+un_un_precision: f1:0.485714,err_net:32,tp:4,fn:2,fp:30,tn:54,tpr:0.666667,fpr:0.357143
+28 gumbel all Net error: 0.360000,kn_un :0.360000,un_un:0.360000
+index_order tensor([6, 8, 2, 9, 5, 7, 3, 4, 1, 0], device='cuda:1')
+loss_y:0.395848,mse_y:0.208157
+cost_time 4.51
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.515276,un_un_auc:0.420635,kn_un_auc:0.511572
+f1:0.435680,err_net:688,tp:38,fn:42,fp:646,tn:1164,tpr:0.475000,fpr:0.356906
+kn_un_precision: f1:0.436815,err_net:642,tp:34,fn:40,fp:602,tn:1124,tpr:0.459459,fpr:0.348783
+un_un_precision: f1:0.391534,err_net:46,tp:4,fn:2,fp:44,tn:40,tpr:0.666667,fpr:0.523810
+29 gumbel all Net error: 0.360000,kn_un :0.360000,un_un:0.510000
+index_order tensor([3, 4, 2, 9, 0, 7, 8, 1, 6, 5], device='cuda:1')
+loss_y:0.396458,mse_y:0.208436
+cost_time 4.15
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.524282,un_un_auc:0.420635,kn_un_auc:0.520810
+f1:0.437183,err_net:674,tp:36,fn:44,fp:630,tn:1180,tpr:0.450000,fpr:0.348066
+kn_un_precision: f1:0.440724,err_net:628,tp:34,fn:40,fp:588,tn:1138,tpr:0.459459,fpr:0.340672
+un_un_precision: f1:0.363077,err_net:46,tp:2,fn:4,fp:42,tn:42,tpr:0.333333,fpr:0.500000
+30 gumbel all Net error: 0.360000,kn_un :0.350000,un_un:0.510000
+index_order tensor([6, 2, 3, 9, 5, 7, 8, 1, 0, 4], device='cuda:1')
+loss_y:0.393342,mse_y:0.206884
+cost_time 4.75
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.531823,un_un_auc:0.420635,kn_un_auc:0.528984
+f1:0.439846,err_net:664,tp:36,fn:44,fp:620,tn:1190,tpr:0.450000,fpr:0.342541
+kn_un_precision: f1:0.442133,err_net:614,tp:32,fn:42,fp:572,tn:1154,tpr:0.432432,fpr:0.331402
+un_un_precision: f1:0.364047,err_net:50,tp:4,fn:2,fp:48,tn:36,tpr:0.666667,fpr:0.571429
+31 gumbel all Net error: 0.350000,kn_un :0.340000,un_un:0.560000
+index_order tensor([6, 1, 2, 9, 7, 4, 3, 8, 0, 5], device='cuda:1')
+loss_y:0.392785,mse_y:0.205487
+cost_time 5.1
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.538398,un_un_auc:0.420635,kn_un_auc:0.536156
+f1:0.436755,err_net:684,tp:38,fn:42,fp:642,tn:1168,tpr:0.475000,fpr:0.354696
+kn_un_precision: f1:0.440889,err_net:636,tp:36,fn:38,fp:598,tn:1128,tpr:0.486486,fpr:0.346466
+un_un_precision: f1:0.350962,err_net:48,tp:2,fn:4,fp:44,tn:40,tpr:0.333333,fpr:0.523810
+32 gumbel all Net error: 0.360000,kn_un :0.350000,un_un:0.530000
+index_order tensor([6, 3, 0, 9, 5, 7, 1, 4, 2, 8], device='cuda:1')
+loss_y:0.391517,mse_y:0.205298
+cost_time 4.28
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.543011,un_un_auc:0.420635,kn_un_auc:0.541136
+f1:0.440593,err_net:678,tp:40,fn:40,fp:638,tn:1172,tpr:0.500000,fpr:0.352486
+kn_un_precision: f1:0.445552,err_net:628,tp:38,fn:36,fp:592,tn:1134,tpr:0.513514,fpr:0.342990
+un_un_precision: f1:0.338624,err_net:50,tp:2,fn:4,fp:46,tn:38,tpr:0.333333,fpr:0.547619
+33 gumbel all Net error: 0.360000,kn_un :0.350000,un_un:0.560000
+index_order tensor([6, 0, 1, 9, 5, 7, 3, 8, 2, 4], device='cuda:1')
+loss_y:0.391008,mse_y:0.204823
+cost_time 4.91
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.550470,un_un_auc:0.420635,kn_un_auc:0.548213
+f1:0.430848,err_net:706,tp:38,fn:42,fp:664,tn:1146,tpr:0.475000,fpr:0.366851
+kn_un_precision: f1:0.438688,err_net:652,tp:38,fn:36,fp:616,tn:1110,tpr:0.513514,fpr:0.356895
+un_un_precision: f1:nan,err_net:54,tp:0,fn:6,fp:48,tn:36,tpr:0.000000,fpr:0.571429
+34 gumbel all Net error: 0.370000,kn_un :0.360000,un_un:0.600000
+index_order tensor([6, 3, 2, 1, 7, 9, 5, 8, 0, 4], device='cuda:1')
+loss_y:0.389167,mse_y:0.203652
+cost_time 5.42
+index_order tensor([6, 3, 8, 9, 5, 7, 2, 1, 0, 4], device='cuda:1')
+auc:0.568508,un_un_auc:0.420635,kn_un_auc:0.565250
+f1:0.438907,err_net:676,tp:38,fn:42,fp:634,tn:1176,tpr:0.475000,fpr:0.350276
+kn_un_precision: f1:0.445421,err_net:620,tp:36,fn:38,fp:582,tn:1144,tpr:0.486486,fpr:0.337196
+un_un_precision: f1:0.300000,err_net:56,tp:2,fn:4,fp:52,tn:32,tpr:0.333333,fpr:0.619048
+35 gumbel all Net error: 0.360000,kn_un :0.340000,un_un:0.620000
+index_order tensor([1, 5, 8, 3, 7, 6, 9, 4, 0, 2], device='cuda:1')
+loss_y:0.388560,mse_y:0.203603
+cost_time 5.01
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.566740,un_un_auc:0.420635,kn_un_auc:0.562431
+f1:0.440042,err_net:688,tp:42,fn:38,fp:650,tn:1160,tpr:0.525000,fpr:0.359116
+kn_un_precision: f1:0.439194,err_net:642,tp:36,fn:38,fp:604,tn:1122,tpr:0.486486,fpr:0.349942
+un_un_precision: f1:0.414924,err_net:46,tp:6,fn:0,fp:46,tn:38,tpr:1.000000,fpr:0.547619
+36 gumbel all Net error: 0.360000,kn_un :0.360000,un_un:0.510000
+index_order tensor([6, 3, 1, 9, 7, 4, 2, 8, 0, 5], device='cuda:1')
+loss_y:0.388896,mse_y:0.203605
+cost_time 5.28
+index_order tensor([6, 3, 8, 9, 5, 7, 2, 1, 0, 4], device='cuda:1')
+auc:0.580028,un_un_auc:0.420635,kn_un_auc:0.577119
+f1:0.437293,err_net:682,tp:38,fn:42,fp:640,tn:1170,tpr:0.475000,fpr:0.353591
+kn_un_precision: f1:0.441454,err_net:634,tp:36,fn:38,fp:596,tn:1130,tpr:0.486486,fpr:0.345307
+un_un_precision: f1:0.350962,err_net:48,tp:2,fn:4,fp:44,tn:40,tpr:0.333333,fpr:0.523810
+37 gumbel all Net error: 0.360000,kn_un :0.350000,un_un:0.530000
+index_order tensor([6, 5, 2, 1, 7, 9, 3, 8, 0, 4], device='cuda:1')
+loss_y:0.387268,mse_y:0.203181
+cost_time 4.95
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.575497,un_un_auc:0.420635,kn_un_auc:0.571889
+f1:0.438369,err_net:678,tp:38,fn:42,fp:636,tn:1174,tpr:0.475000,fpr:0.351381
+kn_un_precision: f1:0.441283,err_net:626,tp:34,fn:40,fp:586,tn:1140,tpr:0.459459,fpr:0.339513
+un_un_precision: f1:0.350000,err_net:52,tp:4,fn:2,fp:50,tn:34,tpr:0.666667,fpr:0.595238
+38 gumbel all Net error: 0.360000,kn_un :0.350000,un_un:0.580000
+index_order tensor([6, 5, 1, 9, 3, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.386839,mse_y:0.202282
+cost_time 3.96
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.579972,un_un_auc:0.420635,kn_un_auc:0.576493
+f1:0.453884,err_net:654,tp:46,fn:34,fp:620,tn:1190,tpr:0.575000,fpr:0.342541
+kn_un_precision: f1:0.456146,err_net:616,tp:44,fn:30,fp:586,tn:1140,tpr:0.594595,fpr:0.339513
+un_un_precision: f1:0.409938,err_net:38,tp:2,fn:4,fp:34,tn:50,tpr:0.333333,fpr:0.404762
+39 gumbel all Net error: 0.350000,kn_un :0.340000,un_un:0.420000
+index_order tensor([6, 1, 8, 9, 5, 7, 2, 4, 3, 0], device='cuda:1')
+loss_y:0.387241,mse_y:0.201849
+cost_time 3.68
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.585718,un_un_auc:0.420635,kn_un_auc:0.582944
+f1:0.444410,err_net:680,tp:44,fn:36,fp:644,tn:1166,tpr:0.550000,fpr:0.355801
+kn_un_precision: f1:0.440972,err_net:644,tp:38,fn:36,fp:608,tn:1118,tpr:0.513514,fpr:0.352260
+un_un_precision: f1:0.488636,err_net:36,tp:6,fn:0,fp:36,tn:48,tpr:1.000000,fpr:0.428571
+40 gumbel all Net error: 0.360000,kn_un :0.360000,un_un:0.400000
+index_order tensor([3, 5, 8, 9, 7, 6, 1, 4, 0, 2], device='cuda:1')
+loss_y:0.384361,mse_y:0.200437
+cost_time 4.23
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.588536,un_un_auc:0.420635,kn_un_auc:0.586108
+f1:0.456718,err_net:644,tp:46,fn:34,fp:610,tn:1200,tpr:0.575000,fpr:0.337017
+kn_un_precision: f1:0.458523,err_net:600,tp:42,fn:32,fp:568,tn:1158,tpr:0.567568,fpr:0.329085
+un_un_precision: f1:0.405048,err_net:44,tp:4,fn:2,fp:42,tn:42,tpr:0.666667,fpr:0.500000
+41 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.490000
+index_order tensor([6, 3, 2, 9, 5, 7, 1, 8, 0, 4], device='cuda:1')
+loss_y:0.383602,mse_y:0.199770
+cost_time 5.11
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.592403,un_un_auc:0.420635,kn_un_auc:0.590210
+f1:0.446099,err_net:666,tp:42,fn:38,fp:628,tn:1182,tpr:0.525000,fpr:0.346961
+kn_un_precision: f1:0.453744,err_net:608,tp:40,fn:34,fp:574,tn:1152,tpr:0.540541,fpr:0.332561
+un_un_precision: f1:0.286495,err_net:58,tp:2,fn:4,fp:54,tn:30,tpr:0.333333,fpr:0.642857
+42 gumbel all Net error: 0.350000,kn_un :0.340000,un_un:0.640000
+index_order tensor([6, 3, 2, 9, 5, 7, 1, 8, 0, 4], device='cuda:1')
+loss_y:0.381697,mse_y:0.198121
+cost_time 4.39
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.596077,un_un_auc:0.420635,kn_un_auc:0.594344
+f1:0.451633,err_net:646,tp:42,fn:38,fp:608,tn:1202,tpr:0.525000,fpr:0.335912
+kn_un_precision: f1:0.457930,err_net:602,tp:42,fn:32,fp:570,tn:1156,tpr:0.567568,fpr:0.330243
+un_un_precision: f1:nan,err_net:44,tp:0,fn:6,fp:38,tn:46,tpr:0.000000,fpr:0.452381
+43 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.490000
+index_order tensor([3, 5, 8, 9, 7, 6, 2, 1, 0, 4], device='cuda:1')
+loss_y:0.380875,mse_y:0.197032
+cost_time 4.28
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.599807,un_un_auc:0.420635,kn_un_auc:0.598666
+f1:0.465861,err_net:612,tp:46,fn:34,fp:578,tn:1232,tpr:0.575000,fpr:0.319337
+kn_un_precision: f1:0.463742,err_net:574,tp:40,fn:34,fp:540,tn:1186,tpr:0.540541,fpr:0.312862
+un_un_precision: f1:0.473846,err_net:38,tp:6,fn:0,fp:38,tn:46,tpr:1.000000,fpr:0.452381
+44 gumbel all Net error: 0.320000,kn_un :0.320000,un_un:0.420000
+index_order tensor([6, 1, 2, 9, 7, 4, 3, 8, 0, 5], device='cuda:1')
+loss_y:0.379104,mse_y:0.195901
+cost_time 4.51
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.602431,un_un_auc:0.420635,kn_un_auc:0.601610
+f1:0.442792,err_net:678,tp:42,fn:38,fp:640,tn:1170,tpr:0.525000,fpr:0.353591
+kn_un_precision: f1:0.444405,err_net:632,tp:38,fn:36,fp:596,tn:1130,tpr:0.513514,fpr:0.345307
+un_un_precision: f1:0.391534,err_net:46,tp:4,fn:2,fp:44,tn:40,tpr:0.666667,fpr:0.523810
+45 gumbel all Net error: 0.360000,kn_un :0.350000,un_un:0.510000
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 4, 0, 8], device='cuda:1')
+loss_y:0.378843,mse_y:0.195342
+cost_time 4.73
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.605635,un_un_auc:0.420635,kn_un_auc:0.605243
+f1:0.451103,err_net:656,tp:44,fn:36,fp:620,tn:1190,tpr:0.550000,fpr:0.342541
+kn_un_precision: f1:0.456746,err_net:606,tp:42,fn:32,fp:574,tn:1152,tpr:0.567568,fpr:0.332561
+un_un_precision: f1:0.338624,err_net:50,tp:2,fn:4,fp:46,tn:38,tpr:0.333333,fpr:0.547619
+46 gumbel all Net error: 0.350000,kn_un :0.340000,un_un:0.560000
+index_order tensor([6, 4, 8, 9, 5, 7, 3, 1, 0, 2], device='cuda:1')
+loss_y:0.375814,mse_y:0.193506
+cost_time 4.03
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.607348,un_un_auc:0.420635,kn_un_auc:0.607028
+f1:0.444301,err_net:656,tp:38,fn:42,fp:614,tn:1196,tpr:0.475000,fpr:0.339227
+kn_un_precision: f1:0.447453,err_net:604,tp:34,fn:40,fp:564,tn:1162,tpr:0.459459,fpr:0.326767
+un_un_precision: f1:0.350000,err_net:52,tp:4,fn:2,fp:50,tn:34,tpr:0.666667,fpr:0.595238
+47 gumbel all Net error: 0.350000,kn_un :0.340000,un_un:0.580000
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+loss_y:0.374666,mse_y:0.193255
+cost_time 3.92
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.611326,un_un_auc:0.420635,kn_un_auc:0.611475
+f1:0.451103,err_net:656,tp:44,fn:36,fp:620,tn:1190,tpr:0.550000,fpr:0.342541
+kn_un_precision: f1:0.453744,err_net:608,tp:40,fn:34,fp:574,tn:1152,tpr:0.540541,fpr:0.332561
+un_un_precision: f1:0.377880,err_net:48,tp:4,fn:2,fp:46,tn:38,tpr:0.666667,fpr:0.547619
+48 gumbel all Net error: 0.350000,kn_un :0.340000,un_un:0.530000
+index_order tensor([6, 1, 8, 3, 5, 7, 2, 9, 0, 4], device='cuda:1')
+loss_y:0.372693,mse_y:0.192130
+cost_time 4.02
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.613895,un_un_auc:0.420635,kn_un_auc:0.614481
+f1:0.452743,err_net:642,tp:42,fn:38,fp:604,tn:1206,tpr:0.525000,fpr:0.333702
+kn_un_precision: f1:0.455351,err_net:594,tp:38,fn:36,fp:558,tn:1168,tpr:0.513514,fpr:0.323291
+un_un_precision: f1:0.377880,err_net:48,tp:4,fn:2,fp:46,tn:38,tpr:0.666667,fpr:0.547619
+49 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.530000
+index_order tensor([5, 3, 2, 9, 7, 6, 1, 8, 0, 4], device='cuda:1')
+loss_y:0.371917,mse_y:0.192441
+cost_time 4.24
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.617044,un_un_auc:0.420635,kn_un_auc:0.617456
+f1:0.463564,err_net:620,tp:46,fn:34,fp:586,tn:1224,tpr:0.575000,fpr:0.323757
+kn_un_precision: f1:0.461494,err_net:590,tp:42,fn:32,fp:558,tn:1168,tpr:0.567568,fpr:0.323291
+un_un_precision: f1:0.499629,err_net:30,tp:4,fn:2,fp:28,tn:56,tpr:0.666667,fpr:0.333333
+50 gumbel all Net error: 0.330000,kn_un :0.330000,un_un:0.330000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.370401,mse_y:0.190853
+cost_time 4.34
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.618812,un_un_auc:0.420635,kn_un_auc:0.618928
+f1:0.456718,err_net:644,tp:46,fn:34,fp:610,tn:1200,tpr:0.575000,fpr:0.337017
+kn_un_precision: f1:0.458535,err_net:608,tp:44,fn:30,fp:578,tn:1148,tpr:0.594595,fpr:0.334878
+un_un_precision: f1:0.421429,err_net:36,tp:2,fn:4,fp:32,tn:52,tpr:0.333333,fpr:0.380952
+51 gumbel all Net error: 0.340000,kn_un :0.340000,un_un:0.400000
+index_order tensor([6, 1, 2, 9, 5, 7, 0, 8, 3, 4], device='cuda:1')
+loss_y:0.370569,mse_y:0.190500
+cost_time 4.44
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.623315,un_un_auc:0.420635,kn_un_auc:0.623720
+f1:0.452783,err_net:650,tp:44,fn:36,fp:614,tn:1196,tpr:0.550000,fpr:0.339227
+kn_un_precision: f1:0.457843,err_net:594,tp:40,fn:34,fp:560,tn:1166,tpr:0.540541,fpr:0.324450
+un_un_precision: f1:0.321121,err_net:56,tp:4,fn:2,fp:54,tn:30,tpr:0.666667,fpr:0.642857
+52 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.620000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.371509,mse_y:0.191738
+cost_time 4.84
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.626961,un_un_auc:0.420635,kn_un_auc:0.627196
+f1:0.449969,err_net:652,tp:42,fn:38,fp:614,tn:1196,tpr:0.525000,fpr:0.339227
+kn_un_precision: f1:0.450150,err_net:612,tp:38,fn:36,fp:576,tn:1150,tpr:0.513514,fpr:0.333720
+un_un_precision: f1:0.431818,err_net:40,tp:4,fn:2,fp:38,tn:46,tpr:0.666667,fpr:0.452381
+53 gumbel all Net error: 0.340000,kn_un :0.340000,un_un:0.440000
+index_order tensor([6, 3, 8, 1, 5, 7, 2, 9, 0, 4], device='cuda:1')
+loss_y:0.370703,mse_y:0.191617
+cost_time 4.57
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.627348,un_un_auc:0.420635,kn_un_auc:0.627134
+f1:0.464631,err_net:632,tp:50,fn:30,fp:602,tn:1208,tpr:0.625000,fpr:0.332597
+kn_un_precision: f1:0.470588,err_net:584,tp:48,fn:26,fp:558,tn:1168,tpr:0.648649,fpr:0.323291
+un_un_precision: f1:0.350962,err_net:48,tp:2,fn:4,fp:44,tn:40,tpr:0.333333,fpr:0.523810
+54 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.530000
+index_order tensor([6, 5, 8, 9, 7, 4, 3, 1, 0, 2], device='cuda:1')
+loss_y:0.369401,mse_y:0.189555
+cost_time 4.41
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.630552,un_un_auc:0.420635,kn_un_auc:0.630798
+f1:0.469222,err_net:592,tp:44,fn:36,fp:556,tn:1254,tpr:0.550000,fpr:0.307182
+kn_un_precision: f1:0.469101,err_net:556,tp:40,fn:34,fp:522,tn:1204,tpr:0.540541,fpr:0.302433
+un_un_precision: f1:0.458556,err_net:36,tp:4,fn:2,fp:34,tn:50,tpr:0.666667,fpr:0.404762
+55 gumbel all Net error: 0.310000,kn_un :0.310000,un_un:0.400000
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+loss_y:0.367993,mse_y:0.189372
+cost_time 4.44
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.629779,un_un_auc:0.420635,kn_un_auc:0.629545
+f1:0.459537,err_net:626,tp:44,fn:36,fp:590,tn:1220,tpr:0.550000,fpr:0.325967
+kn_un_precision: f1:0.466277,err_net:574,tp:42,fn:32,fp:542,tn:1184,tpr:0.567568,fpr:0.314021
+un_un_precision: f1:0.326037,err_net:52,tp:2,fn:4,fp:48,tn:36,tpr:0.333333,fpr:0.571429
+56 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.580000
+index_order tensor([6, 3, 1, 9, 5, 7, 4, 8, 0, 2], device='cuda:1')
+loss_y:0.366893,mse_y:0.188741
+cost_time 4.6
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.629917,un_un_auc:0.420635,kn_un_auc:0.629858
+f1:0.458407,err_net:630,tp:44,fn:36,fp:594,tn:1216,tpr:0.550000,fpr:0.328177
+kn_un_precision: f1:0.463881,err_net:582,tp:42,fn:32,fp:550,tn:1176,tpr:0.567568,fpr:0.318656
+un_un_precision: f1:0.350962,err_net:48,tp:2,fn:4,fp:44,tn:40,tpr:0.333333,fpr:0.523810
+57 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.530000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.366931,mse_y:0.188327
+cost_time 4.77
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.630414,un_un_auc:0.420635,kn_un_auc:0.630391
+f1:0.458710,err_net:612,tp:40,fn:40,fp:572,tn:1238,tpr:0.500000,fpr:0.316022
+kn_un_precision: f1:0.460589,err_net:576,tp:38,fn:36,fp:540,tn:1186,tpr:0.513514,fpr:0.312862
+un_un_precision: f1:0.421429,err_net:36,tp:2,fn:4,fp:32,tn:52,tpr:0.333333,fpr:0.380952
+58 gumbel all Net error: 0.320000,kn_un :0.320000,un_un:0.400000
+index_order tensor([8, 1, 2, 9, 7, 6, 3, 4, 0, 5], device='cuda:1')
+loss_y:0.365854,mse_y:0.189116
+cost_time 5.42
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.631492,un_un_auc:0.420635,kn_un_auc:0.631675
+f1:0.455590,err_net:640,tp:44,fn:36,fp:604,tn:1206,tpr:0.550000,fpr:0.333702
+kn_un_precision: f1:0.458523,err_net:600,tp:42,fn:32,fp:568,tn:1158,tpr:0.567568,fpr:0.329085
+un_un_precision: f1:0.398396,err_net:40,tp:2,fn:4,fp:36,tn:48,tpr:0.333333,fpr:0.428571
+59 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.440000
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+loss_y:0.366175,mse_y:0.188653
+cost_time 4.46
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.634006,un_un_auc:0.420635,kn_un_auc:0.634681
+f1:0.452223,err_net:652,tp:44,fn:36,fp:616,tn:1194,tpr:0.550000,fpr:0.340331
+kn_un_precision: f1:0.453160,err_net:610,tp:40,fn:34,fp:576,tn:1150,tpr:0.540541,fpr:0.333720
+un_un_precision: f1:0.418462,err_net:42,tp:4,fn:2,fp:40,tn:44,tpr:0.666667,fpr:0.476190
+60 gumbel all Net error: 0.340000,kn_un :0.340000,un_un:0.470000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.364661,mse_y:0.186251
+cost_time 4.1
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.636823,un_un_auc:0.420635,kn_un_auc:0.637625
+f1:0.468187,err_net:612,tp:48,fn:32,fp:580,tn:1230,tpr:0.600000,fpr:0.320442
+kn_un_precision: f1:0.467479,err_net:570,tp:42,fn:32,fp:538,tn:1188,tpr:0.567568,fpr:0.311703
+un_un_precision: f1:0.444444,err_net:42,tp:6,fn:0,fp:42,tn:42,tpr:1.000000,fpr:0.500000
+61 gumbel all Net error: 0.320000,kn_un :0.320000,un_un:0.470000
+index_order tensor([8, 1, 2, 9, 7, 6, 3, 4, 0, 5], device='cuda:1')
+loss_y:0.364212,mse_y:0.187658
+cost_time 4.54
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.637155,un_un_auc:0.420635,kn_un_auc:0.638157
+f1:0.458319,err_net:622,tp:42,fn:38,fp:584,tn:1226,tpr:0.525000,fpr:0.322652
+kn_un_precision: f1:0.462558,err_net:578,tp:40,fn:34,fp:544,tn:1182,tpr:0.540541,fpr:0.315180
+un_un_precision: f1:0.375000,err_net:44,tp:2,fn:4,fp:40,tn:44,tpr:0.333333,fpr:0.476190
+62 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.490000
+index_order tensor([6, 3, 8, 9, 5, 7, 2, 1, 0, 4], device='cuda:1')
+loss_y:0.363620,mse_y:0.187601
+cost_time 4.36
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.639337,un_un_auc:0.420635,kn_un_auc:0.640475
+f1:0.456716,err_net:636,tp:44,fn:36,fp:600,tn:1210,tpr:0.550000,fpr:0.331492
+kn_un_precision: f1:0.462687,err_net:586,tp:42,fn:32,fp:554,tn:1172,tpr:0.567568,fpr:0.320973
+un_un_precision: f1:0.338624,err_net:50,tp:2,fn:4,fp:46,tn:38,tpr:0.333333,fpr:0.547619
+63 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.560000
+index_order tensor([6, 3, 2, 1, 7, 4, 9, 8, 0, 5], device='cuda:1')
+loss_y:0.362430,mse_y:0.186162
+cost_time 4.83
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.637928,un_un_auc:0.420635,kn_un_auc:0.638690
+f1:0.457855,err_net:640,tp:46,fn:34,fp:606,tn:1204,tpr:0.575000,fpr:0.334807
+kn_un_precision: f1:0.460332,err_net:602,tp:44,fn:30,fp:572,tn:1154,tpr:0.594595,fpr:0.331402
+un_un_precision: f1:0.409938,err_net:38,tp:2,fn:4,fp:34,tn:50,tpr:0.333333,fpr:0.404762
+64 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.420000
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+loss_y:0.363225,mse_y:0.185313
+cost_time 4.34
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.633425,un_un_auc:0.420635,kn_un_auc:0.633773
+f1:0.452743,err_net:642,tp:42,fn:38,fp:604,tn:1206,tpr:0.525000,fpr:0.333702
+kn_un_precision: f1:0.457843,err_net:594,tp:40,fn:34,fp:560,tn:1166,tpr:0.540541,fpr:0.324450
+un_un_precision: f1:0.350962,err_net:48,tp:2,fn:4,fp:44,tn:40,tpr:0.333333,fpr:0.523810
+65 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.530000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.362096,mse_y:0.185846
+cost_time 4.06
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.634917,un_un_auc:0.420635,kn_un_auc:0.635401
+f1:0.473434,err_net:602,tp:50,fn:30,fp:572,tn:1238,tpr:0.625000,fpr:0.316022
+kn_un_precision: f1:0.474953,err_net:562,tp:46,fn:28,fp:534,tn:1192,tpr:0.621622,fpr:0.309386
+un_un_precision: f1:0.431818,err_net:40,tp:4,fn:2,fp:38,tn:46,tpr:0.666667,fpr:0.452381
+66 gumbel all Net error: 0.320000,kn_un :0.310000,un_un:0.440000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.361870,mse_y:0.185785
+cost_time 6.98
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.637265,un_un_auc:0.420635,kn_un_auc:0.637719
+f1:0.464128,err_net:626,tp:48,fn:32,fp:594,tn:1216,tpr:0.600000,fpr:0.328177
+kn_un_precision: f1:0.468184,err_net:584,tp:46,fn:28,fp:556,tn:1170,tpr:0.621622,fpr:0.322132
+un_un_precision: f1:0.386762,err_net:42,tp:2,fn:4,fp:38,tn:46,tpr:0.333333,fpr:0.452381
+67 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.470000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.362697,mse_y:0.186132
+cost_time 4.53
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.641188,un_un_auc:0.420635,kn_un_auc:0.641477
+f1:0.458370,err_net:646,tp:48,fn:32,fp:614,tn:1196,tpr:0.600000,fpr:0.339227
+kn_un_precision: f1:0.461494,err_net:590,tp:42,fn:32,fp:558,tn:1168,tpr:0.567568,fpr:0.323291
+un_un_precision: f1:0.338235,err_net:56,tp:6,fn:0,fp:56,tn:28,tpr:1.000000,fpr:0.666667
+68 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.620000
+index_order tensor([6, 8, 1, 9, 5, 7, 2, 3, 0, 4], device='cuda:1')
+loss_y:0.364255,mse_y:0.186496
+cost_time 4.74
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.640746,un_un_auc:0.420635,kn_un_auc:0.641790
+f1:0.461802,err_net:618,tp:44,fn:36,fp:582,tn:1228,tpr:0.550000,fpr:0.321547
+kn_un_precision: f1:0.465677,err_net:576,tp:42,fn:32,fp:544,tn:1182,tpr:0.567568,fpr:0.315180
+un_un_precision: f1:0.386762,err_net:42,tp:2,fn:4,fp:38,tn:46,tpr:0.333333,fpr:0.452381
+69 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.470000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.363177,mse_y:0.186107
+cost_time 4.4
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.646022,un_un_auc:0.420635,kn_un_auc:0.648148
+f1:0.468769,err_net:610,tp:48,fn:32,fp:578,tn:1232,tpr:0.600000,fpr:0.319337
+kn_un_precision: f1:0.468081,err_net:568,tp:42,fn:32,fp:536,tn:1190,tpr:0.567568,fpr:0.310545
+un_un_precision: f1:0.444444,err_net:42,tp:6,fn:0,fp:42,tn:42,tpr:1.000000,fpr:0.500000
+70 gumbel all Net error: 0.320000,kn_un :0.320000,un_un:0.470000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.360672,mse_y:0.184306
+cost_time 4.49
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.642680,un_un_auc:0.420635,kn_un_auc:0.644296
+f1:0.466437,err_net:610,tp:46,fn:34,fp:576,tn:1234,tpr:0.575000,fpr:0.318232
+kn_un_precision: f1:0.471827,err_net:564,tp:44,fn:30,fp:534,tn:1192,tpr:0.594595,fpr:0.309386
+un_un_precision: f1:0.363077,err_net:46,tp:2,fn:4,fp:42,tn:42,tpr:0.333333,fpr:0.500000
+71 gumbel all Net error: 0.320000,kn_un :0.310000,un_un:0.510000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.361863,mse_y:0.185638
+cost_time 4.79
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.644282,un_un_auc:0.420635,kn_un_auc:0.645987
+f1:0.453299,err_net:640,tp:42,fn:38,fp:602,tn:1208,tpr:0.525000,fpr:0.332597
+kn_un_precision: f1:0.461494,err_net:590,tp:42,fn:32,fp:558,tn:1168,tpr:0.567568,fpr:0.323291
+un_un_precision: f1:nan,err_net:50,tp:0,fn:6,fp:44,tn:40,tpr:0.000000,fpr:0.523810
+72 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.560000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.362167,mse_y:0.186071
+cost_time 4.45
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.647182,un_un_auc:0.420635,kn_un_auc:0.649463
+f1:0.462811,err_net:606,tp:42,fn:38,fp:568,tn:1242,tpr:0.525000,fpr:0.313812
+kn_un_precision: f1:0.470495,err_net:560,tp:42,fn:32,fp:528,tn:1198,tpr:0.567568,fpr:0.305910
+un_un_precision: f1:nan,err_net:46,tp:0,fn:6,fp:40,tn:44,tpr:0.000000,fpr:0.476190
+73 gumbel all Net error: 0.320000,kn_un :0.310000,un_un:0.510000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.361256,mse_y:0.186360
+cost_time 4.97
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.647762,un_un_auc:0.420635,kn_un_auc:0.649964
+f1:0.455016,err_net:650,tp:46,fn:34,fp:616,tn:1194,tpr:0.575000,fpr:0.340331
+kn_un_precision: f1:0.460899,err_net:592,tp:42,fn:32,fp:560,tn:1166,tpr:0.567568,fpr:0.324450
+un_un_precision: f1:0.306220,err_net:58,tp:4,fn:2,fp:56,tn:28,tpr:0.666667,fpr:0.666667
+74 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.640000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.360607,mse_y:0.185419
+cost_time 5.4
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.648315,un_un_auc:0.420635,kn_un_auc:0.650496
+f1:0.466357,err_net:602,tp:44,fn:36,fp:566,tn:1244,tpr:0.550000,fpr:0.312707
+kn_un_precision: f1:0.466878,err_net:572,tp:42,fn:32,fp:540,tn:1186,tpr:0.567568,fpr:0.312862
+un_un_precision: f1:0.456084,err_net:30,tp:2,fn:4,fp:26,tn:58,tpr:0.333333,fpr:0.309524
+75 gumbel all Net error: 0.320000,kn_un :0.320000,un_un:0.330000
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+loss_y:0.363690,mse_y:0.186191
+cost_time 5.96
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.649613,un_un_auc:0.420635,kn_un_auc:0.651906
+f1:0.461144,err_net:644,tp:50,fn:30,fp:614,tn:1196,tpr:0.625000,fpr:0.339227
+kn_un_precision: f1:0.465134,err_net:594,tp:46,fn:28,fp:566,tn:1160,tpr:0.621622,fpr:0.327926
+un_un_precision: f1:0.364047,err_net:50,tp:4,fn:2,fp:48,tn:36,tpr:0.666667,fpr:0.571429
+76 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.560000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.361098,mse_y:0.185323
+cost_time 6.78
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.652072,un_un_auc:0.420635,kn_un_auc:0.654098
+f1:0.460703,err_net:630,tp:46,fn:34,fp:596,tn:1214,tpr:0.575000,fpr:0.329282
+kn_un_precision: f1:0.464542,err_net:588,tp:44,fn:30,fp:558,tn:1168,tpr:0.594595,fpr:0.323291
+un_un_precision: f1:0.386762,err_net:42,tp:2,fn:4,fp:38,tn:46,tpr:0.333333,fpr:0.452381
+77 gumbel all Net error: 0.330000,kn_un :0.330000,un_un:0.470000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.363330,mse_y:0.186513
+cost_time 6.13
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.650608,un_un_auc:0.420635,kn_un_auc:0.653190
+f1:0.460133,err_net:632,tp:46,fn:34,fp:598,tn:1212,tpr:0.575000,fpr:0.330387
+kn_un_precision: f1:0.463284,err_net:584,tp:42,fn:32,fp:552,tn:1174,tpr:0.567568,fpr:0.319815
+un_un_precision: f1:0.377880,err_net:48,tp:4,fn:2,fp:46,tn:38,tpr:0.666667,fpr:0.547619
+78 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.530000
+index_order tensor([3, 1, 8, 9, 7, 6, 2, 4, 0, 5], device='cuda:1')
+loss_y:0.364471,mse_y:0.186397
+cost_time 5.39
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.655939,un_un_auc:0.420635,kn_un_auc:0.658921
+f1:0.458972,err_net:628,tp:44,fn:36,fp:592,tn:1218,tpr:0.550000,fpr:0.327072
+kn_un_precision: f1:0.467566,err_net:578,tp:44,fn:30,fp:548,tn:1178,tpr:0.594595,fpr:0.317497
+un_un_precision: f1:nan,err_net:50,tp:0,fn:6,fp:44,tn:40,tpr:0.000000,fpr:0.523810
+79 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.560000
+index_order tensor([6, 3, 1, 9, 5, 7, 4, 8, 2, 0], device='cuda:1')
+loss_y:0.362775,mse_y:0.186427
+cost_time 4.15
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.650967,un_un_auc:0.420635,kn_un_auc:0.652469
+f1:0.461819,err_net:634,tp:48,fn:32,fp:602,tn:1208,tpr:0.600000,fpr:0.332597
+kn_un_precision: f1:0.465145,err_net:586,tp:44,fn:30,fp:556,tn:1170,tpr:0.594595,fpr:0.322132
+un_un_precision: f1:0.377880,err_net:48,tp:4,fn:2,fp:46,tn:38,tpr:0.666667,fpr:0.547619
+80 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.530000
+index_order tensor([8, 5, 2, 9, 7, 6, 3, 1, 0, 4], device='cuda:1')
+loss_y:0.362811,mse_y:0.186789
+cost_time 6.65
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.650967,un_un_auc:0.420635,kn_un_auc:0.652094
+f1:0.469936,err_net:606,tp:48,fn:32,fp:574,tn:1236,tpr:0.600000,fpr:0.317127
+kn_un_precision: f1:0.464479,err_net:580,tp:42,fn:32,fp:548,tn:1178,tpr:0.567568,fpr:0.317497
+un_un_precision: f1:0.566345,err_net:26,tp:6,fn:0,fp:26,tn:58,tpr:1.000000,fpr:0.309524
+81 gumbel all Net error: 0.320000,kn_un :0.320000,un_un:0.290000
+index_order tensor([3, 4, 1, 9, 7, 6, 2, 8, 0, 5], device='cuda:1')
+loss_y:0.362653,mse_y:0.186512
+cost_time 6.4
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.653039,un_un_auc:0.420635,kn_un_auc:0.654380
+f1:0.458423,err_net:638,tp:46,fn:34,fp:604,tn:1206,tpr:0.575000,fpr:0.333702
+kn_un_precision: f1:0.461494,err_net:590,tp:42,fn:32,fp:558,tn:1168,tpr:0.567568,fpr:0.323291
+un_un_precision: f1:0.377880,err_net:48,tp:4,fn:2,fp:46,tn:38,tpr:0.666667,fpr:0.547619
+82 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.530000
+index_order tensor([3, 5, 1, 9, 7, 6, 8, 4, 0, 2], device='cuda:1')
+loss_y:0.362693,mse_y:0.186506
+cost_time 6.31
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.652348,un_un_auc:0.420635,kn_un_auc:0.653440
+f1:0.460103,err_net:624,tp:44,fn:36,fp:588,tn:1222,tpr:0.550000,fpr:0.324862
+kn_un_precision: f1:0.463149,err_net:576,tp:40,fn:34,fp:542,tn:1184,tpr:0.540541,fpr:0.314021
+un_un_precision: f1:0.377880,err_net:48,tp:4,fn:2,fp:46,tn:38,tpr:0.666667,fpr:0.547619
+83 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.530000
+index_order tensor([6, 4, 1, 9, 5, 7, 2, 8, 3, 0], device='cuda:1')
+loss_y:0.363668,mse_y:0.186452
+cost_time 5.97
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.653398,un_un_auc:0.420635,kn_un_auc:0.654662
+f1:0.460669,err_net:622,tp:44,fn:36,fp:586,tn:1224,tpr:0.550000,fpr:0.323757
+kn_un_precision: f1:0.464479,err_net:580,tp:42,fn:32,fp:548,tn:1178,tpr:0.567568,fpr:0.317497
+un_un_precision: f1:0.386762,err_net:42,tp:2,fn:4,fp:38,tn:46,tpr:0.333333,fpr:0.452381
+84 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.470000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.363244,mse_y:0.186782
+cost_time 5.77
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.654157,un_un_auc:0.420635,kn_un_auc:0.655429
+f1:0.458423,err_net:638,tp:46,fn:34,fp:604,tn:1206,tpr:0.575000,fpr:0.333702
+kn_un_precision: f1:0.461494,err_net:590,tp:42,fn:32,fp:558,tn:1168,tpr:0.567568,fpr:0.323291
+un_un_precision: f1:0.377880,err_net:48,tp:4,fn:2,fp:46,tn:38,tpr:0.666667,fpr:0.547619
+85 gumbel all Net error: 0.340000,kn_un :0.330000,un_un:0.530000
+index_order tensor([1, 3, 8, 9, 7, 6, 2, 4, 0, 5], device='cuda:1')
+loss_y:0.362094,mse_y:0.186140
+cost_time 5.71
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.657680,un_un_auc:0.420635,kn_un_auc:0.659391
+f1:0.472103,err_net:582,tp:44,fn:36,fp:546,tn:1264,tpr:0.550000,fpr:0.301657
+kn_un_precision: f1:0.473912,err_net:540,tp:40,fn:34,fp:506,tn:1220,tpr:0.540541,fpr:0.293163
+un_un_precision: f1:0.418462,err_net:42,tp:4,fn:2,fp:40,tn:44,tpr:0.666667,fpr:0.476190
+86 gumbel all Net error: 0.310000,kn_un :0.300000,un_un:0.470000
+index_order tensor([4, 3, 2, 9, 7, 6, 1, 8, 0, 5], device='cuda:1')
+loss_y:0.361057,mse_y:0.185534
+cost_time 5.84
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.657624,un_un_auc:0.420635,kn_un_auc:0.659328
+f1:0.463564,err_net:620,tp:46,fn:34,fp:586,tn:1224,tpr:0.575000,fpr:0.323757
+kn_un_precision: f1:0.465078,err_net:578,tp:42,fn:32,fp:546,tn:1180,tpr:0.567568,fpr:0.316338
+un_un_precision: f1:0.418462,err_net:42,tp:4,fn:2,fp:40,tn:44,tpr:0.666667,fpr:0.476190
+87 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.470000
+index_order tensor([8, 5, 1, 9, 7, 6, 3, 4, 2, 0], device='cuda:1')
+loss_y:0.362306,mse_y:0.185961
+cost_time 6.24
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.660055,un_un_auc:0.420635,kn_un_auc:0.662115
+f1:0.467013,err_net:608,tp:46,fn:34,fp:574,tn:1236,tpr:0.575000,fpr:0.317127
+kn_un_precision: f1:0.472438,err_net:562,tp:44,fn:30,fp:532,tn:1194,tpr:0.594595,fpr:0.308227
+un_un_precision: f1:0.363077,err_net:46,tp:2,fn:4,fp:42,tn:42,tpr:0.333333,fpr:0.500000
+88 gumbel all Net error: 0.320000,kn_un :0.310000,un_un:0.510000
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.360100,mse_y:0.185474
+cost_time 6.02
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.660387,un_un_auc:0.420635,kn_un_auc:0.662679
+f1:0.476399,err_net:592,tp:50,fn:30,fp:562,tn:1248,tpr:0.625000,fpr:0.310497
+kn_un_precision: f1:0.478683,err_net:550,tp:46,fn:28,fp:522,tn:1204,tpr:0.621622,fpr:0.302433
+un_un_precision: f1:0.418462,err_net:42,tp:4,fn:2,fp:40,tn:44,tpr:0.666667,fpr:0.476190
+89 gumbel all Net error: 0.310000,kn_un :0.310000,un_un:0.470000
+index_order tensor([6, 3, 2, 9, 5, 7, 1, 8, 0, 4], device='cuda:1')
+loss_y:0.361002,mse_y:0.185676
+cost_time 6.47
+index_order tensor([6, 3, 1, 9, 5, 7, 2, 8, 0, 4], device='cuda:1')
+auc:0.659061,un_un_auc:0.420635,kn_un_auc:0.661238
+f1:0.469310,err_net:616,tp:50,fn:30,fp:586,tn:1224,tpr:0.625000,fpr:0.323757
+kn_un_precision: f1:0.474334,err_net:564,tp:46,fn:28,fp:536,tn:1190,tpr:0.621622,fpr:0.310545
+un_un_precision: f1:0.350000,err_net:52,tp:4,fn:2,fp:50,tn:34,tpr:0.666667,fpr:0.595238
+90 gumbel all Net error: 0.330000,kn_un :0.310000,un_un:0.580000
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+loss_y:0.361036,mse_y:0.185257
+cost_time 5.97
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.665856,un_un_auc:0.420635,kn_un_auc:0.668817
+f1:0.472226,err_net:590,tp:46,fn:34,fp:556,tn:1254,tpr:0.575000,fpr:0.307182
+kn_un_precision: f1:0.473529,err_net:550,tp:42,fn:32,fp:518,tn:1208,tpr:0.567568,fpr:0.300116
+un_un_precision: f1:0.431818,err_net:40,tp:4,fn:2,fp:38,tn:46,tpr:0.666667,fpr:0.452381
+91 gumbel all Net error: 0.310000,kn_un :0.310000,un_un:0.440000
+index_order tensor([6, 3, 1, 9, 7, 4, 2, 8, 0, 5], device='cuda:1')
+loss_y:0.360155,mse_y:0.185878
+cost_time 5.85
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.666961,un_un_auc:0.420635,kn_un_auc:0.669819
+f1:0.461275,err_net:628,tp:46,fn:34,fp:594,tn:1216,tpr:0.575000,fpr:0.328177
+kn_un_precision: f1:0.462558,err_net:578,tp:40,fn:34,fp:544,tn:1182,tpr:0.540541,fpr:0.315180
+un_un_precision: f1:0.384910,err_net:50,tp:6,fn:0,fp:50,tn:34,tpr:1.000000,fpr:0.595238
+92 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.560000
+index_order tensor([3, 8, 1, 9, 7, 6, 2, 4, 0, 5], device='cuda:1')
+loss_y:0.360710,mse_y:0.185654
+cost_time 6.12
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.665193,un_un_auc:0.420635,kn_un_auc:0.667752
+f1:0.463564,err_net:620,tp:46,fn:34,fp:586,tn:1224,tpr:0.575000,fpr:0.323757
+kn_un_precision: f1:0.464479,err_net:580,tp:42,fn:32,fp:548,tn:1178,tpr:0.567568,fpr:0.317497
+un_un_precision: f1:0.431818,err_net:40,tp:4,fn:2,fp:38,tn:46,tpr:0.666667,fpr:0.452381
+93 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.440000
+index_order tensor([3, 5, 8, 9, 7, 6, 2, 1, 4, 0], device='cuda:1')
+loss_y:0.363528,mse_y:0.187152
+cost_time 4.82
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.665552,un_un_auc:0.420635,kn_un_auc:0.668316
+f1:0.467013,err_net:608,tp:46,fn:34,fp:574,tn:1236,tpr:0.575000,fpr:0.317127
+kn_un_precision: f1:0.469890,err_net:562,tp:42,fn:32,fp:530,tn:1196,tpr:0.567568,fpr:0.307068
+un_un_precision: f1:0.391534,err_net:46,tp:4,fn:2,fp:44,tn:40,tpr:0.666667,fpr:0.523810
+94 gumbel all Net error: 0.320000,kn_un :0.310000,un_un:0.510000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 4, 0], device='cuda:1')
+loss_y:0.360476,mse_y:0.185362
+cost_time 5.13
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.666685,un_un_auc:0.420635,kn_un_auc:0.669600
+f1:0.464706,err_net:624,tp:48,fn:32,fp:592,tn:1218,tpr:0.600000,fpr:0.327072
+kn_un_precision: f1:0.466960,err_net:580,tp:44,fn:30,fp:550,tn:1176,tpr:0.594595,fpr:0.318656
+un_un_precision: f1:0.405048,err_net:44,tp:4,fn:2,fp:42,tn:42,tpr:0.666667,fpr:0.500000
+95 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.490000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.362786,mse_y:0.187476
+cost_time 6.24
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.667486,un_un_auc:0.420635,kn_un_auc:0.670320
+f1:0.462991,err_net:622,tp:46,fn:34,fp:588,tn:1222,tpr:0.575000,fpr:0.324862
+kn_un_precision: f1:0.466878,err_net:572,tp:42,fn:32,fp:540,tn:1186,tpr:0.567568,fpr:0.312862
+un_un_precision: f1:0.364047,err_net:50,tp:4,fn:2,fp:48,tn:36,tpr:0.666667,fpr:0.571429
+96 gumbel all Net error: 0.330000,kn_un :0.320000,un_un:0.560000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.360285,mse_y:0.185527
+cost_time 6.37
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.669475,un_un_auc:0.420635,kn_un_auc:0.672607
+f1:0.469324,err_net:600,tp:46,fn:34,fp:566,tn:1244,tpr:0.575000,fpr:0.312707
+kn_un_precision: f1:0.471706,err_net:556,tp:42,fn:32,fp:524,tn:1202,tpr:0.567568,fpr:0.303592
+un_un_precision: f1:0.405048,err_net:44,tp:4,fn:2,fp:42,tn:42,tpr:0.666667,fpr:0.500000
+97 gumbel all Net error: 0.320000,kn_un :0.310000,un_un:0.490000
+index_order tensor([6, 8, 1, 9, 5, 7, 2, 3, 0, 4], device='cuda:1')
+loss_y:0.358250,mse_y:0.184428
+cost_time 6.77
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.669724,un_un_auc:0.420635,kn_un_auc:0.672638
+f1:0.471063,err_net:594,tp:46,fn:34,fp:560,tn:1250,tpr:0.575000,fpr:0.309392
+kn_un_precision: f1:0.474138,err_net:548,tp:42,fn:32,fp:516,tn:1210,tpr:0.567568,fpr:0.298957
+un_un_precision: f1:0.391534,err_net:46,tp:4,fn:2,fp:44,tn:40,tpr:0.666667,fpr:0.523810
+98 gumbel all Net error: 0.310000,kn_un :0.300000,un_un:0.510000
+index_order tensor([3, 5, 8, 9, 7, 6, 2, 1, 0, 4], device='cuda:1')
+loss_y:0.358633,mse_y:0.184701
+cost_time 6.43
+index_order tensor([6, 1, 2, 9, 5, 7, 3, 8, 0, 4], device='cuda:1')
+auc:0.669641,un_un_auc:0.420635,kn_un_auc:0.672513
+f1:0.473434,err_net:602,tp:50,fn:30,fp:572,tn:1238,tpr:0.625000,fpr:0.316022
+kn_un_precision: f1:0.478062,err_net:560,tp:48,fn:26,fp:534,tn:1192,tpr:0.648649,fpr:0.309386
+un_un_precision: f1:0.386762,err_net:42,tp:2,fn:4,fp:38,tn:46,tpr:0.333333,fpr:0.452381
+99 gumbel all Net error: 0.320000,kn_un :0.310000,un_un:0.470000
+index_order tensor([3, 5, 1, 9, 7, 6, 2, 8, 0, 4], device='cuda:1')
+loss_y:0.357973,mse_y:0.184451
+cost_time 6.15
+
+statred val 99
+Traceback (most recent call last):
+  File "voter_nc_bestrecord.py", line 231, in <module>
+    if (epoch+1)%100 ==0:
+NameError: name 'val' is not defined

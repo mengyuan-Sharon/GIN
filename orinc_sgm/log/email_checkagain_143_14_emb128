@@ -1,0 +1,8 @@
+nohup: ignoring input
+usage: voter_nc_karate.py [-h] [--node_num NODE_NUM] [--seed SEED] [--dim DIM]
+                          [--hidden_size HIDDEN_SIZE] [--epoch_num EPOCH_NUM]
+                          [--batch_size BATCH_SIZE] [--cuda CUDA]
+                          [--lr_net LR_NET] [--lr_dyn LR_DYN]
+                          [--lr_state LR_STATE] [--miss_percent MISS_PERCENT]
+                          [--data_path DATA_PATH]
+voter_nc_karate.py: error: unrecognized arguments: .txt

@@ -1,0 +1,25 @@
+has structure parameter: {'note': 'try init', 'node_num': 100, 'node_size': 100, 'conn_p': '25', 'seed': 2050, 'dim': 1, 'hid': 128, 'epoch_num': 1, 'batch_size': 1024, 'lr_net': 0.004, 'lr_dyn': 0.001, 'lr_stru': 1e-07, 'lr_state': 0.001, 'hard_sample': False, 'sample_time': 1, 'sys': 'cml', 'isom': True, 'temp': 1, 'drop_frac': 1, 'save': True}
+del_num 10
+cuda 5
+start_time: 2020-09-13 12:15:52
+record success
+cuda
+data_path /data/chenmy/cml/892cmlgene-100-15000.pickle
+
+Matrix dimension: torch.Size([100, 100]) Train data size: torch.Size([15000, 100, 2, 1]) Val data size: torch.Size([3000, 100, 2, 1]) Test data size: torch.Size([3000, 100, 2, 1])
+data_num: 15000
+data_num: 3000
+
+index_order tensor([5, 3, 9, 6, 0, 8, 4, 1, 2, 7], device='cuda:5')
+auc:0.469597,un_un_auc:0.507937,kn_un_auc:0.466705
+f1:0.390065,err_net:882,tp:46,fn:20,fp:862,tn:962,tpr:0.696970,fpr:0.472588
+kn_un_precision: f1:0.392009,err_net:834,tp:44,fn:16,fp:818,tn:922,tpr:0.733333,fpr:0.470115
+un_un_precision: f1:0.350962,err_net:48,tp:2,fn:4,fp:44,tn:40,tpr:0.333333,fpr:0.523810
+0 gumbel all Net error: 0.470000,kn_un :0.460000,un_un:0.530000
+loss:tensor(0.0365) mse:tensor(0.0027) states mae mse tensor(0.2673) tensor(0.1074)
+cost_time 29.77
+batch idx: 0
+batch idx: 1
+batch idx: 2
+val loss:tensor(0.0208) val mse:tensor(0.0007)
+all cost time  30.2

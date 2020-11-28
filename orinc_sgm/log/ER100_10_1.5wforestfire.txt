@@ -1,0 +1,11 @@
+nohup: ignoring input
+cuda 0
+train parameter: {'node_num': 100, 'seed': 153, 'dim': 1, 'hid': 128, 'epoch_num': 1000, 'batch_size': 1024, 'lr_net': 0.004, 'lr_dyn': 0.001, 'lr_state': 0.05, 'temp': 1, 'drop_frac': 1, 'save_path': './saved/result_897cmlWS-100-15000.pickle.pickle', 'data_path': '/data/chenmy/cml/897cmlWS-100-15000.pickle.pickle', 'val_epoch': 1}
+del_num 10
+start_time: 2020-09-14 09:21:21
+Traceback (most recent call last):
+  File "test_sigmoid.py", line 70, in <module>
+    train_loader, val_loader, test_loader, object_matrix = load_cml_ggn(args.data_path,batch_size=HYP['batch_size'],del_num = del_num,seed = HYP["seed"],sample_type = "forestfire")
+  File "/home/chenmy/scalenetwork/orinc_sgm/tools_ff.py", line 136, in load_cml_ggn
+    with open(data_path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/chenmy/cml/897cmlWS-100-15000.pickle.pickle'
