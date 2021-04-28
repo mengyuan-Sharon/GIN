@@ -1,3 +1,0 @@
-all parameter  {'node_num': 100, 'seed': 152, 'dim': 2, 'hid': 64, 'epoch_num': 700, 'batch_size': 1024, 'lr_net': 0.004, 'lr_dyn': 0.001, 'lr_state': 0.1, 'miss_percent': 0.1, 'data_path': '/data/chenmy/voter/seed1043email14315000', 'temp': 1, 'drop_frac': 1, 'cuda': 4}
-tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], device='cuda:4')
-sample 0 edges
