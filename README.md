@@ -1,10 +1,3 @@
-# seed graph matching
-seedgraphmatching(sgd)  python 
-seedgraphmatching(sgd) python 论文 seed graph matching python python 版尝试复现
-
-参考：https://github.com/youngser/VN 的R语言 非常感谢share
-
-原论文 https://www.sciencedirect.com/science/article/pii/S0031320318303431
 # Inferring network structure with unobservable nodes from time series data
 
 This repository contains the official implementation of: ***[Inferring network structure with unobservable nodes from time series data](https://aip.scitation.org/doi/10.1063/5.0076521)*** in Chaos 2022.
@@ -24,7 +17,9 @@ Python packages:
 
 ## Code
 
-We provide bash scripts (at `./orinc_sgm/train_wscml.sh`) for trainning cml datasets used in our paper  (as well as hyper parameters) conducted in our paper.
+We provide bash scripts (at `./GIN/train_wscml.sh`) for trainning cml datasets used in our paper  (as well as hyper parameters) conducted in our paper,
+
+Also we provide bash scripts (at `./GIN/voter_trainba_300.sh`) for trainning cml datasets used in our paper  (as well as hyper parameters) conducted in our paper.
 
 
 ## Citation
@@ -41,4 +36,12 @@ We provide bash scripts (at `./orinc_sgm/train_wscml.sh`) for trainning cml data
   publisher={AIP Publishing LLC}
 }
 ```
+
+# seed graph matching
+seedgraphmatching(sgm.py) python  seed graph matching python reproduce 
+
+
+reference: 
+- https://github.com/youngser/VN  
+- https://www.sciencedirect.com/science/article/pii/S0031320318303431
 
